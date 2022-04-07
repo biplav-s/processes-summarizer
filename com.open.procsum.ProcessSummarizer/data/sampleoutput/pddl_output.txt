@@ -1,0 +1,453 @@
+-----------------------------------
+USAGE: 
+	[<data-type>] [<processes-location>][<syn-comp-option>][<sem-comp-option>]
+<data-type>= ''|'SC'|'PD'|'CO'|'BP'
+<syn-option>= 'STEPCOUNT'|'STEPJACC'
+<sem-option>= 'FEATURESJACC'
+<threshold-option>= '<value>'
+-----------------------------------
+Number of plans to process = 10
+Process is : ID - ID0, name - data/pddls/p01
+No. of features found : 6
+No. of steps found : 25
+Process is : ID - ID1, name - data/pddls/p07
+No. of features found : 6
+No. of steps found : 11
+Process is : ID - ID2, name - data/pddls/p06
+No. of features found : 6
+No. of steps found : 11
+Process is : ID - ID3, name - data/pddls/p10
+No. of features found : 6
+No. of steps found : 26
+Process is : ID - ID4, name - data/pddls/p09
+No. of features found : 6
+No. of steps found : 29
+Process is : ID - ID5, name - data/pddls/p05
+No. of features found : 6
+No. of steps found : 25
+Process is : ID - ID6, name - data/pddls/p04
+No. of features found : 6
+No. of steps found : 25
+Process is : ID - ID7, name - data/pddls/p08
+No. of features found : 6
+No. of steps found : 16
+Process is : ID - ID8, name - data/pddls/p03
+No. of features found : 6
+No. of steps found : 25
+Process is : ID - ID9, name - data/pddls/p02
+No. of features found : 6
+No. of steps found : 24
+==========Processes being analyzed are =========
+Process 0 is 
+Process name = data/pddls/p01
+No. of steps = 25
+Step 0 is 'open-new-stack'
+Step 1 is 'start-order'
+Step 2 is 'open-new-stack'
+Step 3 is 'start-order'
+Step 4 is 'open-new-stack'
+Step 5 is 'start-order'
+Step 6 is 'open-new-stack'
+Step 7 is 'start-order'
+Step 8 is 'open-new-stack'
+Step 9 is 'start-order'
+Step 10 is 'setup-machine'
+Step 11 is 'make-product'
+Step 12 is 'setup-machine'
+Step 13 is 'make-product'
+Step 14 is 'ship-order'
+Step 15 is 'setup-machine'
+Step 16 is 'make-product'
+Step 17 is 'ship-order'
+Step 18 is 'setup-machine'
+Step 19 is 'make-product'
+Step 20 is 'ship-order'
+Step 21 is 'setup-machine'
+Step 22 is 'make-product'
+Step 23 is 'ship-order'
+Step 24 is 'ship-order'
+Goal 0 is 'Time'
+Goal 1 is 'ParsingTime'
+Goal 2 is 'NrActions'
+Goal 3 is 'MakeSpan'
+Goal 4 is 'MetricValue'
+Goal 5 is 'PlanningTechnique'
+
+Process 1 is 
+Process name = data/pddls/p07
+No. of steps = 11
+Step 0 is 'POP-UNITARYPIPE'
+Step 1 is 'POP-UNITARYPIPE'
+Step 2 is 'POP-UNITARYPIPE'
+Step 3 is 'POP-UNITARYPIPE'
+Step 4 is 'POP-UNITARYPIPE'
+Step 5 is 'POP-UNITARYPIPE'
+Step 6 is 'PUSH-UNITARYPIPE'
+Step 7 is 'PUSH-UNITARYPIPE'
+Step 8 is 'POP-UNITARYPIPE'
+Step 9 is 'PUSH-UNITARYPIPE'
+Step 10 is 'POP-UNITARYPIPE'
+Goal 0 is 'Time'
+Goal 1 is 'ParsingTime'
+Goal 2 is 'NrActions'
+Goal 3 is 'MakeSpan'
+Goal 4 is 'MetricValue'
+Goal 5 is 'PlanningTechnique'
+
+Process 2 is 
+Process name = data/pddls/p06
+No. of steps = 11
+Step 0 is 'POP-UNITARYPIPE'
+Step 1 is 'PUSH-UNITARYPIPE'
+Step 2 is 'POP-UNITARYPIPE'
+Step 3 is 'PUSH-UNITARYPIPE'
+Step 4 is 'PUSH-UNITARYPIPE'
+Step 5 is 'POP-UNITARYPIPE'
+Step 6 is 'PUSH-UNITARYPIPE'
+Step 7 is 'POP-UNITARYPIPE'
+Step 8 is 'POP-UNITARYPIPE'
+Step 9 is 'POP-UNITARYPIPE'
+Step 10 is 'PUSH-UNITARYPIPE'
+Goal 0 is 'Time'
+Goal 1 is 'ParsingTime'
+Goal 2 is 'NrActions'
+Goal 3 is 'MakeSpan'
+Goal 4 is 'MetricValue'
+Goal 5 is 'PlanningTechnique'
+
+Process 3 is 
+Process name = data/pddls/p10
+No. of steps = 26
+Step 0 is 'POP-UNITARYPIPE'
+Step 1 is 'POP-UNITARYPIPE'
+Step 2 is 'POP-UNITARYPIPE'
+Step 3 is 'PUSH-UNITARYPIPE'
+Step 4 is 'POP-UNITARYPIPE'
+Step 5 is 'POP-UNITARYPIPE'
+Step 6 is 'POP-UNITARYPIPE'
+Step 7 is 'POP-UNITARYPIPE'
+Step 8 is 'PUSH-UNITARYPIPE'
+Step 9 is 'POP-UNITARYPIPE'
+Step 10 is 'POP-UNITARYPIPE'
+Step 11 is 'PUSH-UNITARYPIPE'
+Step 12 is 'POP-UNITARYPIPE'
+Step 13 is 'PUSH-UNITARYPIPE'
+Step 14 is 'PUSH-UNITARYPIPE'
+Step 15 is 'PUSH-UNITARYPIPE'
+Step 16 is 'PUSH-UNITARYPIPE'
+Step 17 is 'PUSH-UNITARYPIPE'
+Step 18 is 'POP-UNITARYPIPE'
+Step 19 is 'PUSH-UNITARYPIPE'
+Step 20 is 'PUSH-UNITARYPIPE'
+Step 21 is 'POP-UNITARYPIPE'
+Step 22 is 'POP-UNITARYPIPE'
+Step 23 is 'POP-UNITARYPIPE'
+Step 24 is 'PUSH-UNITARYPIPE'
+Step 25 is 'PUSH-UNITARYPIPE'
+Goal 0 is 'Time'
+Goal 1 is 'ParsingTime'
+Goal 2 is 'NrActions'
+Goal 3 is 'MakeSpan'
+Goal 4 is 'MetricValue'
+Goal 5 is 'PlanningTechnique'
+
+Process 4 is 
+Process name = data/pddls/p09
+No. of steps = 29
+Step 0 is 'PUSH-UNITARYPIPE'
+Step 1 is 'POP-UNITARYPIPE'
+Step 2 is 'POP-UNITARYPIPE'
+Step 3 is 'POP-UNITARYPIPE'
+Step 4 is 'POP-UNITARYPIPE'
+Step 5 is 'POP-UNITARYPIPE'
+Step 6 is 'PUSH-UNITARYPIPE'
+Step 7 is 'PUSH-UNITARYPIPE'
+Step 8 is 'POP-UNITARYPIPE'
+Step 9 is 'POP-UNITARYPIPE'
+Step 10 is 'POP-UNITARYPIPE'
+Step 11 is 'POP-UNITARYPIPE'
+Step 12 is 'PUSH-UNITARYPIPE'
+Step 13 is 'PUSH-UNITARYPIPE'
+Step 14 is 'PUSH-UNITARYPIPE'
+Step 15 is 'POP-UNITARYPIPE'
+Step 16 is 'POP-UNITARYPIPE'
+Step 17 is 'PUSH-UNITARYPIPE'
+Step 18 is 'POP-UNITARYPIPE'
+Step 19 is 'PUSH-UNITARYPIPE'
+Step 20 is 'PUSH-UNITARYPIPE'
+Step 21 is 'POP-UNITARYPIPE'
+Step 22 is 'PUSH-UNITARYPIPE'
+Step 23 is 'PUSH-UNITARYPIPE'
+Step 24 is 'POP-UNITARYPIPE'
+Step 25 is 'POP-UNITARYPIPE'
+Step 26 is 'POP-UNITARYPIPE'
+Step 27 is 'PUSH-UNITARYPIPE'
+Step 28 is 'PUSH-UNITARYPIPE'
+Goal 0 is 'Time'
+Goal 1 is 'ParsingTime'
+Goal 2 is 'NrActions'
+Goal 3 is 'MakeSpan'
+Goal 4 is 'MetricValue'
+Goal 5 is 'PlanningTechnique'
+
+Process 5 is 
+Process name = data/pddls/p05
+No. of steps = 25
+Step 0 is 'open-new-stack'
+Step 1 is 'start-order'
+Step 2 is 'open-new-stack'
+Step 3 is 'start-order'
+Step 4 is 'open-new-stack'
+Step 5 is 'start-order'
+Step 6 is 'open-new-stack'
+Step 7 is 'start-order'
+Step 8 is 'open-new-stack'
+Step 9 is 'start-order'
+Step 10 is 'setup-machine'
+Step 11 is 'make-product'
+Step 12 is 'setup-machine'
+Step 13 is 'make-product'
+Step 14 is 'ship-order'
+Step 15 is 'setup-machine'
+Step 16 is 'make-product'
+Step 17 is 'ship-order'
+Step 18 is 'setup-machine'
+Step 19 is 'make-product'
+Step 20 is 'ship-order'
+Step 21 is 'setup-machine'
+Step 22 is 'make-product'
+Step 23 is 'ship-order'
+Step 24 is 'ship-order'
+Goal 0 is 'Time'
+Goal 1 is 'ParsingTime'
+Goal 2 is 'NrActions'
+Goal 3 is 'MakeSpan'
+Goal 4 is 'MetricValue'
+Goal 5 is 'PlanningTechnique'
+
+Process 6 is 
+Process name = data/pddls/p04
+No. of steps = 25
+Step 0 is 'open-new-stack'
+Step 1 is 'start-order'
+Step 2 is 'open-new-stack'
+Step 3 is 'start-order'
+Step 4 is 'open-new-stack'
+Step 5 is 'start-order'
+Step 6 is 'open-new-stack'
+Step 7 is 'start-order'
+Step 8 is 'open-new-stack'
+Step 9 is 'start-order'
+Step 10 is 'setup-machine'
+Step 11 is 'make-product'
+Step 12 is 'setup-machine'
+Step 13 is 'make-product'
+Step 14 is 'ship-order'
+Step 15 is 'setup-machine'
+Step 16 is 'make-product'
+Step 17 is 'ship-order'
+Step 18 is 'setup-machine'
+Step 19 is 'make-product'
+Step 20 is 'ship-order'
+Step 21 is 'setup-machine'
+Step 22 is 'make-product'
+Step 23 is 'ship-order'
+Step 24 is 'ship-order'
+Goal 0 is 'Time'
+Goal 1 is 'ParsingTime'
+Goal 2 is 'NrActions'
+Goal 3 is 'MakeSpan'
+Goal 4 is 'MetricValue'
+Goal 5 is 'PlanningTechnique'
+
+Process 7 is 
+Process name = data/pddls/p08
+No. of steps = 16
+Step 0 is 'POP-UNITARYPIPE'
+Step 1 is 'POP-UNITARYPIPE'
+Step 2 is 'POP-UNITARYPIPE'
+Step 3 is 'POP-UNITARYPIPE'
+Step 4 is 'POP-UNITARYPIPE'
+Step 5 is 'POP-UNITARYPIPE'
+Step 6 is 'PUSH-UNITARYPIPE'
+Step 7 is 'PUSH-UNITARYPIPE'
+Step 8 is 'POP-UNITARYPIPE'
+Step 9 is 'POP-UNITARYPIPE'
+Step 10 is 'PUSH-UNITARYPIPE'
+Step 11 is 'PUSH-UNITARYPIPE'
+Step 12 is 'POP-UNITARYPIPE'
+Step 13 is 'POP-UNITARYPIPE'
+Step 14 is 'PUSH-UNITARYPIPE'
+Step 15 is 'POP-UNITARYPIPE'
+Goal 0 is 'Time'
+Goal 1 is 'ParsingTime'
+Goal 2 is 'NrActions'
+Goal 3 is 'MakeSpan'
+Goal 4 is 'MetricValue'
+Goal 5 is 'PlanningTechnique'
+
+Process 8 is 
+Process name = data/pddls/p03
+No. of steps = 25
+Step 0 is 'open-new-stack'
+Step 1 is 'start-order'
+Step 2 is 'open-new-stack'
+Step 3 is 'start-order'
+Step 4 is 'open-new-stack'
+Step 5 is 'start-order'
+Step 6 is 'open-new-stack'
+Step 7 is 'start-order'
+Step 8 is 'open-new-stack'
+Step 9 is 'start-order'
+Step 10 is 'setup-machine'
+Step 11 is 'make-product'
+Step 12 is 'setup-machine'
+Step 13 is 'make-product'
+Step 14 is 'ship-order'
+Step 15 is 'setup-machine'
+Step 16 is 'make-product'
+Step 17 is 'ship-order'
+Step 18 is 'setup-machine'
+Step 19 is 'make-product'
+Step 20 is 'ship-order'
+Step 21 is 'setup-machine'
+Step 22 is 'make-product'
+Step 23 is 'ship-order'
+Step 24 is 'ship-order'
+Goal 0 is 'Time'
+Goal 1 is 'ParsingTime'
+Goal 2 is 'NrActions'
+Goal 3 is 'MakeSpan'
+Goal 4 is 'MetricValue'
+Goal 5 is 'PlanningTechnique'
+
+Process 9 is 
+Process name = data/pddls/p02
+No. of steps = 24
+Step 0 is 'open-new-stack'
+Step 1 is 'start-order'
+Step 2 is 'open-new-stack'
+Step 3 is 'start-order'
+Step 4 is 'open-new-stack'
+Step 5 is 'start-order'
+Step 6 is 'open-new-stack'
+Step 7 is 'setup-machine'
+Step 8 is 'make-product'
+Step 9 is 'setup-machine'
+Step 10 is 'make-product'
+Step 11 is 'ship-order'
+Step 12 is 'start-order'
+Step 13 is 'start-order'
+Step 14 is 'setup-machine'
+Step 15 is 'make-product'
+Step 16 is 'setup-machine'
+Step 17 is 'make-product'
+Step 18 is 'ship-order'
+Step 19 is 'ship-order'
+Step 20 is 'setup-machine'
+Step 21 is 'make-product'
+Step 22 is 'ship-order'
+Step 23 is 'ship-order'
+Goal 0 is 'Time'
+Goal 1 is 'ParsingTime'
+Goal 2 is 'NrActions'
+Goal 3 is 'MakeSpan'
+Goal 4 is 'MetricValue'
+Goal 5 is 'PlanningTechnique'
+
+==========Comparison follows  with steps comparison =========
+=>Comparison by : ProcessesStepsCountComparator<=
+Similar are : [ID0]data/pddls/p01---[ID3]data/pddls/p10
+Similar are : [ID0]data/pddls/p01---[ID4]data/pddls/p09
+Similar are : [ID0]data/pddls/p01---[ID5]data/pddls/p05
+Similar are : [ID0]data/pddls/p01---[ID6]data/pddls/p04
+Similar are : [ID0]data/pddls/p01---[ID7]data/pddls/p08
+Similar are : [ID0]data/pddls/p01---[ID8]data/pddls/p03
+Similar are : [ID0]data/pddls/p01---[ID9]data/pddls/p02
+Similar are : [ID1]data/pddls/p07---[ID2]data/pddls/p06
+Similar are : [ID1]data/pddls/p07---[ID7]data/pddls/p08
+Similar are : [ID2]data/pddls/p06---[ID7]data/pddls/p08
+Similar are : [ID3]data/pddls/p10---[ID4]data/pddls/p09
+Similar are : [ID3]data/pddls/p10---[ID5]data/pddls/p05
+Similar are : [ID3]data/pddls/p10---[ID6]data/pddls/p04
+Similar are : [ID3]data/pddls/p10---[ID7]data/pddls/p08
+Similar are : [ID3]data/pddls/p10---[ID8]data/pddls/p03
+Similar are : [ID3]data/pddls/p10---[ID9]data/pddls/p02
+Similar are : [ID4]data/pddls/p09---[ID5]data/pddls/p05
+Similar are : [ID4]data/pddls/p09---[ID6]data/pddls/p04
+Similar are : [ID4]data/pddls/p09---[ID7]data/pddls/p08
+Similar are : [ID4]data/pddls/p09---[ID8]data/pddls/p03
+Similar are : [ID4]data/pddls/p09---[ID9]data/pddls/p02
+Similar are : [ID5]data/pddls/p05---[ID6]data/pddls/p04
+Similar are : [ID5]data/pddls/p05---[ID7]data/pddls/p08
+Similar are : [ID5]data/pddls/p05---[ID8]data/pddls/p03
+Similar are : [ID5]data/pddls/p05---[ID9]data/pddls/p02
+Similar are : [ID6]data/pddls/p04---[ID7]data/pddls/p08
+Similar are : [ID6]data/pddls/p04---[ID8]data/pddls/p03
+Similar are : [ID6]data/pddls/p04---[ID9]data/pddls/p02
+Similar are : [ID7]data/pddls/p08---[ID8]data/pddls/p03
+Similar are : [ID7]data/pddls/p08---[ID9]data/pddls/p02
+Similar are : [ID8]data/pddls/p03---[ID9]data/pddls/p02
+Dis-similar are : [ID0]data/pddls/p01-x-[ID1]data/pddls/p07
+Dis-similar are : [ID0]data/pddls/p01-x-[ID2]data/pddls/p06
+Dis-similar are : [ID1]data/pddls/p07-x-[ID3]data/pddls/p10
+Dis-similar are : [ID1]data/pddls/p07-x-[ID4]data/pddls/p09
+Dis-similar are : [ID1]data/pddls/p07-x-[ID5]data/pddls/p05
+Dis-similar are : [ID1]data/pddls/p07-x-[ID6]data/pddls/p04
+Dis-similar are : [ID1]data/pddls/p07-x-[ID8]data/pddls/p03
+Dis-similar are : [ID1]data/pddls/p07-x-[ID9]data/pddls/p02
+Dis-similar are : [ID2]data/pddls/p06-x-[ID3]data/pddls/p10
+Dis-similar are : [ID2]data/pddls/p06-x-[ID4]data/pddls/p09
+Dis-similar are : [ID2]data/pddls/p06-x-[ID5]data/pddls/p05
+Dis-similar are : [ID2]data/pddls/p06-x-[ID6]data/pddls/p04
+Dis-similar are : [ID2]data/pddls/p06-x-[ID8]data/pddls/p03
+Dis-similar are : [ID2]data/pddls/p06-x-[ID9]data/pddls/p02
+=>Comparison by : ProcessesGoalsJaccardComparator<=
+-----------------------------------------
+=>By Significance model 2: By goals and pairs <=
+Similar are : [ID0]data/pddls/p01---[ID1]data/pddls/p07
+Similar are : [ID0]data/pddls/p01---[ID2]data/pddls/p06
+Similar are : [ID0]data/pddls/p01---[ID3]data/pddls/p10
+Similar are : [ID0]data/pddls/p01---[ID4]data/pddls/p09
+Similar are : [ID0]data/pddls/p01---[ID5]data/pddls/p05
+Similar are : [ID0]data/pddls/p01---[ID6]data/pddls/p04
+Similar are : [ID0]data/pddls/p01---[ID7]data/pddls/p08
+Similar are : [ID0]data/pddls/p01---[ID8]data/pddls/p03
+Similar are : [ID0]data/pddls/p01---[ID9]data/pddls/p02
+Similar are : [ID1]data/pddls/p07---[ID2]data/pddls/p06
+Similar are : [ID1]data/pddls/p07---[ID3]data/pddls/p10
+Similar are : [ID1]data/pddls/p07---[ID4]data/pddls/p09
+Similar are : [ID1]data/pddls/p07---[ID5]data/pddls/p05
+Similar are : [ID1]data/pddls/p07---[ID6]data/pddls/p04
+Similar are : [ID1]data/pddls/p07---[ID7]data/pddls/p08
+Similar are : [ID1]data/pddls/p07---[ID8]data/pddls/p03
+Similar are : [ID1]data/pddls/p07---[ID9]data/pddls/p02
+Similar are : [ID2]data/pddls/p06---[ID3]data/pddls/p10
+Similar are : [ID2]data/pddls/p06---[ID4]data/pddls/p09
+Similar are : [ID2]data/pddls/p06---[ID5]data/pddls/p05
+Similar are : [ID2]data/pddls/p06---[ID6]data/pddls/p04
+Similar are : [ID2]data/pddls/p06---[ID7]data/pddls/p08
+Similar are : [ID2]data/pddls/p06---[ID8]data/pddls/p03
+Similar are : [ID2]data/pddls/p06---[ID9]data/pddls/p02
+Similar are : [ID3]data/pddls/p10---[ID4]data/pddls/p09
+Similar are : [ID3]data/pddls/p10---[ID5]data/pddls/p05
+Similar are : [ID3]data/pddls/p10---[ID6]data/pddls/p04
+Similar are : [ID3]data/pddls/p10---[ID7]data/pddls/p08
+Similar are : [ID3]data/pddls/p10---[ID8]data/pddls/p03
+Similar are : [ID3]data/pddls/p10---[ID9]data/pddls/p02
+Similar are : [ID4]data/pddls/p09---[ID5]data/pddls/p05
+Similar are : [ID4]data/pddls/p09---[ID6]data/pddls/p04
+Similar are : [ID4]data/pddls/p09---[ID7]data/pddls/p08
+Similar are : [ID4]data/pddls/p09---[ID8]data/pddls/p03
+Similar are : [ID4]data/pddls/p09---[ID9]data/pddls/p02
+Similar are : [ID5]data/pddls/p05---[ID6]data/pddls/p04
+Similar are : [ID5]data/pddls/p05---[ID7]data/pddls/p08
+Similar are : [ID5]data/pddls/p05---[ID8]data/pddls/p03
+Similar are : [ID5]data/pddls/p05---[ID9]data/pddls/p02
+Similar are : [ID6]data/pddls/p04---[ID7]data/pddls/p08
+Similar are : [ID6]data/pddls/p04---[ID8]data/pddls/p03
+Similar are : [ID6]data/pddls/p04---[ID9]data/pddls/p02
+Similar are : [ID7]data/pddls/p08---[ID8]data/pddls/p03
+Similar are : [ID7]data/pddls/p08---[ID9]data/pddls/p02
+Similar are : [ID8]data/pddls/p03---[ID9]data/pddls/p02
+-----------------------------------------

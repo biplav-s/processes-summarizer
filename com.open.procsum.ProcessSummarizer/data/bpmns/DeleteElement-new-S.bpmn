@@ -1,0 +1,23 @@
+<ns0:definitions expressionLanguage="http://www.w3.org/1999/XPath" id="oryx_ed5e1d41-2183-4e92-addb-33400176749c" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.w3.org/2001/XMLSchema" xmlns:ns0="http://schema.omg.org/spec/BPMN/2.0">
+    <ns0:process id="oryx_e6c4aa5c_process">
+        <ns0:laneSet id="oryx_276ff267-8d35-415c-ab24-44dc13896427" process="oryx_e6c4aa5c_process">
+            <ns0:lane id="oryx_b8dd9660-ca7d-4846-a238-10c1ed16317c" laneSet="oryx_276ff267-8d35-415c-ab24-44dc13896427" name="DefaultLane">
+                <ns0:flowElementRef>oryx_40A9B43A-7E51-46D0-BF1A-7E6B4FAE3000</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_299D2D29-1C32-48FB-8322-293A8F22C565</ns0:flowElementRef>
+            </ns0:lane>
+        </ns0:laneSet>
+        <ns0:startEvent id="oryx_40A9B43A_startEvent" name="" process="oryx_e6c4aa5c_process" />
+        <ns0:endEvent id="oryx_299D2D29_endEvent" name="" process="oryx_e6c4aa5c_process" />
+        <ns0:sequenceFlow id="oryx_1806AA95_sequenceFlow" name="" process="oryx_e6c4aa5c_process" sourceRef="oryx_40A9B43A_startEvent" targetRef="oryx_299D2D29_endEvent" />
+    </ns0:process>
+    <ns1:processDiagram id="oryx_e6c4aa5c-6161-4bd6-aa37-aaf167b36ad1_gui" processRef="oryx_e6c4aa5c_process" xmlns:ns1="http://bpmndi.org">
+        <ns1:laneCompartment height="0.0" id="oryx_b8dd9660-ca7d-4846-a238-10c1ed16317c_gui" isVisible="false" name="DefaultLane" width="0.0" x="0.0" y="0.0">
+            <ns1:eventShape eventRef="oryx_40A9B43A_startEvent" height="30.0" id="oryx_40A9B43A-7E51-46D0-BF1A-7E6B4FAE3000_gui" name="" width="30.0" x="75.0" y="180.0" />
+            <ns1:eventShape eventRef="oryx_299D2D29_endEvent" height="28.0" id="oryx_299D2D29-1C32-48FB-8322-293A8F22C565_gui" name="" width="28.0" x="1290.0" y="435.0" />
+        </ns1:laneCompartment>
+        <ns1:sequenceFlowConnector id="oryx_1806AA95-1B76-437D-8487-970FC0C44910_gui" label="" sequenceFlowRef="oryx_1806AA95_sequenceFlow" sourceRef="oryx_40A9B43A-7E51-46D0-BF1A-7E6B4FAE3000_gui" targetRef="oryx_299D2D29-1C32-48FB-8322-293A8F22C565_gui">
+            <ns1:bendpoint x="697.5" y="195.0" />
+            <ns1:bendpoint x="697.5" y="449.0" />
+        </ns1:sequenceFlowConnector>
+    </ns1:processDiagram>
+</ns0:definitions>

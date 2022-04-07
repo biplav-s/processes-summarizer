@@ -1,0 +1,683 @@
+"1","Misc_Getting started with CoScripter","1","2009-11-24 00:58:40","2009-11-25 06:21:55","After opening this script in the CoScripter sidebar, the first step below will be highlighted in green.  Click the \"Step\" button above to run this command.\
+\
+* go to \"www.google.com\"\
+\
+Google's homepage is now shown in the main browser window.  The next step, below, says to click the \"Images\" link.  Note that the \"Images\" link is also highlighted in green on the page to the right.  Click step to continue.\
+\
+* click the \"Images\" link\
+\
+The next step is to enter text into the search box.  Note that the search term (\"koalas\") is highlighted in green on the webpage to the right.  The text is not entered until CoScripter performs that step.  Now click the \"Run\" button above to automatically run the remaining steps in this script.\
+\
+* enter \"koalas\" into the \"Search Images\" textbox\
+\
+* click the \"Search Images\" button\
+\
+* you click on an image to view (read the text below)\
+\
+Notice that CoScripter paused on the previous step, and it is highlighted in red.  The word \"you\" in this step tells CoScripter to stop running the script and wait for you to click on the image you want to see.  Afterwards, you can click \"Step\" or \"Run\" to continue.\
+\
+* click the \"Image Results »\" link\
+"2","Misc_Test Script","2","2009-11-23 19:29:57","2009-11-25 06:22:13","* go to \"http://rcc-irl-xvm-002.in.ibm.com/coscripter/browse/person/cdrews@us.ibm.com\"\
+* click the \"download\" link","0","0",\N,"0"
+"11","SAP_Verification #3_ Saving Artifact Data using Editor Save Button","3","2009-11-25 05:50:55","2009-11-25 05:51:33","* go to \"https://rcc-pok-idg-049.cloud9.ibm.com:9443/jazz/web/console/CA\"\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox\
+* enter \"aq1sw2de\" into the \"Password:\" textbox\
+* pause 4 seconds\
+* click the \"Log In\" button\
+* pause 22 seconds\
+* click the \"Functional Design\" item\
+* pause 4 seconds\
+* click the \"Requirements\" link\
+* pause 4 seconds\
+* you click the \" Add New Requirement\" button\
+* pause 5 seconds\
+* click the \"Requirement\" textbox\
+* enter \"TestReq1\" into the \"Requirement\" textbox\
+* pause 4 seconds\
+* click the \"Save\" button\
+* pause 4 seconds\
+* click the \"Skip To undefined Description\" link\
+* you click the \" Edit\" button\
+* pause 5 seconds\
+* you enter some text \"Test Requirement Description\"  in the Rich Text area\
+* pause 4 seconds\
+*  click the \"Save\" button\
+* click the \"Skip To Tab: TestReq1\" link\
+* you close the \"TestReq1\" tab\
+* click the \"Skip To Tab: Requirements\" link\
+* pause 5 seconds\
+* click the \"TestReq1\" link\
+* pause 5 seconds\
+* click the \"Skip To undefined Description\" link\
+* pause 5 seconds \
+* click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://localhost:9443 says:\" window\
+* ","0","0",\N,"0"
+"4","Misc_elad test exampe","5","2009-11-24 09:59:24","2009-11-25 06:22:32","* go to \"https://9.2.144.42:9443/jazz/web/console/CA#action=com.ibm.research.sedna2.consultantassistant.home.actionDispatcher&subAction=viewUserHome\"\
+* click the \"Project Level Documentation\" item\
+* click the \"Business and System Objectives\" link\
+* click the \"niladri\" link\
+* click the \"Skip To undefined Related Documents\" link\
+* click the \"x\" button","0","0",\N,"0"
+"7","Oracle_T2.1_Scoping_R2.4 Scoping T2.1 A and B edited","4","2009-11-24 10:23:40","2009-11-25 06:23:14","* go to \"https://9.2.144.42:9443/jazz/web/console/CA\"\
+* enter your e-mail address into the \"User ID:\" textbox in window #null\
+* enter your password into the \"Password:\" textbox in window #null\
+* click the \"Log In\" button in window\
+* click the \"Administration\" item in window #null\
+* click the \"Administration\" item in window #null\
+* click the \"Project Scoping\" link in window #null\
+* click the \"Project Scoping\" link in window #null\
+* click the \"Hierarchies\" item in window #null\
+* click the \"Hierarchies\" item in window #null\
+* click the \"IBM Business Process Hierarchy\" link in window #null\
+* click the \"IBM Business Process Hierarchy\" link in window\
+* click the \"IBM Map\" item in window #null\
+* expand the \"IBM Map\" item in window #null\
+* click the \"8 Manage Financial Resources (10009)\" item in window #null\
+* expand the \"8 Manage Financial Resources (10009)\" item in window #null\
+* click the \"8.3 Perform general accounting and reporting (10730)\" item in window #null\
+* expand the \"8.3 Perform general accounting and reporting (10730)\" item in window #null\
+* click the \"8.3 Perform general accounting and reporting (10730)\" item in window #null\
+* click the  menuitem in window #null\
+* click the \"Administration\" item in window #null\
+* click the \"Project Scoping\" link in window #null\
+* expand the \"Project\" item in window #null\
+* expand the \"8 Manage Financial Resources (10009)\" item in window #null\
+* click the \"8 Manage Financial Resources (10009)\" item in window #null\
+* click the  menuitem in window #null\
+* click the \"Skip To Tab: IBM BPH\" link in window #null\
+* click the \"8.3 Perform general accounting and reporting (10730)\" item in window #null\
+* click the \"8.3 Perform general accounting and reporting (10730)\" item in window #null\
+* click the  menuitem in window #null\
+* click the \"Skip To Tab: Scoping\" link in window #null\
+* click the \"8 Manage Financial Resources (10009)\" item in window #null\
+* click the \"8 Manage Financial Resources (10009)\" item in window #null\
+* click the  menuitem in window #null\
+* click the \"OK\" button in window #null\
+* click the \"Process Category (L1)\" textbox in window\
+* ","0","5","2009-12-16 07:38:20","0"
+"9","Oracle_T2.1_Scoping","3","2009-11-25 05:00:56","2009-11-25 05:02:51","* go to \"https://gbsp0127rtctest3.bcsdc.lexington.ibm.com:9445/jazz/web/console/CA\"\
+* enter your e-mail address into the \"User ID:\" textbox\
+* enter your password into the \"Password:\" textbox\
+* click the \"Log In\" button\
+* pause 40 seconds\
+* click the \"Hierarchies\"\
+* click the \"IBM Business Process Hierarchy\" link \
+* expand the \"IBM Map\" item\
+* expand the \"8 Manage Financial Resources (10009)\" item\
+* expand the \"8.3 Perform general accounting and reporting (10730)\" item \
+* click the \"8.3 Perform general accounting and reporting (10730)\" item\
+* click the  menuitem \"copy\"\
+* click the \"Hierarchies\" \
+* click the \"Project Business Process Hierarchy\" link\
+* expand the \"Training 3\" item\
+* expand the \"8 Manage Financial Resources (10009)\" item\
+* ","0","1","2009-12-09 16:04:42","0"
+"10","Oracle_T1.3_CABasicUI","3","2009-11-25 05:05:51","2009-11-25 05:42:35","* go to \"https://gbsp0127rtctest3.bcsdc.lexington.ibm.com:9445/jazz/web/console/CA/\"\
+* enter your e-mail address into the \"User ID:\" textbox\
+* enter your password into the \"Password:\" textbox\
+* click the \"Log In\" button\
+* pause 40 seconds\
+* click the \"Hierarchies\" item\
+* click the \"Project Business Process Hierarchy\" link\
+* pause 40 seconds\
+* click the \"Hierarchies\" item\
+* click the \"IBM Business Process Hierarchy\" link\
+* pause 40 seconds\
+* click the \"Hierarchies\" item\
+* click the \"Stakeholders\" link\
+* pause 20 seconds\
+* click the \"Hierarchies\" item\
+* click the \"Actors\" link\
+* click the \"Hierarchies\" item\
+* click the \"Business Units\" link\
+* click the \"Log Out\" link\
+* click the \"OK\" button","0","5","2009-12-09 15:59:29","0"
+"12","SAP_Verification #7_ Inserting Cross-Process between Variant and Step Object","3","2009-11-25 05:52:50","2009-11-25 05:52:50","* go to \"https://rcc-pok-idg-049.cloud9.ibm.com:9443/jazz/web/console/CA\"\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox\
+* enter \"aq1sw2de\" into the \"Password:\" textbox\
+* pause 4 seconds\
+* click the \"Log In\" button\
+* pause 22 seconds\
+* click the \"Project Management\" item\
+* click the \"BPH - Project\" link\
+* click the \"Project\" item\
+* you click the \" Add Child\" button\
+* click the \"Scenario [SCN]\" textbox\
+* enter \"scenario1\" into the \"Scenario [SCN]\" textbox\
+* you click the \"Save\" button and close the window.\
+* you expand  the \"Project\" item\
+* click the \"scenario1\" item\
+* you click the \" Add Child\" button\
+* click the \"Process\" textbox\
+* enter \"process1\" into the \"Process\" textbox\
+* you click the \"Save\" button and close the window\
+* you expand the \"scenario1\" item\
+* click the \"process1\" item\
+* you click the \" Add Child\" button\
+* click the \"Process Variant [PDD]\" textbox\
+* enter \"variant1\" into the \"Process Variant [PDD]\" textbox\
+* you click the \"Save\" button and close the window.\
+* click the \"process1\" item\
+* you expand  the \"process1\" item\
+* click the \"variant1\" item\
+* click the \"variant1\" item\
+* you click the \" Add Child\" button in the \"Consultant's Assistant\" window\
+* click the \"Step\" textbox\
+* enter \"step1\" into the \"Step\" textbox\
+* you click the \"Save\" button and close the window\
+* click the \"process1\" item\
+* click the \"process1\" item\
+* you click the \" Add Child\" button\
+* click the \"Process Variant [PDD]\" textbox\
+* enter \"process2\" into the \"Process Variant [PDD]\" textbox\
+* you click the \"Save\" button and close the window \
+* click the \"variant2\" item in the \"Consultant's Assistant\" window\
+* you click the \" Add Child\" button in the \"Consultant's Assistant\" window\
+* click the \"Step\" textbox\
+* click the \"Step\" textbox\
+* enter \"step2.1\" into the \"Step\" textbox\
+* you click the \"Save\" button and close the window\
+* you click the \"variant2\" item\
+* you click the \" Add Child\" button in the \"Consultant's Assistant\" window\
+* click the \"Step\" textbox\
+* enter \"step2.2\" into the \"Step\" textbox\
+* you click the \"Save\" button and close the window.\
+* click the \"Skip To Tab: Manage BPH\" link\
+* you close the \"Manage BPH\" tab\
+* click the \"Process Definition\" item\
+* click the \"Process Variants [PDD]\" link\
+* click the \"variant1\" link\
+* click the \"Skip To undefined Steps\" link\
+* you click the \" Associate Step\" button in the \"Consultant's Assistant\" window\
+* turn on the tenth checkbox\
+* turn on the eleventh checkbox\
+* you click the \"OK\" button in the \"Consultant's Assistant\" window\
+* click the \"Process Variant [PDD]\" textbox\
+* click the \"Skip To Tab: variant1\" link\
+* you close the \"variant1\" tab \
+* click the \"variant1\" link\
+* click the \"Skip To undefined Steps\" link\
+* you check that two newly steps are associated with variant1 .\
+* click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://localhost:9443 says:\" window","0","1","2009-11-25 11:44:25","0"
+"13","SAP_Verification #1_Login and opening CA Home page_And_Project Attributes Default Values","3","2009-11-25 05:54:06","2009-12-01 10:18:35","* go to \"https://rcc-pok-idg-049.cloud9.ibm.com:9443/jazz/web/console/CA\"\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox\
+* enter \"aq1sw2de\" into the \"Password:\" textbox\
+* pause 4 seconds\
+* click the \"Log In\" button\
+* pause 25 seconds\
+* click the \"Project Management\" item\
+* pause 5 seconds\
+* click the \"Project Attributes\" link\
+* pause 7 seconds\
+* click the \"Skip To undefined Benefit Category\" link\
+* pause 5 seconds\
+* click the \"Skip To undefined Benefit Occurrence\" link\
+* pause 6 seconds\
+* click the \"Skip To undefined Release\" link\
+* pause 5 seconds\
+* you click the \" Add New Release\" button in the \"Consultant's Assistant\" window\
+* pause 3 seconds\
+* enter \"Release 4\" into the \"Name:\" textbox\
+* pause 5 seconds\
+* click the \"OK\" button in the \"Consultant's Assistant\" window\
+* pause 5 seconds\
+* click the \"Skip To undefined People\" link\
+* pause 3 seconds\
+* click the \"Skip To undefined Application\" link\
+* pause 5 seconds\
+* click the \"Log Out\" link","0","2","2009-12-01 15:15:19","0"
+"14","SAP_Verification #6_Inserting Image in Model section of a Scenario Object","3","2009-11-25 05:55:12","2009-11-25 05:55:12","* go to \"https://rcc-pok-idg-049.cloud9.ibm.com:9443/jazz/web/console/CA\"\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox\
+* pause 2 seconds\
+* enter \"aq1sw2de\" into the \"Password:\" textbox\
+* pause 4 seconds\
+* click the \"Log In\" button\
+* pause 22 seconds\
+* click the \"Project Management\" item\
+* pause 4 seconds\
+* click the \"BPH - Project\" link\
+* pause 4 seconds\
+* click the \"Project\" item\
+* pause 4 seconds\
+* click the \" Add Child\" button\
+* pause 2 seconds\
+* click the \"Scenario [SCN]\" textbox\
+* enter \"SCN_1\" into the \"Scenario [SCN]\" textbo\
+* you click the \"Save\" button and close the Scenario window\
+* click the \"Process Definition\" item\
+* click the \"Scenarios [SCN]\" link\
+* pause 4 seconds\
+* click the \"SCN_1\" link\
+* click the \"Skip To undefined Model\" link\
+* you Click on the \"Browse\"  button to add one (jpg/gif) image.\
+* click the \"Save\" button\
+* pause 4 seconds\
+* click the \"Skip To Tab: SCN_1\" link\
+* you close the \"SCN_1\" tab \
+* click the \"Skip To Tab: Scenarios [SCNs]\" link\
+* click the \"SCN_1\" link\
+* pause 4 seconds\
+* click the \"Skip To undefined Model\" link\
+* you check that whether image is showing properly or not.\
+* click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://localhost:9443 says:\" window","0","0",\N,"0"
+"15","SAP_Verification #4_Inserting Image in Rich Text Section","3","2009-11-25 05:58:01","2009-11-25 05:58:01","* go to \"https://rcc-pok-idg-049.cloud9.ibm.com:9443/jazz/web/console/CA\"\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox\
+* enter \"aq1sw2de\" into the \"password\"  textbox\
+* pause 4 seconds\
+* click the \"Log In\" button\
+* pause 22 seconds\
+* click the \"Functional Design\" item\
+* pause 4 seconds\
+* click the \"Requirements\" link\
+* pause 4 seconds\
+* click the \"TestReq1\" link\
+* click the \"Skip To undefined Description\" link\
+* you click the \" Edit\" button\
+* Click on Insert Image tool button available in the Rich Text Controls toolbar to add one (jpg/gif) image in the Description\
+* you add one (jpg/gif) image in the Description\
+* pause 4 seconds\
+* click the \"Save\" button\
+* pause 4 seconds\
+* click the \"Skip To Tab: TestReq1\" link\
+* you close the \"TestReq1\" tab\
+* click the \"Skip To Tab: Requirements\" link\
+* click the \"TestReq1\" link\
+* pause 4 seconds\
+* click the \"Skip To undefined Description\" link\
+* pause 4 seconds\
+* you check that whether image is comming or not.\
+* click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://localhost:9443 says:\" window","0","0",\N,"0"
+"16","SAP_Verification #8_Preview PDD document.","3","2009-11-25 05:58:56","2009-11-25 05:58:56","* go to \"https://rcc-pok-idg-049.cloud9.ibm.com:9443/jazz/web/console/CA\"\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox in the \"Login Required - Jazz Team Server\" window\
+* enter \"aq1sw2de\" into the \"Password:\" textbox\
+* pause 4 seconds\
+* click the \"Log In\" button\
+* pause 22 seconds\
+* click the \"Process Definition\" item\
+* click the \"Process Variants [PDD]\" link\
+* pause 5 seconds\
+* click the \"variant1\" link\
+* you click the Preview Deliverable icon just beside the Save and Discard Change buttons at the top right corner of the editor.\
+* you check the documents contents with the actual input data  check the description section,model sections etc.\
+* click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://localhost:9443 says:\" window","0","0",\N,"0"
+"17","SAP_Verification #2_Table view representing List of BPH nodes  should not contain add/delete action","3","2009-11-25 06:00:13","2009-12-01 10:23:27","* go to \"https://rcc-pok-idg-049.cloud9.ibm.com:9443/jazz/web/console/CA\"\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox\
+* enter \"aq1sw2de\" into the \"Password:\" textbox\
+* click the \"Log In\" button\
+* pause 22 seconds\
+* click the \"Process Definition\" item\
+* pause 5 seconds\
+* click the \"Scenarios [SCN]\" link\
+* pause 5 seconds\
+* click the \"Process Definition\" item\
+* pause 5 seconds\
+* click the \"Processes\" link\
+* pause 5 seconds\
+* click the \"Process Definition\" item\
+* pause 5 seconds\
+* click the \"Process Variants [PDD]\" link\
+* pause 5 seconds\
+* click the \"Process Definition\" item\
+* pause 5 seconds\
+* click the \"Steps\" link\
+* pause 5 seconds\
+* you click the \"Log Out\" link","0","1","2009-12-01 10:21:05","0"
+"18","SAP_Verification #?_Node Coloring functionality for Ref BPH.","3","2009-11-25 06:01:59","2009-11-25 06:01:59","* go to \"https://rcc-pok-idg-049.cloud9.ibm.com:9443/jazz/web/console/CA\"\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox\
+* enter \"aq1sw2de\" into the \"Password:\" textbox\
+* pause 3 seconds\
+* click the \"Log In\" button\
+* pause 20 seconds\
+* click the \"Project Management\" item\
+* click the \"Reference BPHs\" link\
+* pause 5 seconds\
+* turn on the \"Life Science\" checkbox\
+* pause 4 seconds\
+* click the \"OK\" button\
+* pause 30 seconds\
+* expand the \"LifeScience Map\" item\
+* expand the \"Research-Intellectual Property and Patent Management\" item\
+* expand the \"Design   &  Development-R  & D Administration\" item\
+* expand the \"Portfolio Management\" item\
+* expand the \"Strategic Portfolio Management\" item\
+* expand the \"Program Management\" item\
+* expand the \"Strategic Portfolio Management\" item\
+* expand the \"SAP RPM 4.5\" item\
+* click the \"Create portfolio and bucket hierarchy\" item\
+* click the \"Log Out\" link","0","1","2009-11-25 11:55:27","0"
+"19","Misc_How to find about Gandhi","3","2009-11-25 11:37:23","2009-11-25 11:37:23","* go to \"http://www.google.com/\"\
+* enter \"mahatma gandhi\" into the \"Google Search\" textbox\
+* click the \"Google Search\" button\
+* pause 20 seconds\
+* click the \"Mohandas Karamchand Gandhi - Wikipedia, the free encyclopedia\" link\
+* pause 30 seconds\
+* click the \"Gandhi (disambiguation)\" link","0","2","2009-12-01 15:11:43","0"
+"20","Oracle T3.13 R2.4 Project Authoring  Export and Print List button","4","2009-11-30 14:00:53","2009-11-30 14:02:40","* go to \"https://scesx44.watson.ibm.com:9443/jazz/web/console/CA\"\
+* enter your e-mail address into the \"User ID:\" textbox in window #null\
+* enter your password into the \"Password:\" textbox in window #null\
+* click the \"Log In\" button in window #null\
+* click the \"Hierarchies\" item in window #null\
+* click the \"Business Units\" link in window #null\
+* click the \"✓ Export List\" button in window #null\
+* click the \"✓ Print List\" button in window #null\
+* click the \"Hierarchies\" item in window #null\
+* click the \"Stakeholders\" link in window #null\
+* click the \"✓ Add New Stakeholder\" button in window #null\
+* click the \"Stakeholder\" textbox in window #null\
+* enter \"Test Stakeholder Print Export\" into the \"Stakeholder\" textbox in window #null\
+* click the \"Stakeholder\" textbox in window #null\
+* click the \"Skip To undefined Process (L3)\" link in window #null\
+* click the \"✓ Associate Process (L3)\" button in window #null\
+* turn on the checkbox in window #null\
+* click the \"OK\" button in window #null\
+* click the \"Stakeholder\" textbox in window #null\
+* click the \"Skip To Tab: Test Stakeholder Pri...\" link in window #null\
+* click the \"x\" button in window #null\
+* click the \"x\" button in window #null\
+* turn on the checkbox in window #null\
+* click the \"Export List\" button in window #null\
+* click the \"Print List\" button in window #null\
+* click the \"Log Out\" link in window #null","0","0",\N,"0"
+"21","Oracle_T3.14_R2.4_Linkage_FS_to_RTC","4","2009-11-30 14:21:57","2009-11-30 14:22:51","* go to \"https://scesx44.watson.ibm.com:9443/jazz/web/console/CA\"\
+* enter your e-mail address into the \"User ID:\" textbox in window #null\
+* enter your password into the \"Password:\" textbox in window #null\
+* click the \"Log In\" button in window #null\
+* click the \"Process Definition\" item in window #null\
+* click the \"Functional Specifications\" link in window #null\
+* click the \"✓ Add New Functional Specification\" button in window #null\
+* click the \"Functional Specification\" textbox in window #null\
+* enter \"Test FS and RTC\" into the \"Functional Specification\" textbox in window #null\
+* enter \"111\" into the \"Specification ID\" textbox in window #null\
+* click the \"Functional Specification\" textbox in window #null\
+* click the \"✓ Add New Functional Specification\" button in window #null\
+* click the \"Functional Specification\" textbox in window #null\
+* enter \"Test 2 FS and RTC\" into the \"Functional Specification\" textbox in window #null\
+* enter \"222\" into the \"Specification ID\" textbox in window #null\
+* click the \"Functional Specification\" textbox in window #null\
+* click the \"Skip To undefined Document Section\" link in window #null\
+* click the \"✓ Add New Document Section\" button in window #null\
+* click the \"Document Section\" textbox in window #null\
+* enter \"Section1\" into the \"Document Section\" textbox in window #null\
+* click the \"Document Section\" textbox in window #null\
+* click the \"close-hov.gif\" button in window #null\
+* click the \"Functional Specification\" textbox in window #null\
+* click the \"Functional Specification\" textbox in window #null\
+* click the \"View Work Item\" link in window #null\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox in window #null\
+* enter \"aq1sw2de\" into the \"Password:\" textbox in window #null\
+* click the \"Log In\" button in window #null\
+* click the \"View CA artifact\" link in window #null\
+* click the \"Log Out\" link in window #null\
+* click the \"Functional Specification\" textbox in window #null\
+* click the \"Functional Specification\" textbox in window #null\
+* click the \"Skip To undefined Versions\" link in window #null\
+* click the \"Skip To undefined Distribution\" link in window #null\
+* click the \"Skip To undefined Reviewer\" link in window #null\
+* click the \"Skip To undefined Attachment\" link in window #null\
+* click the \"Skip To undefined Overview\" link in window #null\
+* click the \"View Work Item\" link in window #null\
+* click the \"close-hov.gif\" button in window #null","0","1","2009-12-16 12:40:59","0"
+"22","Oracle_T3.15_R2.4_FS_to_TS_linkages","4","2009-11-30 14:27:48","2009-11-30 14:28:02","* go to \"https://9.2.144.42:9443/jazz/web/console/CA#action=com.ibm.research.sedna2.consultantassistant.home.actionDispatcher&subAction=viewUserHome\"\
+* click the \"Process Definition\" item in window #null\
+* click the \"Functional Specifications\" link in window #null\
+* click the \"222\" link in window #null\
+* click the \"Skip To undefined Technical Specification\" link in window #null\
+* click the \"✓ Associate Technical Specification\" button in window #null\
+* click the \"✓ Add New Technical Specification\" button in window #null\
+* click the \"Technical Specification\" textbox in window #null\
+* enter \"Test TS linked to FS\" into the \"Technical Specification\" textbox in window #null\
+* enter \"222TS\" into the \"Specification ID\" textbox in window #null\
+* click the \"Technical Specification\" textbox in window #null\
+* click the \"close-hov.gif\" button in window #null\
+* turn on the checkbox in window #null\
+* click the \"OK\" button in window #null\
+* click the \"Functional Specification\" textbox in window #null\
+* click the \"Technical Specifications\" link in window #null\
+* click the \"222TS\" link in window #null\
+* click the \"Skip To undefined Document Section\" link in window #null\
+* click the \"✓ Add New Document Section\" button in window #null\
+* click the \"Document Section\" textbox in window #null\
+* enter \"Section 1 TS\" into the \"Document Section\" textbox in window #null\
+* click the \"Document Section\" textbox in window #null\
+* click the \"close-hov.gif\" button in window #null\
+* click the \"Technical Specification\" textbox in window #null\
+* click the \"Skip To undefined Functional Specification\" link in window #null\
+* click the \"Skip To undefined Unit Test Plan and Script\" link in window #null\
+* click the \"✓ Associate Unit Test Plan and Script\" button in window #null\
+* click the \"✓ Add New Unit Test Plan and Script\" button in window #null\
+* click the \"Unit Test Plan and Script\" textbox in window #null\
+* enter \"UTP Test for TS linked to FS\" into the \"Unit Test Plan and Script\" textbox in window #null\
+* click the \"Unit Test Plan and Script\" textbox in window #null\
+* click the \"close-hov.gif\" button in window #null\
+* turn on the checkbox in window #null\
+* click the \"OK\" button in window #null\
+* click the \"Technical Specification\" textbox in window #null","0","0",\N,"0"
+"23","Oracle_T3.12__R2.4_Infer BPH Id for Gap and Gap Resolution","4","2009-12-01 11:42:53","2009-12-01 15:43:18","* go to \"https://scesx44.watson.ibm.com:9443/jazz/web/console/CA\"\
+* pause 20 seconds\
+* click the \"Process Definition\" item\
+* click the \"Gaps\" link\
+* you click the \"✓ Add New Gap Analysis\" button\
+* click the \"Gap Analysis\" textbox\
+* enter \"Test Gap 2\" into the \"Gap Analysis\" textbox\
+* you click the \"Save\" button\
+* click the \"Skip To undefined Gap Resolution\" link\
+* you click the \"✓ Add New Gap Resolution\" button\
+* click the \"Gap Resolution\" textbox\
+* enter \"Test Gap Resolution\" into the \"Gap Resolution\" textbox\
+* click the \"Save\" button\
+* click the \"Skip To undefined Gap Analysis\" link\
+* click the \"✓ Associate Gap Analysis\" button\
+* pause 10 seconds\
+* you turn on the checkbox\
+* you click the \"OK\" button\
+* pause 5 seconds\
+* you click the \"Save\" button and close the window\
+* you click the \"Refresh Editor\" button \
+* you click the \"Save\" button\
+* click the \"Process Definition\" item \
+* click the \"Use Cases\" link\
+* you click the \"✓ Add New Use Case Model and Detail\" button\
+* click the \"Use Case Model and Detail\" textbox \
+* enter \"Test Use Case 2\" into the \"Use Case Model and Detail\" textbox\
+* you click the \"Save\" button\
+* click the \"Skip To undefined Process Activity (L4)\" link\
+* you click the \"✓ Associate Process Activity (L4)\" button\
+* pause 5 seconds\
+* you click the \"Next\" button\
+* you click the \"Next\" button\
+* you turn on the first checkbox\
+* you click the \"OK\" button\
+* you click the \"Save\" button\
+* click the \"Project Level Documentation\" item\
+* click the \"Project Requirements\" link\
+* you click the \"✓ Add New Requirement\" button\
+* you click the \"Requirement\" textbox\
+* enter \"Test Requirement 2\" into the \"Requirement\" textbox\
+* enter \"req1\" into the \"Requirement ID\" textbox\
+* you click the \"Save\" button\
+* click the \"Skip To undefined Use Case Model and Detail\" link\
+* click the \"✓ Associate Use Case Model and Detail\" button\
+* pause 5 seconds\
+* you click the \"Next\" button several times\
+* you turn on the checkbox in window\
+* you click the \"OK\" button\
+* you click the \"Save\" button\
+* click the \"Skip To undefined Gap Analysis\" link \
+* click the \"✓ Associate Gap Analysis\" button \
+* you turn on the checkbox \
+* you click the \"OK\" button\
+* you click the \"Save\" button\
+* click the \"Skip To Tab: Test Gap 2\" link\
+* you click the \"Search Assets\" button\
+* click the \"Skip To undefined Gap Resolution\" link\
+* you click the \"Skip To Tab: \" link\
+* you click the \"Search Assets\" button\
+* click the \"Process Definition\" item\
+* click the \"Use Cases\" link\
+* you click the \"Next\" button several times \
+* click the \"Test Use Case\" link \
+* click the \"Skip To undefined Process Activity (L4)\" link\
+* click the \"✓ Associate Process Activity (L4)\" button \
+* pause 10 seconds\
+* you turn on the checkbox\
+* you click the \"OK\" button\
+* you click the \"Save\" button\
+* click the \"Skip To undefined Requirement\" link\
+* you click the \"Skip To Tab: req1\" link\
+* click the \"Skip To Tab: Test Gap\" link \
+* you click the \"Search Assets\" button\
+* click the \"Gap Resolution\" textbox\
+* you click the \"Search Assets\" button","0","9","2009-12-01 15:20:52","0"
+"24","SAP_Saving_Requirement_Artifact","7","2009-12-01 16:26:04","2009-12-01 16:26:04","* go to \"https://rcc-pok-idg-049.cloud9.ibm.com:9443/jazz/web/console/CA\"\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox\
+* enter your password into the \"Password:\" textbox\
+* click the \"Log In\" button\
+* pause 20 seconds\
+* click the \"Functional Design\" item\
+* click the \"Requirements\" link\
+* you click the \"✓ Add New Requirement\" button\
+* enter \"prj002\" into the \"Project Id\" textbox\
+* select \"Batch Processing\" from the \"Category\" listbox\
+* select \"Asia\" from the \"Geography\" listbox\
+* click the \"Requirement\" textbox\
+* enter \"TestRequriment\" into the \"Requirement\" textbox\
+* click the \"Save\" button\
+* click the \"Skip To Tab: Requirements\" link\
+* click the \"TestRequriment\" link\
+* you click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://rcc-pok-idg-049.cloud9.ibm.com:9443 says:\" window","0","0",\N,"0"
+"25","Oracle_T1.1_CABasicUI_CheckLinks","3","2009-12-16 07:03:37","2009-12-16 07:26:20","* go to \"https://scesx44.watson.ibm.com:9443/jazz/web/console/CA\"\
+* enter your login into the \"User ID:\" textbox\
+* enter your password into the \"Password:\" textbox\
+* click the \"Log In\" button\
+* click the \"✓ Project Management\" button\
+* click the \"✓ Quality Management\" button\
+* click the \"✓ Process Modeling\" button\
+* click the \"✓ Asset Repository\" button\
+* click the \"✓ Methodology\" button\
+* click the \"✓ IBM Benchmark Wizard\" button\
+* click the \"✓ ACME HomePage\" button in the \"Consultant Assistant\" window\
+* click the \"✓ Financial Fast Forward Wiki\" button\
+* click the \"✓ Project Blog\" button\
+* click the \"✓ Employee Directory\" button\
+* click the \"✓ Conf Room Scheduler\" button\
+* click the \"✓ IT Support Link\" button\
+* click the \"✓ IBM GBS Oracle Wiki\" button\
+* click the \"✓ Oracle\" button\
+* click the \"✓ IBM Support Link\" button\
+* click the \"✓ IBM Rational Support\" button\
+* click the \"✓ Oracle Metalink\" button\
+* click the \"✓ IBM Oracle Communities\" button\
+* click the \"✓ IBM Expert Locator\" button\
+* click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://scesx44.watson.ibm.com:9443 says:\" window","0","3","2009-12-16 07:11:00","0"
+"26","Oracle_T1.2_CABasicUI_CheckRAMBPA_Tabs","3","2009-12-16 07:21:59","2009-12-16 07:27:10","* go to \"https://scesx44.watson.ibm.com:9443/jazz/web/console/CA\"\
+* enter your login into the “User ID:” textbox\
+* enter your password into the \"Password:\" textbox\
+* click the \"Log In\" button\
+Check for the RAM tab\
+* click the \"Hierarchies\" item\
+* click the \"IBM Business Process Hierarchy\" link\
+* expand the \"IBM Map\" item\
+* expand the \"3 Market and Sell Products and Services (10004)\" item\
+* expand the \"3.1 Understand markets, customers and capabilities (10101)\" item\
+* click the \"3.1.1 Perform customer and market intelligence analysis (10106)\" item\
+* click the \"✓ Search Assets\" button\
+* click the \"Skip To Tab: Home\" link\
+Now check the BPA tab\
+* click the \"Hierarchies\" item\
+* click the \"Project Business Process Hierarchy\" link\
+* expand the \"Project\" item\
+* click the \"✓ Access BPA\" button\
+* click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://scesx44.watson.ibm.com:9443 says:\" window","0","1","2009-12-16 07:23:21","0"
+"27","Oracle_T4.1_BPAProcessModeling","3","2009-12-16 07:59:19","2009-12-16 08:00:51","* go to \"https://scesx44.watson.ibm.com:9443/jazz/web/console/CA\"\
+* enter your login into the “User ID:” textbox\
+* enter your password into the \"Password:\" textbox\
+* click the \"Log In\" button\
+* click the \"✓ Process Modeling\" button\
+* go to \"http://ec-dyn-10.watson.ibm.com:8080/app/aris_database.html?Database=MyProject&guipattern=Architect&language=en&country=US&javaversion=\"\
+* click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://scesx44.watson.ibm.com:9443 says:\" window","0","3","2009-12-16 10:41:53","0"
+"28","Oracle_T3.1_AuthorProcess","3","2009-12-16 10:59:21","2009-12-16 11:07:33","* go to \"https://scesx44.watson.ibm.com:9443/jazz/web/console/CA\"\
+* enter your login into the “User ID:” textbox\
+* enter your password into the “Password:” textbox\
+* click the “Log In” button\
+* click the \"Process Definition\" item\
+* click the \"Future Process Model (L4)\" link\
+* click the \"✓ Add New Process Activity (L4)\" button\
+* click the \"Process Activity (L4)\" textbox\
+Add a process\
+* enter \"New Test Process\" into the \"Process Activity (L4)\" textbox\
+* click x\"//*[@id='com_ibm_asq_common_web_ui_internal_view_layout_ViewHeaderLayout_1']/DIV[1]/DIV[1]/DIV[3]\" at (252,227)\
+* enter \"_bp_12345\" into the \"Process Correlation ID\" textbox\
+* click x\"//*[@id='com_ibm_research_sedna2_consultantassistant_web_oracle_ui_internal_view_ca_ProcessEditor_0']/TABLE[1]/TBODY[1]/TR[1]/TD[2]/DIV[1]\" at (238,161)\
+* click the \"Skip To undefined Description\" link\
+* click x\"//*[@id='com_ibm_asq_common_web_ui_internal_widgets_richtext_RichTextControl_0']/DIV[5]\" at (262,524)\
+* click x\"/HTML[1]/BODY[1]\" at (0,0)\
+* click x\"/HTML[1]/BODY[1]\" at (0,0)\
+* click the \"Save\" button\
+Associating requirement. A safer way may be to add a new one\
+* click the \"Skip To undefined Requirement\" link\
+* click x\"/HTML[1]\" at (0,0)\
+* click the \"✓ Associate Requirement\" button\
+* click the \"✓ Add New Requirement\" button\
+* click the \"close-hov.gif\" button\
+* click the \"OK\" button in the \"The page at https://scesx44.watson.ibm.com:9443 says:\" window\
+* turn on the sixteenth checkbox in the \"Consultant Assistant\" window\
+* click the \"OK\" button\
+* click the \"Save\" button\
+* click the \"Skip To Tab: Process Models\" link\
+* click x\"//*[@id='dijit_layout_ContentPane_1']\" at (93,143)\
+* turn on the third checkbox\
+Delete the process added\
+Caution: make sure a new process was added\
+* click the \"Delete Process Activity (L4)\" button\
+* turn on the \"_OBJECT:(Process)New Test Process\" checkbox\
+* click the \"OK\" button\
+* click the \"Refresh\" button\
+* click x\"//*[@id='dijit_layout_ContentPane_1']\" at (93,143)\
+* click x\"/HTML[1]\" at (0,0)\
+* click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://scesx44.watson.ibm.com:9443 says:\" window","0","3","2009-12-16 11:08:31","0"
+"29","Oracle_CAT5.1_CARQM","3","2009-12-16 13:15:20","2009-12-16 13:17:44","Basic Login\
+* go to \"https://scesx44.watson.ibm.com:9443/jazz/web/console/CA\"\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox\
+* enter your password into the \"Password:\" textbox\
+* click the \"Log In\" button\
+Move the right panel out of the way\
+* click the \"sash-arrow-right-open.gif\" button\
+Now go to use cases and generate test case\
+* click the \"Process Definition\" item\
+* click the \"Use Cases\" link\
+* turn on the third checkbox\
+* click the \"✓ Generate Testcases\" button\
+* enter \"sadmin@us.ibm.com\" into the \"ID:\" textbox\
+* enter your password into the second \"Password:\" textbox\
+* click the \"OK\" button\
+* click the \"OK\" button in the \"The page at https://scesx44.watson.ibm.com:9443 says:\" window\
+* click the \"Skip To Tab: Home\" link in the \"Consultant Assistant\" window\
+* click the \"sash-arrow-left-close.gif\" button\
+Now going to RQM\
+* click the \"✓ Quality Management\" button\
+* click the second \"section_collapsed.png\" button\
+* click the button\
+* click the \"Confirm Security Exception\" button in the \"Add Security Exception\" window\
+* enter \"sadmin@us.ibm.com\" into the \"User ID:\" textbox in the \"Login Required - Jazz Team Server\" window\
+* enter your password into the \"Password:\" textbox\
+* click the \"Log In\" button\
+May have to select QM or QM2\
+* click x\"//*[@id='com_ibm_asq_common_web_ui_internal_widgets_SelectionDialog_0']/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[3]\" at (188,241)\
+* click the \"OK\" button\
+* click the \"Execution\" item\
+* click the \"View Test Cases\" link\
+* click the \"Requirements\" item\
+* click the \"All Requirements\" link\
+Now go back to CA\
+* click the \"Log Out\" link\
+* click the \"OK\" button in the \"The page at https://scesx44.watson.ibm.com:9443 says:\" window","0","0",\N,"0"

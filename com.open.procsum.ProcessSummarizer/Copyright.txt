@@ -1,0 +1,8 @@
+/**
+ * (C) MIT License
+ * Biplav Srivastava, 2022 
+ * 
+ * The source code implements the methods in the paper -
+ * Biplav Srivastava, Processes Summarization. COMAD 2010: 179
+ */
+

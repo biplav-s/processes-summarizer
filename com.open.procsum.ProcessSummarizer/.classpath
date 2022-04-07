@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com.ibm.bpia.bpmn2pst/|com.ibm.bpe.wfg.ra/|com.ibm.bpe.wfg.model/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/com.ibm.bit.bpservices.libs/lib/ProcessSummarizer/jaxen-core.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.bit.bpservices.libs/lib/ProcessSummarizer/jaxen-jdom.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.bit.bpservices.libs/lib/ProcessSummarizer/jdom.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.bit.bpservices.libs/lib/ProcessSummarizer/saxpath.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.bit.bpservices.libs/lib/ProcessSummarizer/xerces.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

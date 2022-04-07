@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/bpmn20" xmlns:bpmzero="http://www.omg.org/bpmZero" bpmzero:diagramType="Splice" targetNamespace="http://www.omg.org/bpmZero" id="thg_simple_subprocess">
+  <bpmn:process id="DefaultProcess" name="DefaultPool">
+    <bpmn:task id="Task21" bpmzero:replyType="undefined" bpmzero:reply_input_value="Thanks for submitting your form" bpmzero:catalog_Form="current_time - current_time" bpmzero:catalog.Key="current_time - current_time" name="Task1" bpmzero:catalog.form.type="freedomForm" bpmzero:url="process" bpmzero:type="catalogFormreceive-reply" bpmzero:catalog.Url="Form Local Catalog" bpmzero:input_value="F_day=;F_Time=;" bpmzero:input_value_type="F_day=string;F_Time=time;"/>
+    <bpmn:subProcess id="SubProcess24" name="SubProcess">
+      <bpmn:task id="Task27" bpmzero:replyType="undefined" bpmzero:reply_input_value="Thanks for submitting your form" bpmzero:catalog_Form="current_time - current_time" bpmzero:catalog.Key="current_time - current_time" name="Task2a" bpmzero:catalog.form.type="freedomForm" bpmzero:url="process" bpmzero:type="catalogFormreceive-reply" bpmzero:catalog.Url="Form Local Catalog" bpmzero:input_value="F_day=;F_Time=;" bpmzero:input_value_type="F_day=string;F_Time=time;"/>
+      <bpmn:task id="Task28" name="Task2b"/>
+      <bpmn:task id="Task29" name="Task2c"/>
+      <bpmn:sequenceFlow id="transition27" sourceRef="Task27" targetRef="Task28"/>
+      <bpmn:sequenceFlow id="Transition28" sourceRef="Task28" targetRef="Task29"/>
+    </bpmn:subProcess>
+    <bpmn:sequenceFlow id="transition25" sourceRef="Task21" targetRef="SubProcess24"/>
+  </bpmn:process>
+  <bpmn:collaboration id="thg_simple_subprocess_collaboration"/>
+</bpmn:definitions>

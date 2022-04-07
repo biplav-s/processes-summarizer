@@ -1,0 +1,2638 @@
+<industry name="Public Sector">
+  <scenario-group name="Human Capital Management">
+    <description>
+			To meet the
+demands of today's knowledge-based economy, companies must maximize
+the potential and productivity of their employees, the human
+capital pivotal to their success. This requires transforming the
+human resource (HR) function into a human capital management (HCM)
+initiative.HCM for
+business means integrating employee processes and information with
+business processes and strategies.</description>
+    <scenario name="Employee Resource Management" id="E6F58836D3A84A33B8044BB61C819442">
+      <description/>
+      <process name="Talent Management" bprrefid="" solManContentAvailable="true" id="ED14A38215894ACF92717FF66F0A51EC">
+        <description/>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Recruiting" id="A0E8EFFA5EF64FDF8C1DB011FADD4EC3">
+          <description>
+						Incorporates a
+sophisticated recruiting solution (SAP E-Recruiting) in SAP ERP
+HCM that enables the organization to build pools of potential
+talent, resulting in better hires and a more efficient hiring
+process.  Included are processes that enable applicants and
+candidates to self-register and maintain their information in a
+talent warehouse.  Recruiters have comprehensive functionality to
+find potential hires quickly, maintain long-term relationships with
+individuals registered in the warehouse and advanced applicant
+tracking and reporting functions.  Analytics are also available to
+measure the effectiveness of the overall recruiting and hiring
+processes.</description>
+        </process-feature>
+        <process-feature name="Career Management" id="1665E8B5CADF48AFB8E6D16F608F0AE7">
+          <description>
+						Enables each employee to
+manage their career paths and aspirations, either through
+self-service capabilities or as a result of planning with their
+managers.  Profile match-ups against positions can determine skill
+and knowledge gaps which in turn can be tied directly to training
+plans to fill the necessary qualifications.  Structured career
+paths can be implemented to give the employee guidance as to what
+the career progression might be based on their job within the
+organization.</description>
+        </process-feature>
+        <process-feature name="Succession Management" id="664B5D32288E4061849C680BB0EC47A6">
+          <description>
+						Enables a company to
+identify and track high potential employees and implement
+development plans to ensure they are prepared to assume future
+leadership roles.  A company can also identify specific positions
+as key and target specific employees as potential successors.</description>
+        </process-feature>
+        <process-feature name="Enterprise Learning" id="C3410B0D1C6847918F9C52DAC64CBEA7">
+          <description>
+						Delivers training,
+education, and knowledge to employees to ensure they have the right
+skills and information necessary to do their jobs effectively. 
+Integration with Development Plans, Individual Objectives, and the
+employee profile ensure targeted learning can be delivered based on
+need and strategy and that skills and certifications gained as a
+result of the learning is captured.  Structures, delivers, and
+tracks the distribution of information, e-learning (self-paced or
+synchronous), and classroom training, while its knowledge-transfer
+and collaborative-learning capabilities keep the workforce prepared
+for the future.</description>
+        </process-feature>
+        <process-feature name="Employee Performance Management" id="3C63AF1F08004BE59780D2C30A3DB9E9">
+          <description>
+						Helps motivate and align
+employees to achieve corporate goals, standardize employee reviews
+and appraisals, and simplify the performance-oriented compensation
+process. Provides a flexible framework to integrate corporate goals
+and strategies with team and individual goals as well as integrate
+management-by-objectives. Gives the functionality needed to tie
+compensation to performance. Enhances communication across the
+enterprise and makes the company more productive.</description>
+        </process-feature>
+        <process-feature name="Compensation Management" id="9BF7177F04A44224B5749D8872B7B73C">
+          <description>Manages innovative reward strategies such as performance- and
+competency-based pay, variable pay plans, and long-term incentives.
+Simplifies the comparative analysis of compensation packages, using
+internal and external data. Enables users to set up guidelines for
+the enterprise's compensation policy according to the overall
+strategy via the Compensation Management capabilities of SAP ERP
+HCM. Changes the guidelines easily in response to changes in the
+company's policy. Supports the combination of fixed and variable
+compensation components, and different employees, departments, and
+units can be covered by different compensation plans. Provides an
+extensive range of options via budgeting functionality allowing the
+creation of one budget or of a budget hierarchy that reflects the
+organizational structure. Offers a Job Pricing Tool that compares
+internal jobs with external survey data systematically to determine
+an appropriate range of compensation for each job.</description>
+        </process-feature>
+      </process>
+      <process name="Workforce Process Management" bprrefid="" solManContentAvailable="true" id="5120CFA3504D41F6B9493DA56F8E854D">
+        <description/>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Employee Administration" id="8F8B1E6C20E942F5817724F33182CBA3">
+          <description>
+						Offers advanced features
+for Employee Administration, e.g., Transfers or Employee Status
+Change. Provides the central repository for employee data in SAP
+ERP HCM; data stored here is used throughout SAP ERP HCM.
+Integrates the information in Personnel Administration fully with
+other SAP business applications, especially Financials and
+Logistics.</description>
+        </process-feature>
+        <process-feature name="Organizational Management" id="9A837A4263E04BCD9BA53AAECA42FAB5">
+          <description/>
+        </process-feature>
+        <process-feature name="Global Employee Management" id="933D8B16D88F460A8EA9B43E7D25987A">
+          <description>
+						Delivers capabilities
+necessary for managing international transfers and assignments. 
+Included are global reporting and analytics, improving and aligning
+negotiation processes for international assignments, and supporting
+geographically dispersed users with up to the minute
+information.</description>
+        </process-feature>
+        <process-feature name="Benefits Management" id="626C8B254DA34899970077AD6A375E40">
+          <description>
+						Provides flexible,
+powerful, and accessible benefits administration, supported by a
+full range of self services to enable employees to more effectively
+manage their own benefits options.  Enables organizations to define
+and administer every type of benefit plan, from HMO to dental to
+401(k) to flexible spending accounts.  Also included are
+capabilities to accumulate historical earnings and hours as well as
+service calculation for defined benefit plans.   Allows benefits
+professionals to efficiently administer their company's benefit
+programs. Lets organizations easily tailor their benefit offerings
+to each employee or employee group using the Benefits
+Administration capabilities of SAP ERP HCM.</description>
+        </process-feature>
+        <process-feature name="Time &amp; Attendance" id="2DEA532856104A5E9FB5E7C2325F2D2F">
+          <description>
+						Optimizes processes for
+planning, managing, and evaluating the working times and activities
+of internal and external employees via the Time Management
+capabilities of SAP ERP HCM. Provides intuitive, user-oriented
+interfaces that support centralized or decentralized time
+management. Lets even inexperienced time administrators can easily
+execute all the functions they require for managing the time data
+of various employee groups, all on one screen with an optimized
+user interface. Uses self-service applications, from customary time
+recording subsystems to mobile computing technology, to enter leave
+data, record working times to be used in business processes in
+Controlling and Logistics, and display key leave information.
+Handles all working-time provisions determined by companies
+themselves, by standard agreements, or required by law. Enables
+users to implement modern concepts such as working-time accounts.
+Please note that the mobile part of this capability are not
+included in the SAP ERP shipment.</description>
+        </process-feature>
+        <process-feature name="Payroll and Legal Reporting" id="322EA91177F64B8D90DC72CBCE52886C">
+          <description>Handles all payroll processes, supports current legal regulations
+and collective agreement specifications, and ensures compliance
+with regulatory changes, since SAP ERP HCM is localized for use
+in many countries around the world. Makes it easy to collect and
+manage all the information required for the delivery of
+high-quality payroll services. Provides reliable, flexible, and
+exceptional performance. Features Payroll Accounting, Tax, Social
+Insurance, Travel Expenses Administration, Incentive Wages, Posting
+to Accounting, and Forms. Gives organizations the tools to
+efficiently complete day-to-day payroll activities via
+comprehensive payroll functionality. Includes all the essential
+core payroll activities and workflow processing streamlines and
+automates activities within the Payroll capabilities of SAP ERP
+HCM. Offers the architecture of the Payroll system to provide
+organizations with options to establish a service delivery model to
+suit their specific requirements. Provides organizations with
+comprehensive payroll functionality to support essential core
+payroll functions, direct deposit and transfers, off-cycle
+payrolls, retroactive adjustments, calculation of averages,
+assessment of time data, loans, garnishments, and year-end
+processing. Enables employees to easily change their address, add
+to or change their banking information, display and print pay-stub
+information, or change their withholding amounts using employee
+self-service functionality for payroll. Provides more than 50
+country versions of Payroll, and Time Management functionality.</description>
+        </process-feature>
+        <process-feature name="HCM Processes &amp; Forms" id="30426DC87DE04477BD602E4A63D58F6E">
+          <description>HCM Processes &amp; Forms automate paper-intensive and
+time-consuming employee-related processes such as hiring,
+termination, organizational reassignment, and maternity leave.
+Adobe interactive forms accelerate data entry and flexible workflow
+templates enable organizations to handle routine workforce
+processes quickly. The application is very flexible and empowers
+organizations to define own processes. All involved business roles
+such as affected employee, affected managers and HR professionals
+can be directly involved in the process.</description>
+        </process-feature>
+      </process>
+      <process name="Workforce Deployment" bprrefid="" solManContentAvailable="true" id="728FE28DB5F74C8E8AD2FA6115D04C51">
+        <description/>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Project Resource Planning" id="0073E9C3178C46D390BC700A55D3C016">
+          <description>
+						Offers Project Resource
+Planning, a Workforce Scheduling Application designed for
+Professional Service Organizations (IT, Legal, Training, etc.) and
+dealing mainly with deployment issues. Utilizes resources more
+efficiently to fit organizational needs and lets users assign
+workers to appropriate jobs, projects and teams.</description>
+        </process-feature>
+        <process-feature name="Resource &amp; Program Management" id="73DEAEED05734653917E2F224AC1F6F2">
+          <description>
+						Unifies project
+management, time tracking, financial data, and employee skills
+information in a portfolio management paradigm via SAP xApp
+Resource and Program Management (SAP xRPM). Provides resource
+management, project portfolio management, project execution, and
+skills management. Serves as an integral contributor to workforce
+deployment solutions across other SAP solutions. Allows users to
+create project teams based on skills and availability, monitor
+progress on a project, track time, analyze results, and much
+more.</description>
+        </process-feature>
+        <process-feature name="Call Center Staffing" id="F7AD6B09140E495098FCE92A1ADB68B0">
+          <description>
+						</description>
+        </process-feature>
+        <process-feature name="Retail Scheduling" id="F242595015BC4920A4DF31359A033A0E">
+          <description>Schedule retail staff based on customer volume, shift schedules, and skills.</description>
+        </process-feature>
+      </process>
+      <business-objective name="Attract &amp; retain resources"/>
+      <business-objective name="Develop skilled, knowledgeable and diverse workforce"/>
+      <business-objective name="Improve delivery of training &amp; education"/>
+      <business-objective name="Improve recruiting, hiring &amp; HR processes"/>
+      <business-objective name="Promote effective performance tracking"/>
+      <business-objective name="Reduce training costs"/>
+      <business-objective name="Improve recruiting, hiring &amp; HR processes"/>
+    </scenario>
+    <scenario name="Position Plan Management" id="E6962619CC374F7BA79BF433BB68F2FE">
+      <description>
+				
+       PBC Position Plan
+Management offers two scenarios to manage Full Time Equivalent
+(FTE) processing,
+       
+       In addition to the
+scenario based on organizational structures including tasks of
+positions, jobs or departments, a separate budget element structure
+can be managed by using scenario
+       </description>
+      <process name="Full-Time Equivalents Processing" bprrefid="" solManContentAvailable="" id="C615855394E045B6B2031FD59A64A4A9">
+        <description>With this process you are able to manage your organization based on
+Full-Time Equivalents (FTEs).</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Position Plan" id="314A0FCC810D47EBB713FF6F22A0D17C">
+          <description>With this process you can create your position plan in accordance with the legal budget requirements and assign and manage full-time equivalents.</description>
+        </process-feature>
+        <process-feature name="Alternative Evaluations" id="96483C2E48BC4E84AAA31595E4993352">
+          <description/>
+        </process-feature>
+        <process-feature name="Business Distribution Plan" id="3D0F34EFEFC1427AB5C9FDDBFA21830B">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Budgeting Rules" bprrefid="" solManContentAvailable="" id="726D45976C0A49C3A621C857E29E3B0D">
+        <description>
+					In case you
+cannot change attributes within your organization e.g. due
+to staffed positions you can create notes, such as lock and group
+lock notes, reclassification notes and deletion notes. These notes
+will be activated time or event-triggered. The notes document the
+changes that you have to take based on the position plan or given
+FTE amount.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Lock Notes" id="63A13CDFFC964292BC0F48C9878617C3">
+          <description/>
+        </process-feature>
+        <process-feature name="Group Lock Notes" id="08B4AC7F8C344CD4AF9EE692D33B813E">
+          <description/>
+        </process-feature>
+        <process-feature name="Reclassification Note" id="4C469D17AAAB4824815A097AD54686D9">
+          <description/>
+        </process-feature>
+        <process-feature name="Deletion Notes" id="0A281706A6B44CE2975BD4F8F165AF6F">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Assignment Rules" bprrefid="" solManContentAvailable="" id="8E5B5B0A704941F2B2F8C8313A7496B3">
+        <description>The assignment rules ensure that persons are assigned to positions
+correctly. This is done with the help of a state-of-the-art
+availability control framework.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Availability Control on staff assignment rules" id="63960958BE724DD4A2127DA684D8718D">
+          <description/>
+        </process-feature>
+        <process-feature name="Exception Reasons" id="CC7479F167E8403B8BBE164F79D1C0DE">
+          <description/>
+        </process-feature>
+      </process>
+      <business-objective name="Attract &amp; retain resources"/>
+      <business-objective name="Improve recruiting, hiring &amp; HR processes"/>
+      <business-objective name="Better decisions with accurate and up-to-date information"/>
+      <business-objective name="Flexible, fast and accurate analysis"/>
+      <business-objective name="Integrate - eliminate redundancies"/>
+      <business-objective name="Improve transparency and auditability of activities"/>
+      <business-objective name="Improvement of regulatory compliance"/>
+      <business-objective name="Increase data transparency"/>
+      <kpi name="Average Headcount FTE"/>
+      <kpi name="Headcount Full-Time Equivalent"/>
+      <kpi name="Headcount Full Time/Part Time Staff Ratio"/>
+      <kpi name="Hired To Needed Personnel Ratio"/>
+    </scenario>
+  </scenario-group>
+  <scenario-group name="Procurement for Public Sector">
+    <description>
+			SAP for Public Sector provides a comprehensive, end-to-end solution for both ad hoc and strategic procurement. The procurement capabilities of SAP for Public Sector support electronic buying and requisitioning and automate business transactions over the Internet. With SAP for Public Sector, you gain a strategic e-government framework along with a highly transparent, streamlined, and integrated purchasing process that can increase your procurement efficiencies, spotlight new sources of value, and enhance decision making about suppliers, products, and contracts.</description>
+    <scenario name="Public Tendering" id="659C7CC6293F4B65894075197445E718">
+      <description>SAP solutions allow you to manage complex, highly regulated
+solicitation processes that comply with legal requirements. You can
+create legally compliant documents within a security infrastructure
+that integrates records management and procurement processes to
+fulfill audit requirements.</description>
+      <process name="Prequalification of RFx Responders" bprrefid="" solManContentAvailable="" id="BC6DA3E86B2540A08E679B4B00CDBE0E">
+        <description>This business process makes it easier for purchasing professionals
+to identify and select qualified suppliers by providing
+questionnaires that can be sent to potential vendors, that have
+registered themselves by using a link on the homepage of the
+purchasing company and have assigned themselves to specific product
+categories, to gather relevant information. The questionnaires can
+be customized to include information such as compliance to required
+standards, support for relevant business practices, or logistical
+capabilities for the on-time delivery of quality products or
+services. Typically used on first contact, these questionnaires can
+also be a valuable source of information throughout the course of
+the relationship. Answers can be evaluated, stored, and used
+throughout the entire sourcing cycle to support additional supplier
+selection needs as they arise.</description>
+      </process>
+      <process name="Public RFx Publishing" bprrefid="" solManContentAvailable="" id="AA4414DB6F1440EF9A5246787DE5DA8D">
+        <description>
+       Each country/region has requirements to publicize their business
+opportunities that are available for response by private companies
+and/or institutions. These processes may be called "soliciting",
+"tendering", or "bidding", but they all have one thing in common -
+all of them require the basic information about the opportunity to
+be published, usually to a website sponsored by the government, and
+also sometimes published in a hard-copy format in a journal or
+other periodical.
+       </description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Procurement for Public Sector"/>
+        <sap-product name="SAP NetWeaver Records Management" key="SAP NetWeaver Records Management"/>
+      </process>
+      <process name="Multi Round RFx Responses" bprrefid="" solManContentAvailable="" id="19C1880691134C648B2EEFEFE5E4EE5A">
+        <description>When a new round is created the RFx responses from the previous
+round shall be copied into the next round as an initial response. A
+new round can be created from one response of the previous round.
+This would include alternative responses and attachments from this
+RFx responder. The information from this RFx response of the first
+round (alternative items, attachments from the responder) should go
+into the RFx of the second round.</description>
+      </process>
+      <process name="Tender Fee Processing" bprrefid="" solManContentAvailable="" id="3183C074F6A44372922C9901F71F27B7">
+        <description>Prospective offerors are able to submit a direct deposit or other
+form of payment for the Tender Fee amount in person to “buy”
+the RFx document. In the case of electronic download of RFx
+documents, the system supports payment verification for pre-paid
+download requests. The process also provides an online, electronic
+payment option to simultaneously purchase and download the RFx
+documents.</description>
+      </process>
+      <process name="Earnest Money Deposit Handling" bprrefid="" solManContentAvailable="" id="6C9114D59D3B45D083EE46E25C3E53D3">
+        <description>
+					
+						</description>
+      </process>
+      <process name="Two Envelope RFx Response" bprrefid="" solManContentAvailable="" id="0D147B0A6FD14AAA884FB7C9EF6B807F">
+        <description>
+					This functionality concerns
+the ability to receive and evaluate separate price and technical
+responses and to restrict the Tender Committee or Technical
+Evaluation Panel from accessing the price response. The purpose of
+splitting a response is to prevent the evaluation team (technical
+and functional reviewers) from seeing the pricing and
+administrative (contractual) data submitted by the offeror. In the
+Public Sector most often, and in all industries sometimes,
+negotiated procurements are conducted that give equal or more
+weight to non-cost factors, when choosing a vendor. </description>
+      </process>
+      <process name="Multi-Party Verification at RFx Response" bprrefid="" solManContentAvailable="" id="32A17C0BD3F34CAD93B1CA56D3A47CC5">
+        <description>This functionality requires simultaneous logon and authorization by
+at least two different parties (users) to open an RFx response. For
+example two parties could be two different Buyers or one Buyer and
+one responder.</description>
+      </process>
+      <process name="RFx Response Evaluation" bprrefid="" solManContentAvailable="" id="8FC828EB4B02436E87AF1F0D6D0CCDE0">
+        <description>RFx response comparison report allows for the side-by-side
+comparison of RFx responses, including identification of the lowest
+price for each and every line item, responses to all attributes,
+aggregation to outline levels, etc. Weighting and Scoring is
+visible in the RFx response comparison report. All attributes
+answers are given a weighted score, which is aggregated to
+determine a score at the outline level and RFx response level.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Procurement for Public Sector"/>
+      </process>
+      <process name="Electronic Contract File Creation" bprrefid="" solManContentAvailable="" id="8E37E0BE647F432E99BB35C1AF25577E">
+        <description>The solution automatically creates and maintains an electronic
+contract file which contains the basis for all procurement
+decisions; and copies of all procurement documents created (PR,
+RFx, Successful and Unsuccessful RFx responses,  Contract/PO,
+Approvals, Receipts, Invoices, External Notifications, etc.)</description>
+        <sap-product name="SAP NetWeaver Records Management" key="SAP NetWeaver Records Management"/>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Procurement for Public Sector"/>
+      </process>
+      <process name="Analyzing Public Sourcing and Tendering" bprrefid="" solManContentAvailable="" id="9AA2AFC7CD5B457099F010CF1A9A660F">
+        <description>The solution collects procurement data which can then be analyzed
+and presented in various reports.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Procurement for Public Sector"/>
+      </process>
+      <business-objective name="Increase collaboration (internally &amp; externally"/>
+      <business-objective name="Comply with future accounting and regulatory reporting requirements"/>
+      <business-objective name="Comply with global electronic communication requirements"/>
+      <business-objective name="Reduce administration, improve business processes"/>
+      <kpi name="Legal and contractual compliance"/>
+      <kpi name="Contract, Program and Channel Management Costs"/>
+      <kpi name="Contract Negotiation Time"/>
+      <kpi name="Process Costs"/>
+    </scenario>
+    <scenario name="Contract Management &amp; Administration" id="C757309F18E64BEBB2568692169F06C2">
+      <description>
+				
+					 
+					</description>
+      <process name="Complex Contract Creation With Document Builder" bprrefid="" solManContentAvailable="" id="02E2D4C91A7C4B23ACFE7CB6ED74DA1D">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+      </process>
+      <process name="Guaranteed Minimum Definition" bprrefid="" solManContentAvailable="" id="903C92BECDB24E498D57F076A3D0C109">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+      </process>
+      <process name="Close Out Execution" bprrefid="" solManContentAvailable="" id="4805E42889C94B4786A5D82D1007DD8D">
+        <description>The ability to ensure all Public-Sector mandated administrative and
+contractual requirements are completed after the goods or services
+have been received and the vendor has been paid at completion of a
+contract</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+      </process>
+      <process name="Contract Tracking and Monitoring" bprrefid="" solManContentAvailable="" id="541BEA5C26E045F38448D998D231B9D3">
+        <description>Allows the end user and professional purchaser to track the status
+of a requirement from requirements definition through award and
+post award</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+      </process>
+      <process name="Electronic Contract File Creation" bprrefid="" solManContentAvailable="" id="EE232B4E503D49D3AF96A7B253505EAF">
+        <description>
+					The solution automatically
+creates and maintains an electronic contract file which contains
+the basis for all procurement decisions; and copies of all
+procurement documents created (PR, RFx, Successful and
+Unsuccessful RFx responses,  Contract/PO, Approvals, Receipts,
+Invoices, External Notifications, etc.)</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+        <sap-product name="SAP NetWeaver Records Management" key="SAP NetWeaver Records Management"/>
+      </process>
+      <process name="Incident Handling" bprrefid="" solManContentAvailable="" id="B9CA9F054F2E4736A5206698D3136A56">
+        <description>
+					The solution provides the
+ability to respond to requests for post-award contract
+modifications. Non-transactional information such as emails and
+records of meetings and telephone calls are associated with the
+contract and stored as part of the electronic file. A record of all
+information about the incident, including reviews, approvals, and
+modifications, are linked to the original contract and accessible
+as part of the electronic contract file.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+        <sap-product name="SAP NetWeaver Records Management" key="SAP NetWeaver Records Management"/>
+      </process>
+      <process name="Enhanced Versioning" bprrefid="" solManContentAvailable="" id="E453DD45F3954D9CAA4337E6BD44DE5E">
+        <description>
+					
+						</description>
+      </process>
+      <process name="Options Definition" bprrefid="" solManContentAvailable="" id="B5E0ECB28C56414BBE109D982CDC7B15">
+        <description>The solution provides the ability to include optional line items in
+Shopping Carts, RFx, contracts and purchase orders.</description>
+      </process>
+      <process name="Incremental Funding" bprrefid="" solManContentAvailable="" id="12EB3027D33C4A27A6175757E844A8B6">
+        <description>
+					
+						</description>
+      </process>
+      <kpi name="Contract, Program and Channel Management Costs"/>
+      <kpi name="Supply chain finance costs"/>
+      <kpi name="Contract Negotiation Time"/>
+    </scenario>
+    <scenario name="Operational Procurement" id="9256F869F6B7483FADBD307813C9B2DF">
+      <description>
+				The requirements that have been created and released for procurement (for example, demands for spare parts coming from plant maintenance, demands for raw materials determined in a planning run, or requests for office supplies entered by an employee) are transferred to purchasing as purchasing requisitions. They are presented to the purchasing agent in worklists that support him or her in converting the requisitions into purchase orders. The purchasing agent can check the source of supply and the price and conditions that have been assigned to a requisition and start a request for quotation or bidding process if necessary. Release procedures are available to control critical procurement processes.</description>
+      <process name="Complex Sourcing" bprrefid="" solManContentAvailable="" id="00752BAAB48840AB8687411A8D6A6861">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+      </process>
+      <process name="Exercise Options" bprrefid="" solManContentAvailable="" id="17B9391F5F934018B25DBA469005E68C">
+        <description>
+					
+						</description>
+      </process>
+      <process name="Electronic Contract File Creation" bprrefid="" solManContentAvailable="" id="ADD326932B4D44C9BE949B43F3D14080">
+        <description>
+					The solution automatically
+creates and maintains an electronic contract file which contains
+the basis for all procurement decisions; and copies of all
+procurement documents created (PR, RFx, Successful and
+Unsuccessful RFx responses, Contract/PO, Approvals, Receipts,
+Invoices, External Notifications, etc.)</description>
+      </process>
+      <process name="Budget Integration" bprrefid="" solManContentAvailable="" id="61C0D206D4D945D18669728407B2AEB6">
+        <description>The solution provides full integration with funds management.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Procurement for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+      </process>
+      <process name="Order Tracking" bprrefid="" solManContentAvailable="" id="E740FF6C42744FE9AA8E470654CF3E59">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+      </process>
+      <process name="Acceptance at Origin" bprrefid="" solManContentAvailable="" id="D7829C3D96164068A96E99E2DC9F4E0F">
+        <description>The solution supports the process in which a Public Sector entity
+accepts goods at the vendor's plant prior to their later receipt,
+testing, and final acceptance at the Public Sector requestor's
+location. This process is also known as 'Origin Acceptance'.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+      </process>
+      <process name="Acknowledgement And Delivery" bprrefid="" solManContentAvailable="" id="1BBB1A77FF564B92BF5198BB1BED0739">
+        <description>Follow-on activity to purchase order, basis for update of the my
+SAP Financials, stock situation and valuation. Can invoke follow-on
+workflows.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+      </process>
+      <process name="Invoice Verification" bprrefid="" solManContentAvailable="" id="5AC7DB46F5C54FE7A1AF93B687000381">
+        <description>Follow-on activity to purchase order, basis for update of the Includes comparison of conditions and quantities between purchase order, goods receipt and invoice. Basis for updates of accounts payables. Can be followed by release process for invoices. Basis for payment run.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+      </process>
+      <process name="Selective Release" bprrefid="" solManContentAvailable="" id="B8307B17DCB644F8B20341C20741D852">
+        <description>The solution allows a Public Sector entity to release orders (and
+obligate funds) based on a number of customer-defined rules which
+encompass end of accounting period budget availability, value of
+the order, and relative priority of the requirement.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+      </process>
+      <process name="Workload Prioritization" bprrefid="" solManContentAvailable="" id="4592E688170B4923A1660350881A2393">
+        <description>The solution supports the prioritization process. Rescheduling the
+orders after the MRP run, selecting high priority requests to be
+converted to orders.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+      </process>
+      <process name="Workload Reassignment" bprrefid="" solManContentAvailable="" id="6CAC1F4B7117474C9F28A6254E999937">
+        <description>The ability for a manager to transfer workload from one buyer to
+another based upon workload or personnel availability.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Government Procurement for Public Sector"/>
+      </process>
+      <business-objective name="Reduce material and component obsolescence"/>
+      <business-objective name="Better decisions with accurate and up-to-date information"/>
+      <business-objective name="Deploy standard processes to enable 24/7 global engineering"/>
+      <business-objective name="Improve data accuracy and availability"/>
+      <business-objective name="Lower logistics costs"/>
+      <kpi name="Incoming Material Quality"/>
+      <kpi name="Supply chain finance and planning costs"/>
+    </scenario>
+    <scenario name="Procurement Services" id="7556D236376D48D3AEF04263F2A15F22">
+      <description>
+				One part of a procurement
+agencies business is the fulfillment of external customer
+requirements which are covered with this scenario. All processes
+are highly integrated with funds management and an electronic
+records management.</description>
+      <process name="Processing of External Requirements" bprrefid="" solManContentAvailable="" id="F9DD354FFDA1417AB52D1D157F9B0E7F">
+        <description>
+       The scenario starts with material requirements, planning, or sales
+orders to create purchase requisitions. This MRP can take place in
+any legal system. The requisitions are loaded in the procurements
+system via interface. The purchase requisitions are sourced against
+valid sources of supply. Call-offs to existing long-term contracts
+are processed automatically. If no sources of supply are available
+in the system, the solicitation process is started. RFx
+responses from the offerors are evaluated and lead to purchase
+orders. Goods receipt and invoice receipt are entered into the
+system.
+       </description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Procurement for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP NetWeaver Records Management" key="SAP NetWeaver Records Management"/>
+      </process>
+      <process name="Third party processing" bprrefid="" solManContentAvailable="" id="BAADEDFAC93B46609BB6C19E780B3DB6">
+        <description>The required goods are ordered from a vendor but delivered directly
+to the customer. This process is used for non-stocked items. A
+third party purchase requisition is created out of a sales order.
+The purchase requisition can either be sourced against an existing
+long term contract or processed via RFx and RFx response evaluation
+in order to create a purchase order. The goods are delivered
+directly from the vendor to the customer. The invoice is sent from
+the vendor to the purchasing agency.</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Procurement for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP NetWeaver Records Management" key="SAP NetWeaver Records Management"/>
+      </process>
+      <process name="Inventory management and delivery from stock" bprrefid="" solManContentAvailable="" id="0BB93BA33CAD4A3A84B985B20DE2D479">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Procurement for Public Sector" key="SAP Procurement for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+      </process>
+      <business-objective name="Flexible, fast and accurate analysis"/>
+      <business-objective name="Integrate - eliminate redundancies"/>
+      <kpi name="Number of Supply Sources"/>
+      <kpi name="Process Costs"/>
+    </scenario>
+  </scenario-group>
+  <scenario-group name="Public Sector Accounting">
+    <description>
+			Public Sector
+organizations receive and handle money that they receive from
+citizens. Democratic tradition empowers these organizations to do
+so in exchange for close control of all financial processes. Public
+Sector Accounting therefore is one of the most important tasks of
+organizations operating in the public sector. For this reason,
+monitoring the flow of funds from the source via the budget to
+those receiving the service financed by revenues is a core process
+in the SAP Public Sector solution.</description>
+    <scenario name="Budget Formulation and Preparation" id="0DBAFB08E3054CC784FE7CCEF1D8CBED">
+      <description>
+				Whether for public
+sector organizations such as agencies at federal, state, or local
+level, or for the military or universities, the ability to
+formulate a budget according to clear objectives and appropriate
+standards is crucial to obtaining funding and accomplishing the
+organization's goals. The budget describes both the organization's
+objectives as well as the means it will use to accomplish these
+objectives. The following technical
+variant for this business scenario exists: 
+					</description>
+      <process name="Initialize Planning Framework" bprrefid="" solManContentAvailable="true" id="4B2621E4E883493BAB99A61B485F7E23">
+        <description>
+					The budget office enriches the planning framework with historical reference data, defines the deadlines for the following process steps, and triggers the planning cycle by requesting departments to submit a budget plan.</description>
+        <sap-product name="SAP NetWeaver" key="B47"/>
+        <process-feature name="Status and Tracking Management" id="835D188FFBF14DB1A0E8BFDF2EEE13D4">
+          <description/>
+        </process-feature>
+        <variant name="Initializing the Planning Framework" refid="1619A390DA1F11D812D100306E055DA7"/>
+      </process>
+      <process name="Execute Budget Planning" bprrefid="" solManContentAvailable="true" id="32EAC7F3F06F4E468446EB051863B5E0">
+        <description>
+					You use this business
+process in order to create a budget plan which takes into
+consideration the budgetary needs of departments, as well as the
+budget/economic constraints of a public sector organization. For
+ease-of-use, various planning and forecast functions are offered to
+the budget planner.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP NetWeaver" key="B47"/>
+        <process-feature name="Top-Down/Bottom-up Planning" id="97E3E6012E814259897FE75620089983">
+          <description/>
+        </process-feature>
+        <process-feature name="What-if Simulation" id="D785E56EDD624355A4D483911C696835">
+          <description/>
+        </process-feature>
+        <process-feature name="Planning Functions" id="F6B68E0B65A04886B23A4DFE9DC9A146">
+          <description/>
+        </process-feature>
+        <variant name="Executing Budget Planning with BW" refid="C5861610DA1F11D812D100306E055DA7"/>
+      </process>
+      <process name="Approve Final Budget and Transfer to Budget Execution System" bprrefid="" solManContentAvailable="true" id="495F1EA1ACAF4A379B6F071FB90A81DF">
+        <description>
+					When the budget plan is finally approved, it needs to be blocked against further changes. The approved budget is then transferred to the budget execution system.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP NetWeaver" key="B47"/>
+        <process-feature name="Link to Budget Execution System" id="CB3BFAB9CE8B428196039B948C37AF87">
+          <description/>
+        </process-feature>
+        <variant name="Approving Final Budget &amp; Transfer to Budget Execution" refid="299F6430DA2011D812D100306E055DA7"/>
+      </process>
+      <business-objective name="Improve budget processes"/>
+      <business-objective name="Shorten planning cycles"/>
+      <business-objective name="Improve data accuracy and availability"/>
+      <business-objective name="Flexible, fast and accurate analysis"/>
+      <business-objective name="Eliminate repetitive redundant processes; focus on value-adding activities"/>
+      <business-objective name="Better decisions with accurate and up-to-date information"/>
+      <business-objective name="Minimize manual processes"/>
+      <business-objective name="Reduce system maintenance costs"/>
+      <business-objective name="Reduce training costs"/>
+      <kpi name="Cost Estimate Accuracy"/>
+      <kpi name="Budget estimate accuracy"/>
+    </scenario>
+    <scenario name="Budget Execution" id="14733CEDF3284A43B637B7DEA49C8FEF">
+      <description>
+				With an approved budget, an organization is ready to execute its operations, always accompanied by the rules of managing their funds. Business processes flow from commitment stages reflected by funds reservations, precommitments, commitments and fund blockings to invoice processing and payment. Individual organizational requirements determine the steps to be implemented and recorded. Depending on your legal rules, accrual based, cash based or modified accrual based accounting methods or a mix of them are available.</description>
+      <process name="Maintaining Budgets" bprrefid="" solManContentAvailable="" id="E24A81222B3A49188546BB429FE350B7">
+        <description>
+					Approved budgets are maintained during the execution of the
+fiscal year. All changes can be tracked individually. </description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Revenue Increasing Budget" id="2B9358417FC44281B7F3FF1426FB16FB">
+          <description/>
+        </process-feature>
+        <process-feature name="Cover Eligibility" id="F2FC077552864CA9B4144A7143631FC3">
+          <description/>
+        </process-feature>
+        <process-feature name="Budget Transfers" id="D001EA7AED2E4CB49302E194817FB0CA">
+          <description/>
+        </process-feature>
+        <process-feature name="Workflow Enabled" id="038A8F543CAF49B4BE2D859E9BEB51A0">
+          <description/>
+        </process-feature>
+        <process-feature name="Supplements &amp; Reductions" id="FFEE2A1C0FB94B9AA4AABF67EDF25E1C">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Procurement" bprrefid="" solManContentAvailable="" id="6FC1CB20B1D3468DBB5FFB03E39CC3E1">
+        <description>Procurement fully integrated with budget execution is at the heart of Public Sector budgetary accounting. Commitment handling ensures a seamless process flow.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Availability Control" id="E2B008D7F23E442599AB727E02050D8E">
+          <description/>
+        </process-feature>
+        <process-feature name="Commitment Handling" id="5008E4BC84BB407A9C9B033B7D5B0DE6">
+          <description/>
+        </process-feature>
+        <process-feature name="Invoice/Request Processing" id="B3513BBF588C44A9AE078C5C762910AD">
+          <description/>
+        </process-feature>
+        <process-feature name="Integrated Logistics /Asset Accounting" id="FDEEE5B5CB7F4902845D18C5B5945507">
+          <description/>
+        </process-feature>
+        <process-feature name="Travel Accounting" id="A4E26032477D48678655113D2EDC41E9">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Revenue Accounting" bprrefid="" solManContentAvailable="" id="B0327DA52799482B826F846312C0CE60">
+        <description>Revenue Accounting is fully integrated with budget execution. Public Sector specific legal requirements and procedures are considered.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Invoice/Request Processing" id="98951B0D9AA845E69303F1D4B2ACE0E7">
+          <description/>
+        </process-feature>
+        <process-feature name="Integrated Sales &amp; Distribution" id="26CB36E46F4749F2889BF371024602F5">
+          <description/>
+        </process-feature>
+        <process-feature name="Dunning" id="3F6139539AF543EAB0D147D6EB854C60">
+          <description/>
+        </process-feature>
+        <process-feature name="Collections Management" id="D470FE73775D46C29BF8CC4D1A59D763">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Accounting for HCM" bprrefid="" solManContentAvailable="" id="485234861CFA4C1EA6CB5038DFD809C8">
+        <description>From committing budget for planned positions to paying employees,
+the integration of HCM processes with budget execution assures that
+the single largest block of expenditures is seamlessly reflected in
+budgetary and financial accounting. </description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Payroll Accounting" id="09E57749A3D74D1E86588FA2A82BCDB7">
+          <description/>
+        </process-feature>
+        <process-feature name="Personnel Expenditure Budgeting" id="8E1DC8D81B5F462CB6E11302FA731177">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Closing" bprrefid="" solManContentAvailable="" id="B16447F197894E5FACC4570ACB2340B7">
+        <description>The closing process includes both preparation, calculation and valuation tasks, as well as reporting in the areas of budgetary, management and financial accounting.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Reconciliation" id="67CFD4EEE2D04ECD9947F71E10B54E3A">
+          <description/>
+        </process-feature>
+        <process-feature name="Reporting and Financial Statements" id="4A06EABB4FD248CD88C6BE0152D933E5">
+          <description/>
+        </process-feature>
+        <process-feature name="Period-End Closing" id="535DFF8C530A4912A461305D8D5C4BB3">
+          <description/>
+        </process-feature>
+        <process-feature name="Year-End Closing" id="78AA7A1FEFF24ED5944D1D4CC496204B">
+          <description/>
+        </process-feature>
+      </process>
+      <business-objective name="Improved transparency and auditability of activities"/>
+      <business-objective name="Reduce administration, improve business processes"/>
+      <business-objective name="Improve accounting processes"/>
+      <business-objective name="Better management and control of public funds"/>
+      <kpi name="Legal and contractual compliance"/>
+    </scenario>
+  </scenario-group>
+  <scenario-group name="Social Services and Social Security">
+    <description>
+			Social Services are
+prevention, intervention and treatment services provided to
+individuals and families who need assistance in maintaining or
+achieving their full potential for self-sufficiency and healthy
+independent living. These services promote and protect the
+physical, mental, spiritual, social and economic well-being of
+individuals and families.  Social Security is a system
+that acts as a safety net for all citizens in a country. It is a
+program that uses public funds to provide a degree of economic
+security for the public. It is paid by every employee and therefore
+supports everyone who meets certain entitlement criteria.</description>
+    <scenario name="Outreach" id="3B410CD8CA5642299D441E94C9C2AE32">
+      <description>
+				The strategies,
+management, and actions that ensure the Social Service Agency has
+the ability to  identify, contact, and communicate with prospective
+clients and potential providers in order to provide awareness of
+the internal and external services and social programs it has to
+offer. This can be done locally, regionally,countywide, statewide,
+or at the federal level.</description>
+      <process name="Campaign Administration" bprrefid="" solManContentAvailable="" id="E40D5BE8DA174FF7A6ADF59C8C89429B">
+        <description>
+					A Social Services
+campaign is often divided into two categories; one is to acquire
+resources for existing programs, while the other is to raise
+general awareness of existing programs and services.An example of the first
+one is the recruitment of prospective foster parents or day care
+providers. An example for the second would be the building of
+public awareness around the services of the child support
+enforcement program. This would draw citizens attention to an area
+of entitlement that they might not realize they are automatically
+eligible for.  In order to conduct an
+external campaign, there are several ways and means to do this,
+this could involve various types of media including, but not
+limited to: newspaper advertising, a blurb on the Agency website,
+billboards, and radio advertising. The
+administrative challenge requires a clear definition of the
+campaign’s objectives and progress indicators, in order for the
+effectiveness of the campaign to be evaluated.     </description>
+        <process-feature name="Marketing / budget planning" id="927AF208D89D4DA0B758DA2E641C5834">
+          <description/>
+        </process-feature>
+        <process-feature name="Campaign / planinng and modeling" id="DF5BE35D6B8247E995099777512630D8">
+          <description/>
+        </process-feature>
+        <process-feature name="Market Research" id="CE837619338040D1A3AB9DD664403286">
+          <description/>
+        </process-feature>
+        <process-feature name="Project Management" id="36B85F6AE22B4E57ADCF367997A4E335">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Prospect Identification" bprrefid="" solManContentAvailable="" id="E5DA17AE85A74AEE99A0A207F46783DF">
+        <description>
+					Once various clients groups have been determined, potential customers or service providers who might be interested in the campaign are targeted.</description>
+        <process-feature name="Segmentation of potential audience" id="8976D25A55A445ED93F3865B776379E9">
+          <description/>
+        </process-feature>
+        <process-feature name="Target group optimization" id="1963AF2CEF924D4BAA225983A132AF66">
+          <description/>
+        </process-feature>
+        <process-feature name="Target group analysis" id="57792F13E7E84E7BA27190A25D2B01EB">
+          <description/>
+        </process-feature>
+        <process-feature name="List Quality" id="0DC6C9D6DFC04360A315CB04104B4CEF">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Marketing and Advertising" bprrefid="" solManContentAvailable="" id="14D3CF137A3F4E45B1AACC4E51B11B62">
+        <description>
+					The work involved in trying to reach the organization’s target market and make them aware of their products and services. This can include an objective of the campaign, identifying target audiences, creating a message statement, and selecting the appropriate medium and timing for issuing the message. Objectives could include making a specific group aware of the organization and defining who is suitable for its products.</description>
+        <process-feature name="Marketing channel management" id="DBA589D62DE548D9B2A38E91C4B37CA2">
+          <description/>
+        </process-feature>
+        <process-feature name="Marketing Calendar" id="081AC9C6546241EC9B5D1359F06BE94C">
+          <description/>
+        </process-feature>
+        <process-feature name="Marketing Brief" id="7A9BCBEE930F48D693E728F6AB421D3A">
+          <description/>
+        </process-feature>
+        <process-feature name="Scenario Planning" id="EFB004093B5A4FEAB7110817264A7224">
+          <description/>
+        </process-feature>
+        <process-feature name="Market Research" id="F06B8CD09B5548B48883A1AA424F2B8F">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Campaign Execution and Evaluation" bprrefid="" solManContentAvailable="" id="29A205B9A22741C093825F0BF96A1573">
+        <description>
+					
+						</description>
+        <process-feature name="Multi channel campaign execution" id="721AFADE7E2B4EF18B859B7934E76637">
+          <description/>
+        </process-feature>
+        <process-feature name="Multi wave campaign execution" id="89882F11F2FF42BDAF7DA07B2A50B978">
+          <description/>
+        </process-feature>
+        <process-feature name="Interactive scripting" id="611E9FFF553342B9B50409326FE4C58D">
+          <description/>
+        </process-feature>
+        <process-feature name="Campaign ROI" id="8EDC0913DD464958A22FAEA3D860C331">
+          <description/>
+        </process-feature>
+        <process-feature name="Campaign Analysis" id="4E6328874EEB4CE59D8113F9F6FDB84A">
+          <description/>
+        </process-feature>
+      </process>
+      <business-objective name="Improve service speed"/>
+      <business-objective name="Increase access to information for disabled"/>
+      <business-objective name="Better decisions with accurate and up-to-date information"/>
+      <business-objective name="Increase collaboration (internally &amp; externally"/>
+      <business-objective name="Improve capacity utilization"/>
+      <business-objective name="Faster access to relevant information"/>
+      <kpi name="Percentage of Inquiries taken over the Internet"/>
+      <kpi name="Contact Efficiency"/>
+    </scenario>
+    <scenario name="Relationship Management" id="38C45B2A2070483597228044C057E46C">
+      <description>
+				Acquiring new
+information, reusing and confirming  existing information, making
+informed  decisions about clients, service providers and/or
+employers. Determining which set of benefits or services are best
+suited to the clients needs and then processing those
+needs internally or via community referrals.</description>
+      <process name="Master Repositories for Relationships (Client, Employer, Service Provider, Employee)" bprrefid="" solManContentAvailable="" id="EDDCAD0913B94667BD25A77D70860EB9">
+        <description>
+					This is the master
+database of information about each type of relationship contained
+in the Social Service system. This is the data associated with a
+specific relationship regardless of the separate social service
+program or process being supported by the application software. The
+information is both specific to a given entry, and also provides
+for the definition of interrelationships and/or groups of entities
+(e.g. benefit group, family, provider organization, etc.).</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Management of individual records for clients, service providers, employers, employees,families, households" id="F7A02686C03A4AD38E4006D132670314">
+          <description/>
+        </process-feature>
+        <process-feature name="Easy enhancement of individual records by adding new data sets/fields depending on mandatory data sets needed for specific social programs" id="A2758673F17D45B2B2FEEA9B935819A3">
+          <description/>
+        </process-feature>
+        <process-feature name="Management and visualization of interrelationships between individual entities" id="4456CD0340B84A598DC5280692DAC908">
+          <description/>
+        </process-feature>
+        <process-feature name="Time-dependent management of individual record data" id="2D7B017AB58F434097173D5AAE6A478F">
+          <description/>
+        </process-feature>
+        <process-feature name="External ID number (e.g. SSN) to identify clients and providers on all relevant screens" id="3F591D610B45411FA00917DF5C4C85AD">
+          <description>
+						 </description>
+        </process-feature>
+        <process-feature name="Predefined process-specific roles for clients and service providers (e.g. applicant, non-custodial parent)" id="E85E93802C2948099C189BFE95C4849D">
+          <description/>
+        </process-feature>
+        <process-feature name="Client overview page" id="2A68E98C19784E2BAD39BC890D8D637A">
+          <description>The client overview page displays a summary of the most important
+information about a client and his relations to other persons or
+organizations.</description>
+        </process-feature>
+      </process>
+      <process name="Account Management" bprrefid="" solManContentAvailable="" id="E53859D4D223489BBBC5DFF58498C687">
+        <description>
+					The management and
+tracking of financial transactions at client account level in a
+manner that reflects all transactions across any programs from
+which the client receives services or benefits.</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Individual client and service provider accounts" id="90DC3177803247F99E16708FBF33E741">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Service Provider Management" bprrefid="" solManContentAvailable="" id="4CDAEA7265384888B1C099B3D0DB6925">
+        <description>
+					The daily actions
+carried out in order to manage an organization’s collection of
+service providers, such as managing the number and type of
+contracts and performance level agreements. Please also evaluate the
+following SAP Business scenarios:  </description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+      </process>
+      <process name="Provider/Client/Employer Registration" bprrefid="" solManContentAvailable="" id="247C76B5D93F476DA117BCA927D646FE">
+        <description>
+					The step that is the start of a relationship with an organization. For example, this could be when a social insurance scheme is joined (even if that is through an employer) or when a claim is made for the first time.</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Customizable search functionality" id="0E50A4D070C341BCAA75EBB1A593CF91">
+          <description/>
+        </process-feature>
+        <process-feature name="Ad hoc or process-embedded creation and search of records for new clients/providers/employees" id="F62451E714144AF5AAE4CE71CAE1EE69">
+          <description/>
+        </process-feature>
+        <process-feature name="Client registration process" id="AA5D01316C4E4923A3498CF7E7B604E5">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Activity Management" bprrefid="" solManContentAvailable="" id="FA0B027FFF4844ACAA93551BE189C759">
+        <description>
+					Tracking and controling
+the status, workflow and follow-on tasks of all actions as they
+move through an organization’s systems and processes. For example,
+a case can be tracked as it moves from registration to screening,
+validation, eligibility, entitlement and financial transfers
+including the workers involved in each stage of the process.
+example- child support verification ....</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Plan, assign, document and control tasks and activities" id="A78E2B40C3E14C3A8CAC83DD823548FC">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Application" bprrefid="" solManContentAvailable="" id="B42C42C31C624578B9F48C28E854FA34">
+        <description>
+					Application of the
+client for social benefits &amp; services.The application can be a
+result of an intake process, e.g. via a personal contact.If the client directly
+submits an application form (on paper or via internet), the
+application is now embedded and elimates duplicate entries.The selection and
+approval of benefits &amp; services can be executed based on the
+application. In this case, the resulting benefits &amp; services
+will be transferred to the service plan. </description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Individual application forms &amp; processes" id="76C17964050D4B9AA87C42182D654136">
+          <description/>
+        </process-feature>
+        <process-feature name="Automatic validation of application incl. exception activity" id="29F7177E67A84BCA85402D548BC91C6F">
+          <description>
+						 </description>
+        </process-feature>
+        <process-feature name="Automatic creation of line items containing benefits based on eligibility result" id="D821A5979AAC4C53AFAB71F2BB211B17">
+          <description/>
+        </process-feature>
+        <process-feature name="Authorization control based on organizational assignment" id="9F362A8BDEB140F3AEE0B6D566F8D3C5">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Screening and Intake" bprrefid="" solManContentAvailable="" id="C882EE42B0E2454F8422B116B8ABBE55">
+        <description>
+					The process of
+collecting information from a party, such as a prospective client
+or, service provider. This would involve obtaining key information
+from a prospective client  when an application been initiated. This
+information would be used in the screening process, to determine
+program and service eligibility.The review of
+information against a series of services and benefits across social
+programs to determine what is believed to be an appropriate
+“bundle” to meet the client needs.</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Design of individual intake forms" id="D5E086582E3E411C940DE98A5B65F516">
+          <description/>
+        </process-feature>
+        <process-feature name="Definition of specific processes incl. user interface" id="7710B5ADB9F74CA3928EAC5F40E1E10D">
+          <description/>
+        </process-feature>
+        <process-feature name="Data transfer from intake form to individual records" id="1C4925D02F4D4FCCA274286386D918FC">
+          <description/>
+        </process-feature>
+        <process-feature name="Predefined intake form" id="5C047A6B920148BC967386DEBCA55C3A">
+          <description/>
+        </process-feature>
+        <process-feature name="Dynamic intake forms in question &amp; answer style" id="BD2BA03AE97C4F5591B612840A7160AD">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Referral" bprrefid="" solManContentAvailable="" id="5250B4CFF99D49A390FD23B68894AF25">
+        <description>
+					Connecting a client, supplier, or partner with another product or supplier that enables them to meet additional requirements . This may be in the form of self-referrals, program or case worker stipulated-referrals, workflow referrals, or coordinated service delivery referrals.</description>
+        <sap-product name="SAP NetWeaver Exchange Infrastructure (SAP XI)" key="B21"/>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Individually adjusted referral forms (inbound &amp; outbound)" id="0F8979CC978F455298C5B0D3F7BF73A9">
+          <description/>
+        </process-feature>
+        <process-feature name="Documentation of referral incl. details" id="CD6CAACB2BB04BB9BE4B1BC7C21256F1">
+          <description/>
+        </process-feature>
+        <process-feature name="Predefined referral form" id="4273196D4EAA464ABE96A0C9707AB750">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Assessment" bprrefid="" solManContentAvailable="" id="47634572CD964B3A90444C11FDF99A47">
+        <description>
+					Formal tests and
+evaluations that provide information required to determine
+eligibility. This may include skills tests, medical evaluations,
+and financial status checks.</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Specific assessment forms &amp; screens using Adobe incl. data prepopulation and result upload" id="614C4A132304408A98BB2E62DAD1CD7D">
+          <description/>
+        </process-feature>
+        <process-feature name="Predefined assessment form" id="7F464D2613424FDE90F3F4D55C82F3EE">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Notifications" bprrefid="" solManContentAvailable="" id="3901F9C713DC45BC928949BA73C8AC71">
+        <description>
+					Outbound communications
+with the organization’s clients , service providers, or other
+partners . Notifications are not restricted to a particular method
+. They can be letters, forms, e-mails, or conversations between a
+client and a contact center agent.</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Multi-channel communications" id="37A4913364794A038BDB65AB9AFE6C2E">
+          <description/>
+        </process-feature>
+      </process>
+      <business-objective name="Enable customers to communicate using preferred channel"/>
+      <business-objective name="Improve data accuracy and availability"/>
+      <business-objective name="Better decisions with accurate and up-to-date information"/>
+      <business-objective name="Lower communications expenses"/>
+      <business-objective name="Optimize customer interaction"/>
+    </scenario>
+    <scenario name="Social Case Management" id="4F99789AC7D041C380248BB3E5AA807D">
+      <description>
+				All aspects
+of delivering services and benefits  to meet the client’s or
+provider's needs. Social Case Management involves a set
+of predetermined processes and functions that apply throughout  the
+lifespan of a case. The way in which these processes are
+implemented can vary according to the case, but the underlying 
+tools, principles and procedures remain the same.</description>
+      <process name="Master Repository for Cases" bprrefid="" solManContentAvailable="" id="A0A15C0CDBDC4081937F5EFC34028C2D">
+        <description>
+					A case is a specific
+instance relating a client/employer/service provider to a given
+program or set of programs. There are several types of cases, such
+as Single Program Case and Integrated Case of all (benefit)
+Programs for a given client (or a household).In addition, there may
+be cases created for other purposes: example: Appeal Case for
+issues on the core  case, a foster care case, or a child support
+enforcement court case case.The repository is a
+master database containing  the case-specific information for all 
+the  types and subsets of cases for all of the programs supported
+by the social services system. The capability to interrelate cases
+is necessary (e.g. Appeal Case to Benefits Case being
+appealed).</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <sap-product name="SAP NetWeaver Exchange Infrastructure (SAP XI)" key="B21"/>
+        <process-feature name="Case types, case categorization and case hierarchy" id="29EDA2EB8F66438FABE5E3E59A830FC3">
+          <description/>
+        </process-feature>
+        <process-feature name="Case notes" id="9E8EE606E9D6473EA531E5CE1742B729">
+          <description/>
+        </process-feature>
+        <process-feature name="Enhancements to case categorization (additional metadata, references, transport &amp; merge of categrories)" id="E4ABACAA33CA408989EFF1BF68B23678">
+          <description>
+						 </description>
+        </process-feature>
+        <process-feature name="Case import &amp; export for transport between social departments" id="F45DA8CFFE434BE08543C5A8E9C4D6CF">
+          <description/>
+        </process-feature>
+        <process-feature name="Case closure process/check list" id="B57AA4EE3BBC4F22815DB6775CB115B7">
+          <description>
+						 </description>
+        </process-feature>
+        <process-feature name="(Re)-assignment of cases and. authorization control" id="2D2F9312577D4AE5B31113E84EC6E4E8">
+          <description/>
+        </process-feature>
+        <process-feature name="Case archiving" id="B6F9BBC0750C4FEBBBB5CD561CFC98C2">
+          <description/>
+        </process-feature>
+        <process-feature name="Documentation of events and activities" id="DBA0FA51D05D4420B22971B01473F1CA">
+          <description/>
+        </process-feature>
+        <process-feature name="Visualisation of case interrelations" id="B714CCC61EB24296A1F18245813304B4">
+          <description/>
+        </process-feature>
+        <process-feature name="&quot;Light&quot;-version of case representation for external case management systems" id="ADEAF76C691144939A9FC44B72CDEDE7">
+          <description>
+						 </description>
+        </process-feature>
+        <process-feature name="Predefined case types for single-program case and integrated case" id="7CC5AE753A404F958E40704FA7222511">
+          <description/>
+        </process-feature>
+        <process-feature name="De-Identification of Cases" id="823B3A94EFC345DFB69EC878DD13A2C3">
+          <description>
+						 </description>
+        </process-feature>
+      </process>
+      <process name="Activity Management" bprrefid="" solManContentAvailable="" id="4DADDAA3AB1C45EB996EF44D422060D5">
+        <description>
+					Tracking and controling
+of the status, workflow and subsequent actions of all activities as
+they move through the organizational system and it's
+processes. </description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Definition &amp; monitoring of tasks and activities" id="F676BF802D8043DFAA5E2B241ADEC668">
+          <description/>
+        </process-feature>
+        <process-feature name="Predefined work processes" id="59B6F1611E6A4702ABA638BE4DF537F7">
+          <description/>
+        </process-feature>
+        <process-feature name="Definition of follow-up tasks/alerts/notifications based on events subscription mechanism" id="3F82A086142440189249B2ABCB0B19B5">
+          <description>
+						 </description>
+        </process-feature>
+        <process-feature name="Automatic re-assignment of a case to responsible staff member" id="2B00DDF53F98429DA3E04279DF84B2CC">
+          <description>
+						 </description>
+        </process-feature>
+      </process>
+      <process name="Records and Document Management" bprrefid="" solManContentAvailable="" id="EFB06B597F2B455CBF809604CB1D3B9E">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Management of documents in a structured case-record" id="FD408012880F4FBC9BF94604C78515EF">
+          <description/>
+        </process-feature>
+        <process-feature name="Assignment of transactional system documents to the case" id="22B0855B04FE4921A11F648F049216DA">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Validation" bprrefid="" solManContentAvailable="" id="2FBF7FC710BC4271957E09BA912968B2">
+        <description>
+					
+        The confirmation of the
+information/verification gathered from the client(s) or prospective
+provider during the Intake phase.Validating changes and information
+provided to an ongoing case. Validation may focus on confirmation
+of a customer’s income and assets or a providers license.
+        </description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Assignment of documents to case via a structured record" id="F56B06A5DE084C7D9ECA3E58EB11541E">
+          <description/>
+        </process-feature>
+        <process-feature name="Case status management to control validation" id="144FD19E4A9D44D2991BFEC9017EC65E">
+          <description/>
+        </process-feature>
+        <process-feature name="Case notes for documentation purpose" id="5C2EC6D14B5047CD9D60ABE19F8B5F64">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Benefit and Service Eligiblity Determination" bprrefid="" solManContentAvailable="" id="8F2C05965F4A463A923FA038AD03C05F">
+        <description>
+					Due to the different types
+of benefits and service programs in the Social Services/Social 
+Security arena, there are many ways of implementing service
+delivery.A group of tasks are
+combined into a service plan, (alos known as a case plan), for an
+individual or household. The case plan is a yardstick to define the
+desired outcome for the client, and to measure progress on  the
+clients part.</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Rule-based eligibility Determination" id="057FCBA2DFDC4454B1511960BE900B74">
+          <description/>
+        </process-feature>
+        <process-feature name="Eligibility Protocol" id="CB1B5F8973894AE79048A40F7EE997C5">
+          <description>The eligibility protocol documents each eligibility run by
+providing information about the input data of the eligibility run,
+a rules processing log and the results of the run.</description>
+        </process-feature>
+        <process-feature name="Execution of eligibilty rules" id="0040D0BD56514DB19158534C089B938C">
+          <description/>
+        </process-feature>
+        <process-feature name="Automatic determination of benefits &amp; services" id="685C96D4254F493489C949386C85A9BB">
+          <description/>
+        </process-feature>
+        <process-feature name="Ability for cross-scanning existing ongoing programm eligibility (e.g. for detecting conflicting benefits)" id="5FA97E4357314FEB8C798454E9838AC1">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Benefit and Service Delivery/Service Plan" bprrefid="" solManContentAvailable="" id="63F45F84D68B4A0DB605F49568FDD1D2">
+        <description>
+					This is the phase where the
+worker applies all the  information gathered from application
+registration process in order to determine eligibility. This
+includes the intake interview and screening process which the
+information is then validated against the program(s) rules. When
+the actual delivery of benefits and/or services occurs, they are
+ defined in a service plan (aka case plan) for the client.
+Depending on the type and level of benefits and services, different
+ways of delivering them are required. </description>
+        <process-feature name="Standard service plan" id="277450525F15470299BDEC95012E5DE2">
+          <description/>
+        </process-feature>
+        <process-feature name="Service plan customized for social service purposes" id="18F42D29E2FA48869D26518B575BEC50">
+          <description/>
+        </process-feature>
+        <process-feature name="Check of existing service plan item against eligibility rules" id="E4BDDA9A8B2B4F69B390AF7DF93381A1">
+          <description/>
+        </process-feature>
+        <process-feature name="Automatic creation/assignment of service plan triggered by application process" id="F813695A364B420A9FE9FB7619ECB6C9">
+          <description>
+						 </description>
+        </process-feature>
+        <process-feature name="Authorization control based on organizational assignment" id="E35D58410AC4433BB1DAB276967B2D89">
+          <description/>
+        </process-feature>
+        <process-feature name="Automatic update of Service Plan with eligibility results" id="7AD44EDD73F74EBB89E7215DAC82AD32">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Recertification &amp; Outcome Management" bprrefid="" solManContentAvailable="" id="B55FE5F3D0724934A83B5EB1400F1257">
+        <description>
+					
+						Recertification is ased
+on individual or household cases, and ensures that the benefits and
+services being delivered to clients and providers achieves the
+desired outcome.</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Activity Management" id="A1EED98F7ECC4B9EA02302F902C685F2">
+          <description/>
+        </process-feature>
+        <process-feature name="Measurement of Benefit and Service Delivery" id="37DDFE56D3304B09991E0E595048A016">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Communication" bprrefid="" solManContentAvailable="" id="5F532684A71341DFB2F29893BBA74C1C">
+        <description>
+					Case related
+communications will facilitate the sharing of information with both
+external and internal customers. Various means of communication
+will be supported, e.g. mail, e-mail, browser/web, and telephone.
+Preferred method of communication can be specified. Communications
+can be one of a variety of choices: from “pre-defined/canned
+notifications”, to forms/templates with “fill-in the blanks”, to
+free-form. Combinations of single or multiple communications into
+one “physical” communication to be transmitted/mailed are
+supported. Customer notices will be produced in multiple languages,
+e.g. English and Spanish.</description>
+      </process>
+      <process name="Change of Circumstance" bprrefid="" solManContentAvailable="" id="6B402A52769846128C3CDF711EE72D8A">
+        <description>
+					The notification to the organization of changes to a client’s
+situation that may impact eligibility for services, funding, or
+entitlements.</description>
+        <process-feature name="Registration offollow-up activities for defined business events" id="AC466B50AA7944C19D2FB6ADBDA92E3F">
+          <description/>
+        </process-feature>
+        <process-feature name="Data transfer from change notification to Business Partner record" id="3CC1D7BEF99C48E6A6AAF5032109544C">
+          <description/>
+        </process-feature>
+        <process-feature name="Predefined change notification &amp; process" id="AEDBC0BDFA4D4D52B3BFAF845FC76D55">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Appeals Monitoring" bprrefid="" solManContentAvailable="" id="BB89A7CB342B4F54B5E88D70D8BA2684">
+        <description>
+					The activities involved
+in tracking the status of all appeals as they move through the
+organization, including their eventual resolution and  required
+follow-up activities. This is in addition to any monitoring that
+would  occur at  case management level.</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Activitiy Management" id="07B4727F8737421D95EC882C989CE304">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Case Supervision" bprrefid="" solManContentAvailable="" id="0B0DFFE9FDB14C73BC6C17DCFACF1848">
+        <description>
+					The monitoring of case work
+by a supervisor. This could include assigning agents to a case, and
+ensuring that issues are being identified and elevated to the
+appropriate level of responsibility and authority as needed.</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Manual assignment of staff member to case" id="00EADF4E249545C093EF25B802FC35D9">
+          <description/>
+        </process-feature>
+        <process-feature name="Automatic assignment of staff members to case based on defined rules" id="F1502BADED324FAE8F8FF291CB661B7E">
+          <description/>
+        </process-feature>
+        <process-feature name="List of overdue tasks" id="EAA4AE90FCEA4676AEDC2D9192788114">
+          <description/>
+        </process-feature>
+        <process-feature name="Notification of supervisor about overdue tasks" id="5DDBBD38FCDD44BDA12805A4AABEEDDC">
+          <description/>
+        </process-feature>
+        <process-feature name="Caseload overview for supervisor" id="DEF33A8FE1DE4E8992EC9AA92B8D7447">
+          <description/>
+        </process-feature>
+      </process>
+      <business-objective name="Automate - eliminate errors due to manual processes"/>
+      <business-objective name="Improve productivity of agents"/>
+      <business-objective name="Improve document control, integrity and retention"/>
+      <business-objective name="Provide decision support"/>
+      <business-objective name="Improve transparency and auditability of activities"/>
+      <business-objective name="Improve auditability of information and actions"/>
+      <kpi name="Cases per FTE"/>
+    </scenario>
+    <scenario name="Financial Management" id="6208B32BDAA54D21A5C6D706F7555D43">
+      <description>
+				The financial aspects
+that support the Social Service and Social Security organizations
+in order deliver programs and benefits. Financial transactions and
+decisions are made in individual cases, or by program, or via multi
+program.</description>
+      <process name="Payment Processing" bprrefid="" solManContentAvailable="" id="210D60FBB6E54D16B5E48D4A8F2F8940">
+        <description>
+					This process defines the
+steps for Social Services agencies to issue payments to external
+parties. Two major scenarios can be named here: the delivery
+of direct financial aid to clients, who have been deemed eligible
+for benefit payments and the payment for services delivered by
+third party service providers to the client. Program-related benefit
+payments are calculated and generated in context of client cases. A
+case may involve multiple outgoing payment instructions to several
+involved parties. Payment Instructions bear financial details
+regarding amount, schedule, method (i.e. bank transfer or check),
+currency, tax, surcharges and many more. The actual
+financial transactions are managed and executed via individual
+client accounts, featuring structured payment history between the
+organization and the concerned parties. Key process steps include
+controlled deduction of regular benefit payments to cover open
+liabilties as well as payments to third parties. Payment to service
+providers are usually triggered, when the third-party services have
+been delivered. The responsible service provider sends in an
+according invoice, which is entered and verified against the
+services ordered. If no major discrepancy is detected, the invoice
+amount will be posted on the service provider’s financial account,
+from where the payment to the provider is issued. Another form of
+provider payment is the purchase of a contingent of services, e.g.
+foster home capacity. In that case, payment execution could already
+take place in advance to the actual service delivery.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Client and Third Party Account Management" id="03A2A3CE63AD4BC1BE3C68F6298E35B9">
+          <description/>
+        </process-feature>
+        <process-feature name="Multi-Channel Payment Execution (EBT, Check, Cash etc.)" id="27E54C76F40245FAB37FCBFDA786F057">
+          <description/>
+        </process-feature>
+        <process-feature name="Mass Payment Processing" id="BADFEB9F370C4126A5F8FC38F21F8986">
+          <description/>
+        </process-feature>
+        <process-feature name="Payment History" id="6CD105B6DF4F4D3D9602932066023BF3">
+          <description/>
+        </process-feature>
+        <process-feature name="Payment Approval" id="30D4A7B1F2EE4571994D3117413D689B">
+          <description/>
+        </process-feature>
+        <process-feature name="Deduction Processing" id="A4ACA9667B514C72A1D4BEDF4AE0B01C">
+          <description/>
+        </process-feature>
+        <process-feature name="Third-Party Payment (e.g. payment to utilities and tax authority)" id="601493EED15D4BBBB4719516E56DCA20">
+          <description/>
+        </process-feature>
+        <process-feature name="Provider Invoice Processing" id="DD125EA1AAF944E79D291D9D0562A0C0">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Collections &amp; Liability Management" bprrefid="" solManContentAvailable="" id="46759A75021E42ED9612FEA40CADD749">
+        <description>
+					While payment processing
+deals with the management of outgoing payment to client, the
+collection and liability management cover the management of
+receivables from clients.  The process ensures that
+open liabilities are properly posted to the client account and that
+an invoice is sent to the client.  Upon incoming payment from
+client, the received money will be allocated to the appropriate
+liabilities.  Additional activities involve clearing of open
+liabilties on the client account through deductions
+or write-offs, in case a payment by the client cannot be
+expected. An overpayment situation can occur when the circumstances
+of living of a client changed, which have a negative impact on
+his eligibility for benefit payment . In that case, the overpaid
+money is considered as a liability and then subject to collection.
+  </description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Account Reconciliation (Repayment, Refund, Open Item Management)" id="978A46B747A14D838ABD1CC1875BE5FB">
+          <description/>
+        </process-feature>
+        <process-feature name="Overpayment Processing" id="FCD3190AD233405BABDF29CA878D805D">
+          <description/>
+        </process-feature>
+        <process-feature name="Invoice Printing" id="5656C54952AE42328260F6CCDF438E5C">
+          <description/>
+        </process-feature>
+        <process-feature name="Receipt Allocation" id="572A7EBF813A482B9B4F3F3A65AEEC36">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Debt Management" bprrefid="" solManContentAvailable="" id="9CE306E4C93940108772E95E2A7AC82C">
+        <description>
+					Process by which the
+organization actively reaches out to the concerned parties to
+collect its funding or receivables. Activities could be carried out
+through different channels and also involve third parties.
+Dependent on the actual social program and scenario, different
+measures could be taken (e.g. block grants, tax  repayments
+etc.).</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Handling of overdue items (e.g. dunning)" id="F2763C56A149467C8AC188BC607C36EC">
+          <description/>
+        </process-feature>
+        <process-feature name="Risk Management" id="ED198790247A4B24A15C426BB8AB70E5">
+          <description/>
+        </process-feature>
+        <process-feature name="Financial Statement" id="A9F1D0E9DBA24FCBBA0EF82FB74988EC">
+          <description/>
+        </process-feature>
+        <process-feature name="Debt Recovery" id="D9B763F2A578491BA04048FD25A77C0A">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Contribution Management" bprrefid="" solManContentAvailable="" id="D09244705BEC45AFB896A1B59C214EE5">
+        <description>
+					Contribution-based programs
+require well-defined processes to calculate, collect, manage and to
+re-distribute regular receipts from clients. Detailed payment
+history as well as insurance information are mandatory to keep
+record of the client's regular contribution. These contributions
+can either be paid individually by the clients or as a collective
+payment e.g. done by the employers. In the second case, the
+collective payment has to be divided and re-assigned to the partial
+amounts and individual accounts of the single employees.</description>
+      </process>
+      <process name="Budget Compliance &amp; Cost Accounting" bprrefid="" solManContentAvailable="" id="9563B772EF2D43C49A632DE06A52CBDE">
+        <description>
+					 See also Business
+Scenario:
+						 </description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="General ledger Accounting" id="B8A3F7313A33425498AFE8383B1EE59F">
+          <description/>
+        </process-feature>
+        <process-feature name="Cost Center Accounting" id="73D136E872E3421EB95EC242E9F500F1">
+          <description/>
+        </process-feature>
+        <process-feature name="Funds Management" id="BA93CA33AAE04826ACF3A5EF3AD99919">
+          <description/>
+        </process-feature>
+      </process>
+      <business-objective name="Improve budget processes"/>
+      <business-objective name="Improve transparency and auditability of activities"/>
+      <business-objective name="Improvement of regulatory compliance"/>
+      <business-objective name="Improve capacity utilization"/>
+      <business-objective name="Improve accounting processes"/>
+      <business-objective name="Better management and control of public funds"/>
+      <business-objective name="Increase data transparency"/>
+      <business-objective name="Assure levels of privacy"/>
+      <business-objective name="Automate - eliminate errors due to manual processes"/>
+      <kpi name="Administration Costs Reductions"/>
+      <kpi name="Average Receivables"/>
+      <kpi name="Personnel Costs per FTE"/>
+    </scenario>
+    <scenario name="Administration Management" id="12CC7DC7BF7A48FBBCFF60B9E88A30D1">
+      <description>Administrative management is the overall running and performance of
+the agency. Administratively all processes and mandates must be
+overseen both internally and by a governing agency to ensure that
+rules and compliance meets the standards set for them.</description>
+      <process name="Program Management" bprrefid="" solManContentAvailable="" id="E5C21C96561C4A66BDB7E8DFE8F64776">
+        <description>
+					Define, maintain, and
+manage all of the programs in the operational social services
+application system. A “program” is a service or benefit provided by
+the organization to needy citizens,  onging clients, employees,
+employers, and/or service providers. Programs for clients provide a
+benefit or service to the client (e.g. income support or protective
+services). Programs for employees provide for the interaction with
+employees for a specific purpose, e.g. social security information.
+Correlation to rulesets, workflows, and other system capabilities
+are defined and maintained and allow for changing and
+activating/deactivating online.</description>
+        <process-feature name="Hierarchical program structure for social programs" id="AE460DEB87414C9D845278055B538932">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Organization Management" bprrefid="" solManContentAvailable="" id="3754E273E3F34828B049245965862354">
+        <description>
+					Continuosly defines and
+maintains the structure and relationships of the operational,
+programmatic and administrative staff of the social services
+organization.  Peer organizations such as the judicial system are
+also accommodated.</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+      </process>
+      <process name="Role-based Security" bprrefid="" solManContentAvailable="" id="A1A2EFC5A3B047C187B3DD8EA66531A1">
+        <description>
+					Define and maintain
+role-based security for access to data and functions.
+Authentication using passwords and/or PINs must be provided. Other
+typical/standard security capabilities are often required (e.g.
+single sign-on or use of LDAP ).</description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <process-feature name="Specific worksets for social user roles (case worker, supervisor, intake technician etc.)" id="A383B53EEF444370BB4DB156D451CAAF">
+          <description/>
+        </process-feature>
+        <process-feature name="Standard User Management &amp; Authorization Control" id="CABE43123B97459996CDFD2454F66547">
+          <description/>
+        </process-feature>
+        <process-feature name="Portal-based and individually predefined Workplace UI for selected user types (caseworker, supervisor)" id="30027BB3448F4CD0A6476A0998B562D0">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Reporting" bprrefid="" solManContentAvailable="" id="BF6A5743233244339814B3D2F0BF3C49">
+        <description>
+					The executive reporting
+required by the governing agency or other funding stream, that
+captures how the budgetary money were spent on program outreach,
+etc. as required by law. This includes but is not limited to case
+counts, and statistical reporting. This serves as a historical
+baseline for future program delivery as well as  budget and
+staffing.  </description>
+        <sap-product name="SAP Social Services Management for Public Sector" key="SAP Social Services Management for Public Sector"/>
+        <sap-product name="SAP NetWeaver" key="B47"/>
+      </process>
+      <process name="Corrective Action Plan" bprrefid="" solManContentAvailable="" id="CA16422EAD22451294A05CA081B2F91C">
+        <description>
+					Corrective Action Plans
+address risk mitigation, compliance, investigation, and other
+non-client centered cases that require work to be done to achieve
+an outcome</description>
+        <process-feature name="Employee Performance Management" id="20509C8111A14BF18BD67CB024202645">
+          <description/>
+        </process-feature>
+      </process>
+      <business-objective name="Assure levels of privacy"/>
+      <business-objective name="Increase security of systems' and data access"/>
+      <business-objective name="Promote effective performance tracking"/>
+      <business-objective name="Integrate - eliminate redundancies"/>
+      <business-objective name="Improve budget processes"/>
+      <business-objective name="Improve capacity utilization"/>
+      <business-objective name="Provide decision support"/>
+      <business-objective name="Improvement of regulatory compliance"/>
+      <business-objective name="Elimination of double entry and reconciliation of market rates between separate systems"/>
+      <kpi name="Cases per FTE"/>
+      <kpi name="Percentage of Service Requests"/>
+    </scenario>
+  </scenario-group>
+  <scenario-group name="Grants Management">
+    <description/>
+    <scenario name="Grants Management for Grantee" id="BD52AAD648BD466299FD6676EA697677">
+      <description>
+				Public sector
+institutions as well as non-for-profit organizations receive
+considerable funding from external sources. The SAP solutions
+enable them to  meet individual sponsor requirements without
+compromising their internal accounting processes. Grants, donations or
+awards can be managed over their whole life-cycle – from internal
+draft and application to the consumption and the final close-out.
+The management of passthrough grants is included in all these
+phases. The Expenditure
+Certification allows for the – subsequent – assignment of projects
+to external funding sources. In the funding agreement, the sponsor
+outlines only the general purpose of funding. The recipient may
+then decide before, during or after the execution of a project
+whether it shall be financed by this or another sponsor. This
+solution focuses mainly but not exclusively on the European
+Structural Funds.</description>
+      <process name="Preparing Grant Application (Pre-Award)" bprrefid="" solManContentAvailable="true" id="33D090BA6ED4460D9112DCB80B08EA2E">
+        <description>
+					The pre-award phase covers the internal preparatory processes until the actual application is submitted to the sponsor.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Maintenance of Sponsors and their individual Funding Terms and Conditions" id="8CF3A07A4FBA4264A42106C727628A36">
+          <description/>
+        </process-feature>
+        <process-feature name="Configurable Life-cycle of Grant" id="A4AADBE508594094BE6B0EF8ADDE58F0">
+          <description/>
+        </process-feature>
+        <process-feature name="Built-in Workflow" id="513EA3E6A50F44118CA1103677DEBFC7">
+          <description/>
+        </process-feature>
+        <process-feature name="Integration with Records and Case Management" id="5E2DEC8999E444E5A3E61BBA2CA948C4">
+          <description/>
+        </process-feature>
+        <variant name="Preparing Grant Application (Pre-Award)" refid="321F2C70001411D912D100306E055DA7"/>
+      </process>
+      <process name="Recording Sponsor´s Decision" bprrefid="" solManContentAvailable="true" id="84DE2EC5580247B98E7C8AD41FBDAEBE">
+        <description>
+					The grant is adapted to meet the sponsor’s terms and conditions for consumption and reporting.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Cost Sharing" id="FBD65D4EEE5A48939C5CF64BB987C4B8">
+          <description/>
+        </process-feature>
+        <process-feature name="Indirect Cost Calculation" id="F97A44ADE13648FFB3ECA1FB70D5B622">
+          <description/>
+        </process-feature>
+        <process-feature name="Integration with Internal Accounting" id="E6AC0EA167F344FC82D4AEB7F0F9BE4B">
+          <description/>
+        </process-feature>
+        <variant name="Recording Sponsor's Decision" refid="E37B8810001411D912D100306E055DA7"/>
+      </process>
+      <process name="Executing the Awarded Grant" bprrefid="" solManContentAvailable="true" id="5427382D148B44159937ACD093D52C57">
+        <description>
+					The execution phase has
+to ensure that the grant is  consumed  according to the sponsor’s
+terms and conditions. At the same time, the resources shall be
+spent and managed in a most efficient way.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Flexible Availability Control" id="EC88D7B9FD5C4780B1D74226A02BFA7D">
+          <description/>
+        </process-feature>
+        <process-feature name="Detailed Posting Control" id="6616DC1A2EE94288B87774E40BA2E292">
+          <description/>
+        </process-feature>
+        <process-feature name="Multiple Billing Scenarios" id="1AC1257F6C0147C69FE4B3F58EBE7C1F">
+          <description/>
+        </process-feature>
+        <process-feature name="Report and Activity Scheduler" id="BA7899C84118495A9EF01DA738C2B554">
+          <description/>
+        </process-feature>
+        <process-feature name="Record Program Income" id="A0D69B8523894B41B40F925BA3C11A67">
+          <description/>
+        </process-feature>
+        <variant name="Executing the Awarded Grant" refid="D3D90A30001511D912D100306E055DA7"/>
+      </process>
+      <process name="Passthrough of Grants" bprrefid="" solManContentAvailable="" id="17F73A18432541C8821E4A73D13F0571">
+        <description>The passthrough of grants covers the specific situation that a
+grantee forwards funding to sub-grantees.
+The functionality complements the general grants management
+features, which apply also to passthrough grants.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Mapping of Incoming and Outgoing Grants" id="A85039627E114C808E53DD966CD093E9">
+          <description/>
+        </process-feature>
+        <process-feature name="Budget transfers to and from outgoing grants" id="7E7E3F4D39AC40E88540F40572240C7B">
+          <description/>
+        </process-feature>
+        <process-feature name="Calculating and Monitoring Cost Sharing and Indirect Costs" id="A691BFA1D16B4A8F982203064F99ADE0">
+          <description/>
+        </process-feature>
+        <process-feature name="Consolidated Billing for Incoming and Outgoing Grants" id="A20F57CE3731492A9C7167C9B152AB31">
+          <description/>
+        </process-feature>
+      </process>
+      <process name="Expenditure Certification" bprrefid="" solManContentAvailable="" id="CB15C5A401ED48BFB9677C6EC6B5A55C">
+        <description>This business process evaluates funding options for the past and
+assigns expenses to the best possible funds. It checks for
+preferred, allowed and available funding and calculates the
+corresponding eligible amount. It helps optimize the use of
+financial resources when funding is flexible. It provides data for
+an auditable statement to sponsors and maintains the general
+accounting standards.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <process-feature name="Grouping of projects into operations with allotted funding" id="8219287310964EDB8426FB0C5D03FEAD">
+          <description/>
+        </process-feature>
+        <process-feature name="Determination of available and appropriate funding by priority" id="82DCDDDDE5594B9D8F027D342E220EDF">
+          <description/>
+        </process-feature>
+        <process-feature name="Calculation of sponsor's contribution to eligible expenditure" id="6239437C5F0E4AF2866448734F6AE738">
+          <description/>
+        </process-feature>
+        <process-feature name="Splitting of expenditure documents over several funding sources" id="2D79EA75FA644E46840FA1E3A389D026">
+          <description/>
+        </process-feature>
+        <process-feature name="Optional manual rework of system-proposed certification" id="94D7754C995B480DBF7A02121B74FC9F">
+          <description/>
+        </process-feature>
+        <process-feature name="Enhanceable and auditable reporting data" id="8A363254E04042AF9E2E73105E523314">
+          <description/>
+        </process-feature>
+      </process>
+      <business-objective name="Improved transparency and auditability of activities"/>
+      <business-objective name="Reduce administration, improve business processes"/>
+      <business-objective name="Better management and control of public funds"/>
+      <business-objective name="Improve accounting processes"/>
+      <kpi name="Employee Satisfaction Index"/>
+      <kpi name="Legal and contractual compliance"/>
+    </scenario>
+    <scenario name="Grants Management for Grantor" id="A1B348F71BCF4B589414C47D2FC4D597">
+      <description>The Grants Management for Grantor solution is intended to meet the
+requirements of all levels of public sector organizations that fund
+grant programs. Developed within a SAP NetWeaver framework,
+business processes include program definition, application,
+assessment, agreement, grant payment, claims processing and
+monitoring and analysis. The Grantor solution includes web-enabled
+grant application processing, workflow authorization and
+notification in addition to case, correspondence and records
+management functionality. It also delivers robust reporting
+capability and content through the mySAP Business Intelligence
+solution.</description>
+      <process name="Program Management" bprrefid="" solManContentAvailable="" id="1C3B6BA0D8A943328B8A39FA3C846129">
+        <description>
+					
+						
+						
+						</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+      </process>
+      <process name="Budgeting" bprrefid="" solManContentAvailable="" id="51D0E7187FA947FDA51646CC39E56E36">
+        <description>
+					Budgets and forecasts are required for each fiscal year that a program is active. Encumbrance accounting allows granting organizations to manage spending within a program.</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+      </process>
+      <process name="Grantor Application Processing" bprrefid="" solManContentAvailable="" id="7DE239DFD356433FA01402B006D5BEBE">
+        <description>
+					
+						</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <variant name="Grantor Application Processing" refid="7DE239DFD356433FA01402B006D5BEBE"/>
+        <variant name="Program Management" refid="1C3B6BA0D8A943328B8A39FA3C846129"/>
+      </process>
+      <process name="Grantor Application Assessment" bprrefid="" solManContentAvailable="" id="1ABE64DEA31949329182E74FAA686E13">
+        <description>
+					Grant applications are
+assessed against rules to determine eligibility and evaluate the
+amount of grant or payment.
+						</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <sap-product name="RuleBurst 8.5.2 by RuleBurst" key="RuleBurst Business Rules Management System"/>
+        <variant name="Grantor Application Processing" refid="7DE239DFD356433FA01402B006D5BEBE"/>
+      </process>
+      <process name="Case Processing for Grantor Management" bprrefid="" solManContentAvailable="" id="5B6F42E8ED024358B95C0A8EA45FA89F">
+        <description>
+					
+						</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <variant name="Grantor Application Assessment" refid="1ABE64DEA31949329182E74FAA686E13"/>
+      </process>
+      <process name="Grantor Agreement Processing" bprrefid="" solManContentAvailable="" id="A7F008E572C44E6B8BC68A1ED70E44B7">
+        <description>
+					
+						
+						</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <variant name="Case Processing for Grantor Management" refid="5B6F42E8ED024358B95C0A8EA45FA89F"/>
+      </process>
+      <process name="Grantor Payment" bprrefid="" solManContentAvailable="" id="D9A04937A2AF4C84A5B5FFBE5861CD42">
+        <description>
+					Grantor payment processing supports the following payment
+types: - Payment- Advance- Holdback- Payment Recovery- Repayment Payment, advance and repayment amounts can be automatically
+split using billing plans. Grantor payments can also be linked to
+more than one funding source or account assignment using
+multi-funding capability. Payment information in SAP CRM is transferred to Public Sector
+Collections and Disbursements (PSCD) for actual payment processing
+and update of the general ledger. </description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <variant name="Grantor Agreement Processing" refid="A7F008E572C44E6B8BC68A1ED70E44B7"/>
+        <variant name="Claims Processing" refid="61F5C88F507C498B93E84C1EA897293E"/>
+      </process>
+      <process name="Claims Processing" bprrefid="" solManContentAvailable="" id="61F5C88F507C498B93E84C1EA897293E">
+        <description>
+					A claim represents a request from the grantee for payment based
+on accounting for incurred expenses or meeting other terms or
+conditions of the agreement.</description>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <sap-product name="SAP ERP" key="S12"/>
+        <variant name="Grantor Payment" refid="D9A04937A2AF4C84A5B5FFBE5861CD42"/>
+      </process>
+      <process name="Grant Monitoring" bprrefid="" solManContentAvailable="" id="B97F9CF826FA4D82A760D597703CA1D6">
+        <description>
+					
+						</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <variant name="Claims Processing" refid="61F5C88F507C498B93E84C1EA897293E"/>
+      </process>
+      <process name="Grantor Analysis" bprrefid="" solManContentAvailable="" id="ED163FB6178649738182E3C62452D3B2">
+        <description>
+					
+						</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <variant name="Grantor Application Processing" refid="7DE239DFD356433FA01402B006D5BEBE"/>
+      </process>
+      <process name="Year-End Processing for Grantor Management" bprrefid="" solManContentAvailable="" id="418452138918448DA2602CDD58D94E70">
+        <description>
+					
+						
+						</description>
+        <sap-product name="SAP ERP" key="S12"/>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+      </process>
+      <business-objective name="Better management and control of public funds"/>
+      <business-objective name="Reduce administration, improve business processes"/>
+      <business-objective name="Better service levels"/>
+      <business-objective name="Faster access to relevant information"/>
+      <business-objective name="Improved quality and accuracy"/>
+      <business-objective name="Increase multi-channel delivery of services"/>
+      <business-objective name="Automate - eliminate errors due to manual processes"/>
+      <business-objective name="Better decisions with accurate and up-to-date information"/>
+      <business-objective name="Reduction of costs for integration with Accounting and Finance Management"/>
+      <business-objective name="Improve transparency and auditability of activities"/>
+      <business-objective name="Provide a single face to the customer"/>
+      <kpi name="Auditability of Processes"/>
+      <kpi name="Percentage of Service Requests"/>
+      <kpi name="Percentage of Customer Complaints"/>
+      <kpi name="Percentage of Customers getting served via Internet Protocol"/>
+      <kpi name="Percentage of Inquiries taken over the Internet"/>
+      <kpi name="Cases per FTE"/>
+      <kpi name="Quality of Processes"/>
+    </scenario>
+  </scenario-group>
+  <scenario-group name="Government Programs">
+    <description>
+			Government programs define the scope of government service delivery to citizens, industry and other recipients. Some of the most important government program scenarios are constituent services and subsidies.</description>
+    <scenario name="Constituent Services" id="85533A98406D42F9AEAE226CFEB2C528">
+      <description>
+				Constituent services are those services that public organizations offer their citizens and businesses. Such services may range from simple information requests, to requests for licenses and permits, to complex processes.</description>
+      <process name="Multi-Channel Service Requests" bprrefid="" solManContentAvailable="" id="DE6CE51D1CC942608A362D8186115588">
+        <description>
+					Over the internet, via phone and fax, or in person my SAP CRM
+for the Public Sector offers proven, integrated technology to
+handle constituent contact. </description>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <sap-product name="SAP Interactive Forms by Adobe" key="SAP Interactive Forms by Adobe"/>
+        <process-feature name="Interactive Forms" id="D72E96BDB4164D5782FE8501F8AC65E3">
+          <description>
+						Forms are the most
+common way for citizens or businesses to submit requests to public
+organizations. With e-government activities, electronic forms are
+offered as an alternative to the traditional paper-based forms.
+Electronic forms provide several advantages to both the citizen and
+business submitting the form as well as to the public organization
+processing the request.To make the most of
+these potential advantages, electronic forms should be designed as
+interactive forms providing features such as automatic prefill of
+available information into the form or automatic entry checking,
+including format checks and consistency checks across the entered
+or known information. Obviously, online forms, which are completed
+in an online session on the forms server, can provide deeper
+interactive features than offline forms, which can be completed
+without online connection.SAP's e-government
+solution provides both online and offline forms.</description>
+        </process-feature>
+        <process-feature name="Interface for Scanned Paper-Forms" id="5739AF6FDFD74D06877E554381BEFFB7">
+          <description>
+						Although the importance
+of electronic forms is increasing, the traditional paper-based
+forms cannot be completely replaced. As part of the multi-channel
+concept, these paper-forms also have to be linked to an unified
+processing flow within the administration, which is independent of
+how the request was sent to the public organization. Therefore,
+paper-forms are often scanned to allow effective processing in an
+electronic way.SAP's e-government
+solution automatically imports scanned forms for electronic
+processing. It also receives the form content from other
+applications used by the requester to complete the form.</description>
+        </process-feature>
+        <process-feature name="Request Creation by Employee" id="4160AB15F5A44719B74A001730FAA47F">
+          <description>
+						A personal visit to a public service office or a request via phone is still the most common way that concerns are addressed to a public organization. In these cases, the employee of the public organization creates the request form on behalf of the requester.</description>
+        </process-feature>
+        <process-feature name="Request Creation by Third Party" id="ABFCFA607D39489EA6821FFBD699BCB3">
+          <description>
+						Similar to the request
+creation by an employee working in a  public administration,
+sometimes other persons also complete forms on behalf of the
+requester. For example, lawyers or bank clerks may submit
+application forms for their clients or an employee may complete a
+request on behalf of his company. In these cases, it is important
+to differentiate between the person submitting the request and the
+real requesting party.</description>
+        </process-feature>
+        <process-feature name="Interagency Service Request" id="255EB84F79654A80BE1498ED88482DAB">
+          <description>
+						Administrative processes involving multiple departments or agencies often use forms as a method of communication across organizational borders. Electronic forms, ideally combined with a well-defined information exchange format definition, can help increase the effectiveness of this kind of processes dramatically.</description>
+        </process-feature>
+      </process>
+      <process name="Request Processing" bprrefid="" solManContentAvailable="" id="9A88B0D4E01844BEA4D074514802A1A4">
+        <description>
+					Request processing offers state-of-the-art workflow based technologies to ensure and support the handling of the request from submission to evaluation, calculation and filing.</description>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <process-feature name="Rule-Based Entry Checking" id="36BC3BC9FE9346A4884E6E9795884053">
+          <description/>
+        </process-feature>
+        <process-feature name="Exception Handling" id="86FB3D27B0DB4689AFA80CEB2041DB65">
+          <description>
+						By automating process steps, the processing time of a request can be dramatically reduced. A reliable detection of exceptions that require manual interaction is a prerequisite for process automation.SAP's e-government solution provides flexible, rule-based exception handling.</description>
+        </process-feature>
+        <process-feature name="Approval Processes" id="82282A535D22467C87F4E4C0063CEDFF">
+          <description>Approval processes are the most common process type in administrative processes.</description>
+        </process-feature>
+        <process-feature name="Status Management" id="770B56F316B047308A4F7C1E2061F1FA">
+          <description>
+						Documents the progress
+of a request within the administrative process. It can be used
+internally as the basis of the process analysis as well as
+externally to provide the requester with information.</description>
+        </process-feature>
+        <process-feature name="Case Management" id="D22064FFF4F44D5C89E2695647A44536">
+          <description>
+						Single requests cannot always be handled autonomously. They often form a 'case' together with other requests or documents. The decision about the request has to be based on the bundled information on the related case. Typically, the content of the case is structured in a records-like manner and processed by several employees in a limited timeframe.</description>
+        </process-feature>
+        <process-feature name="Workflow" id="29BBDEFAD32D44AEB54445E1602BF649">
+          <description>Workflow is a proven method to implement processes within a public organization.</description>
+        </process-feature>
+        <process-feature name="Rule-Based Process Control" id="FDAB5880A5E04E6A9796910A4C8FD9EB">
+          <description>
+						Administrative processes are based on legal regulations. Because laws and regulations are constantly subject to change, the related processes have to be organized in a flexible way.SAP's e-government solution provides a flexible rule-based system to control process flows within public organizations.</description>
+        </process-feature>
+        <process-feature name="Activity Management" id="AE56618C5F4948B7B8C3A9FCBCBA0E55">
+          <description>
+						Plans, executes, and tracks the different activities and tasks required to process open requests or cases.</description>
+        </process-feature>
+        <process-feature name="Correspondence" id="0C2FEA38852B40B1ACF4F2881321FC58">
+          <description>
+						Different types of correspondence are required during the processing of a request. For example, the requester may be asked to provide additional or missing information or the final decision may be sent back to the requester as an official notification. In some cases, the correspondence can be created automatically. In other cases, manual interaction by the employee is required.</description>
+        </process-feature>
+      </process>
+      <process name="Service Delivery" bprrefid="" solManContentAvailable="" id="6852ECC56D524F69A0EA5C80BD502D2D">
+        <description>Depending on the type of request submitted by a citizen or business, different types of services may be provided to the requester. These services may range from the decision about a permit or license to the approval of financial support, to 'physical' activities performed by an employee of the public organization.</description>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <process-feature name="Issue of Official Notification" id="FF447894D22341CA8A9083EE22B1D0A3">
+          <description>
+						In many cases, when citizens or businesses request an allowance, license, or permit, the final decision made by the administrative body is represented and published as an official notification letter. This notification can be sent back to the requester via different communication channels, for example via paper mail, e-mail, or fax.</description>
+        </process-feature>
+        <process-feature name="Service Planning and Execution" id="8C98BEAAA7144FB58E4F6A3FF57D7857">
+          <description>
+						For each request, the potential services are analyzed, planned, and executed after approval.</description>
+        </process-feature>
+        <process-feature name="Creation and Management of Permits, Licenses, and so on" id="0497FE955E0945BC99FAA3888C03D9B6">
+          <description>
+						If a request process results in the issuance of a permit, license, and so on, these 'objects' have to be represented and managed. For example, the information stored about an already issued permit that is valid for one year may have to be updated if relevant data, like the address of the permit holder, changes.Typically, these kind of 'objects' have their own identification number and have to be tracked and reported.</description>
+        </process-feature>
+      </process>
+      <process name="Billing and Accounting" bprrefid="" solManContentAvailable="" id="D24530742D6940B8A7DBCEE428C3FC10">
+        <description>
+					Billing and accounting offers support for all core processes, including partial payments, displays of invoice data and payment history, and payment methods such as credit card and direct debit.</description>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <process-feature name="Calculation of Fees and Penalties" id="6FB14F4F2B444ED98A084D1384A22EF8">
+          <description>
+						Many services provided by public organizations are subject to a certain fee or charge. The amount of the fee has to be calculated during the processing of the request. Depending on the type of service, the calculation rules may be very complex and subject to legal changes. In some cases, the service is only provided after payment of the attached fee. In other cases, penalties have to be charged if certain rules have not been obeyed.SAP's e-government solution provides very flexible tools for fee calculation, which can be used during the creation of the request to provide the requester with immediate feedback.</description>
+        </process-feature>
+        <process-feature name="Billing of Fees and Penalties" id="8E4A83328189477AA5C84B25B33B0F9A">
+          <description>After approval of the requested service, the calculated amount can be billed against the requestor. If required, an invoice can be issued.</description>
+        </process-feature>
+        <process-feature name="Transfer of Billing Results to Constituent's Financial Account" id="E7BFC77E2F2B425FB113A594175A8B58">
+          <description>
+						The results of the billing process need to be transferred as open items to an accounting system for follow-on processing, like dunning or clearing against incoming payments.SAP's e-government solution provides individual financial accounts per citizen or company. The citizen enabling a personal account overview and online payment features can access these accounts online.</description>
+        </process-feature>
+      </process>
+      <process name="Renewal and Periodic" bprrefid="" solManContentAvailable="" id="5CF2D5AA19544837B7C026DC5E12E013">
+        <description>
+					This process offers
+support for periodic billing, automatic reminder for renewal.  </description>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <process-feature name="Periodic Billing" id="85C8761D49874C57BCCBC596ECB58AC7">
+          <description>
+						If ongoing services are
+provided by a public organization for a citizen or company, these
+may be subject to periodic charges. These charges have to be
+triggered automatically based on a defined billing agreement.</description>
+        </process-feature>
+        <process-feature name="Automatic Renewal Processing" id="340F268677BC406EA7FA6B2760F739E1">
+          <description>
+						Permits or licenses are
+often only approved for a certain validity period (for example, one
+year). After that period, they have to be renewed by a renewal
+request or, if still required, a follow-on payment. Permit or
+license holders need to be reminded about the due renewal.SAP's e-government
+solution provides automatic features to identify relevant cases and
+process the appropriate reminder/renewal steps accordingly.</description>
+        </process-feature>
+      </process>
+      <process name="Enquiries" bprrefid="" solManContentAvailable="" id="D9C115B5A567423593710D24788A5B3C">
+        <description>Organizations need solutions that can professionally manage relationships with citizens and businesses alike. They need technology that provides an integrated view of the citizen as a customer and allows agencies the access to all information required for responsive customer services.</description>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <process-feature name="Call Center" id="51E08207CCF84F81B27A18FDC4519048">
+          <description>
+						The most common way for citizens to contact public organizations for information about the status of a submitted request or to submit a complaint concerning a certain decision is via the telephone.For the employee handling the phone call, it is important to have access to all relevant information about the citizen calling and the status of his requests, as well as an overview on the citizen's account to answer questions concerning financial processes.</description>
+        </process-feature>
+        <process-feature name="Online Inquiry" id="E7804CCD36AB45BC82DFE5F4A8D937D4">
+          <description>
+						In addition to the
+option of submitting forms and requests online, the requester needs
+to be able to check the processing status of his requests online
+and submit a complaint via the Internet.</description>
+        </process-feature>
+        <process-feature name="Process Status Information" id="AA097F790D9940BC81A1074D9A4D6F8E">
+          <description>
+						Information about the processing status of a request is one of the most important features for the requestor, especially for requests requiring a longer approval process within the administration.</description>
+        </process-feature>
+        <process-feature name="Financial Status Information" id="BEB2B8D605D7447697C319E57C6DC073">
+          <description>
+						Dunning letters or
+payments that are not completed in time often cause inquiry
+processes by citizens or companies.SAP's e-government
+solution provides individual accounts for each citizen or company
+which enables immediate access to status information on all
+financial processes during a phone call or directly via the
+Internet.</description>
+        </process-feature>
+      </process>
+      <process name="Security and Authentication" bprrefid="" solManContentAvailable="" id="FBCAEB7A1DFB48198D4947AB5849B77C">
+        <description>
+					Authentication, data protection and security are key requirements in inbound and outbound processing with constituents.</description>
+        <sap-product name="SAP Program Management for Public Sector" key="SAP Program Management for Public Sector"/>
+        <process-feature name="Registration Services" id="5EEDF97D80AA42A6A71A637F6C0629E1">
+          <description>
+						In order to make the
+most of the full potential benefits of interactive online forms for
+both the requester and the administration, the authentication of
+the person submitting a request is required. Therefore, the person
+needs to be registered for online services with the public
+administration.SAP's e-government
+solution provides several templates for registration processes,
+creating the required registration information in the SAP system
+and issuing the citizen a user-id with a password.</description>
+        </process-feature>
+        <process-feature name="Digital Signature" id="D40CBAADED9E4A399924AC40E899B983">
+          <description>
+						The Digital Signature replaces the traditional paper-based signature for electronic services. The digital signature function is a legal prerequisite for many public services according to signature law.SAP's e-government solution provides digital signature function for interactive online forms.</description>
+        </process-feature>
+        <process-feature name="Security Standards" id="F79852BF385F44E08F336384B77E7FEF">
+          <description>
+						Security is a major topic for any online service. Without adequate security mechanisms, the public will not accept online services. SAP's e-government solution provides the latest security standards to enable reliable online services.</description>
+        </process-feature>
+        <process-feature name="Authorizations" id="19E84DADDCEE4FE38E414823B8C6EDEC">
+          <description>
+						Authorizations assigned
+to an employee that register them as an authorized user to control
+which information or services may be accessed by specific users.
+This ensures that employees accessing critical information are
+tightly controlled and yet can be flexibly managed.</description>
+        </process-feature>
+      </process>
+      <business-objective name="Add 24x7 customer service"/>
+      <business-objective name="Collaborate with business partners"/>
+      <business-objective name="Increase multi-channel delivery of services"/>
+      <business-objective name="Offer multiple points of access."/>
+      <business-objective name="Reduce error rate"/>
+      <business-objective name="24x7 customer self-service"/>
+      <business-objective name="Provide a single face to the customer"/>
+      <business-objective name="Improved transparency and auditability of activities"/>
+      <business-objective name="Improve transparency and auditability of activities"/>
+      <business-objective name="Better service levels"/>
+      <business-objective name="Improve service quality"/>
+      <business-objective name="Improve accounting processes"/>
+      <business-objective name="Reduce cost of services"/>
+      <business-objective name="Reduce error rate"/>
+      <business-objective name="Increase data transparency"/>
+      <business-objective name="Increase surveillance of unauthorized persons"/>
+      <business-objective name="Assure levels of privacy"/>
+      <business-objective name="Increase security of systems' and data access"/>
+      <kpi name="Percentage of Service Requests"/>
+      <kpi name="Order Fulfillment Costs"/>
+      <kpi name="Order Fulfillment Lead Times"/>
+      <kpi name="Order Line Items Fill"/>
+      <kpi name="Order Management Costs"/>
+    </scenario>
+  </scenario-group>
+  <scenario-group name="Tax and Revenue Management">
+    <description>
+			Tax and Revenue
+Management is a scenario group for public tax and revenue agencies
+that serves your tax administration needs while addressing the
+customer service requirements of taxpayers. Tax and Revenue
+Management contains an integrated set of applications that brings
+you proven best practices. Key processes include registration and
+account maintenance, tax return filing and remittance processing,
+correspondence and contact management, billing, audit, and
+compliance. Depending on customer
+requirements, the solution includes SAP Public Sector Collection
+and Disbursement, SAP Customer Relationship Management,
+SAP Biller Direct, SAP Business Information Warehouse, and SAP
+Funds Management.</description>
+    <scenario name="Taxpayer Identification and Returns Processing" id="4EB85096B5E04893A571658707223AA1">
+      <description>
+				The business scenario
+supports the registration of taxpayers and the filing of tax
+returns. New taxpayers and/or taxpayer accounts are registered. The
+filing frequency for tax returns can be set-up as inbound
+correspondence requests.SAP supports multiple
+channels for tax filing, which include the e-channel as well
+as paper based forms. Tax return data is automatically validated,
+further actions can be triggered and the tax liability is
+calculated using the Business Rules Framework.</description>
+      <process name="Registering Taxpayer" bprrefid="" solManContentAvailable="true" id="6DEF9DA9689D43CAA75D2319A464BA8E">
+        <description>
+					This process supports
+the single view registration of the taxpayer. The registration can
+be established through multiple channels which include web-based,
+telephone and batch upload. Through the process the taxpayer
+accounts for mulitple tax types may be set-up and the filing
+freqency and filing obligations are created. Coupon books,
+confirmation letters or additional processes can be triggered from
+the registration.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Handling Licenses" bprrefid="" solManContentAvailable="" id="5D7ED4847D084775B40FD79579F36F89">
+        <description>Certain tax types that require the legal approval to conduct a
+business (e.g. firearms or tobacco etc.) require license
+information from the taxpayer. Together with the license bond
+information may be captured.</description>
+      </process>
+      <process name="Capturing Tax Return Data" bprrefid="" solManContentAvailable="" id="9FEE7DAB407B48D2B81CC91957AFEB5D">
+        <description>
+					This process provides
+you with a solution to capture tax return data using various
+channels which include web-based and batch upload. Paper-based documents
+can be scanned and transferred to the system for tax administration
+purposes.
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Billing of Tax Returns" bprrefid="" solManContentAvailable="" id="1A4E5BD01EA24973B0DFDD748F32FE17">
+        <description>
+					Tax agencies may use
+this business process to validate tax return data, satisfy the
+tax filing obligation and check against received payments. Through
+a rules engine exceptions are raised and the tax liability is
+calculated. The system may calculate additional penalties and
+interest for late filing and late payment. Tax returns with
+exceptions are routed to the appropriate tax officer.The system allows you to
+submit various types of tax returns, such as amended, estimated
+and joint returns.Using the Business Rules
+Framework the tax liability will be calculated. In this case, SAP
+provides only the calculation engine. The tax rules have to be
+applied by the customer or partners.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Processing Tax Returns" bprrefid="" solManContentAvailable="" id="90FBD8052F9C42FFBBFD17161C3A7908">
+        <description>
+					Tax returns with
+exceptions are routed to the universal worklist and assigned to a
+tax officer. Within the workcenter the tax officer processes the
+tax return, resolves exceptions and has access to taxpayer details
+and account balance. After the exceptions are resolved the tax
+return is finalized.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Billing of Tax Objects" bprrefid="" solManContentAvailable="" id="AE251EEC0DAA4DBDA1E837A6B9B16BA2">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Convergent Invoicing" bprrefid="" solManContentAvailable="" id="836AE6E1CA564BC992DE271A910064D0">
+        <description>This process provides the capability of convergent bill print-outs.
+Billing information from various sources, either SAP or non-SAP,
+can be processed within SAP. As a result of invoicing a tax
+liability or a refund is posted on the taxpayer's account. The
+calculation of additional charges and interest, and clearing of
+credits through automatic account maintenance can be done using
+additional invoicing functions.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <variant name="Creating and Posting Invoice" refid="D7CD257CCE874C74AA2DD4AC351F91E9"/>
+      </process>
+      <business-objective name="Add 24x7 customer service"/>
+      <business-objective name="Improve service quality"/>
+      <business-objective name="Reduce error rate"/>
+      <business-objective name="Support multi-channel interaction"/>
+      <business-objective name="Reduce error rate"/>
+      <business-objective name="Lower communications expenses"/>
+      <business-objective name="Reduce error rate by use of automated processes"/>
+      <business-objective name="Reduce transaction costs"/>
+      <business-objective name="Standardize processes for consistency, efficiency"/>
+      <business-objective name="Offer multiple points of access."/>
+      <business-objective name="Improved transparency and auditability of activities"/>
+      <kpi name="Customer Satisfaction Index"/>
+      <kpi name="Cash Flow per FTE"/>
+      <kpi name="Revenue"/>
+    </scenario>
+    <scenario name="Receivables and Payables Management" id="9C6F9E39C85D4D93B8BB7F41617BE040">
+      <description>
+				The Receivables and
+Payables scenario in Tax and Revenue Management supports
+back-office taxpayer accounting processes.Payments triggered by a
+government agency can be processed automatically using the payment
+program (for example EFT, debit memos, checks, etc).Incoming payments, such
+as bank transfers and checks from citizens, are interpreted by the
+system using unique criteria and clear the tax liability using a
+highly flexible and customizable clearing control.Payment receipts that
+cannot be assigned are forwarded to manual post-processing in the
+clarification worklist, a generic tool especially designed for
+supporting the special needs of mass data handling.The cash journal has
+functions that enable you to manually settle payment
+transactions.With its unique master
+data structure SAP supports an holistic, single view of
+the taxpayer. This data can be also accessed through the Web using
+SAP Biller Direct for online bill presentment and payment.</description>
+      <process name="Posting Documents" bprrefid="" solManContentAvailable="true" id="083CC3DA352644E6BFEBA8AFF37B50BD">
+        <description>Documents represent the financial transactions either created
+through invoicing as a result of a tax return, manually or through
+an external interface from a legacy system.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <sap-product name="SAP Payment Processing for Public Sector" key="SAP Payment Processing for Public Sector"/>
+        <variant name="Creating Requests / Standing Requests" refid="43674A70FCE611D812D100306E055DA7"/>
+        <variant name="Posting Items Manually" refid="57A6051D5DA6462599D2F5D532E9"/>
+        <variant name="Posting Items Automatically" refid="DC25A4A2E1944A0C9CF7F6F89AAC"/>
+      </process>
+      <process name="Managing Security Deposits" bprrefid="" solManContentAvailable="true" id="A15F28F819F849C59748FF45E66C15B0">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <sap-product name="SAP Payment Processing for Public Sector" key="SAP Payment Processing for Public Sector"/>
+        <variant name="Managing Cash and Non-Cash Security Deposits" refid="E8191A84C67F4BA6A90F5E134108"/>
+      </process>
+      <process name="Processing Incoming and Outgoing Payments" bprrefid="" solManContentAvailable="true" id="BAFDC47BDC2942E099C87726FD0C2FFC">
+        <description>
+					Utilizing payment and
+check lots you can process incoming and outgoing payments, outgoing
+checks and credit card payments. In addition, the cash journal can
+manage your organizations cash desk structure and handle incoming
+and outgoing manual payments.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <sap-product name="SAP Payment Processing for Public Sector" key="SAP Payment Processing for Public Sector"/>
+        <variant name="Paying at Cash Desk" refid="FAE22BC19D0F4F4F89F6C62C83AC"/>
+        <variant name="Processing Bank Transfers" refid="31A8497F5BFB4A03829DA58C067A"/>
+      </process>
+      <process name="Creating Incoming and Outgoing Payments" bprrefid="" solManContentAvailable="" id="246B4519747C49B58A598E561B58C1D5">
+        <description>
+					This process provides
+electronic data exchange between organizations and banks for
+automatic payment regulation to include bank collections, credit
+card payments, and outgoing payments through different payment
+methods.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <sap-product name="SAP Payment Processing for Public Sector" key="SAP Payment Processing for Public Sector"/>
+        <variant name="Processing Direct Debits and Transfers" refid="1A68E3DD393947DC8FE7DE001F14"/>
+      </process>
+      <process name="Postprocessing of Payments" bprrefid="" solManContentAvailable="" id="3448B04FAC68460389ECB28BF86F155C">
+        <description>With this business process you can clarify unassigned incoming
+payments and manage outgoing checks. Taxpayer bank accounts with
+insufficient funds will result in returns. Additional charges may
+be posted to the taxpayer's account for the returns.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <sap-product name="SAP Payment Processing for Public Sector" key="SAP Payment Processing for Public Sector"/>
+        <variant name="Processing Returns" refid="8F526B6929394F6499250DEC3494"/>
+        <variant name="Managing Outgoing Checks" refid="C41F051DEBBF4626B594A2653515"/>
+        <variant name="Clarifying Incoming Payments" refid="F83B9C12A8534042B1BD4E81E24D"/>
+      </process>
+      <process name="Clarifying Open Items" bprrefid="" solManContentAvailable="true" id="5C73BF9C192C46BEB3C42A8556229420">
+        <description>
+					This process allows for
+account maintenance of debit entries and credit memos. Doubtful
+receivables may be written off. Refunds or credits can be processed
+through different payment methods. The process may create repayment
+notes or handle refunds through a credit clarification list.
+Corresponding taxpayer notices can be created, such as account
+balances and statements. Correspondence of different accounts can
+be sent to a common address or alternative correspondence
+addresses. The layout of the correspondence can be defined in a
+flexible way. </description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <sap-product name="SAP Payment Processing for Public Sector" key="SAP Payment Processing for Public Sector"/>
+        <variant name="Maintaining Accounts" refid="417FBDE85E6744CC831F58076425"/>
+        <variant name="Clarifying Credits" refid="FF466C5E2BFD47F09404C24A068D"/>
+      </process>
+      <process name="Distributing Revenues" bprrefid="" solManContentAvailable="true" id="218E868BAC864CFAAAAC8DD15BB4A40E">
+        <description>
+					The enhanced revenue distribution functionality provides tax
+agencies the ability to distribute taxes based on actual and
+projected revenues collected. This becomes important as some State
+and Local governments distribute revenues based on actual and
+projected revenues collected and other governments distribute only
+cash-based revenues or accrued revenues (excluding projections).
+Tax revenues may be distributed to the same internal organization
+and fund as originally assigned during the tax liability creation,
+but could also be distributed to different levels in the
+organization and to external organizations and State Funds. The
+agencies may also perform multiple levels of revenue distribution
+and/or allocation depending on specific revenue types.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <sap-product name="SAP Payment Processing for Public Sector" key="SAP Payment Processing for Public Sector"/>
+        <variant name="Distributing Revenues" refid="015C1BA3616148A68385ACC645FC"/>
+      </process>
+      <process name="Handling Doubtful and Bad Debts" bprrefid="" solManContentAvailable="" id="01DD70350C0A4A9B881CF47654871F2C">
+        <description>With this business process you can handle doubtful and irreoverable
+debts.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <sap-product name="SAP Payment Processing for Public Sector" key="SAP Payment Processing for Public Sector"/>
+        <variant name="Handling Doubtful and Irrecoverable Debts" refid="8990633D203544AD8BD33896493B"/>
+      </process>
+      <process name="Electronic Bill Presentment and Payment" bprrefid="" solManContentAvailable="true" id="3158196341634BA7BFB25D7F5ABE2A18">
+        <description>
+					SAP's FSCM Biller Direct
+provides tax agencies with the functionality to provide a taxpayer
+portal. Customer service, bill presentment and payment or contact
+handling are provided through the Internet.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <variant name="FI-CA: Electronic Bill Presentment and Payment" refid="6195D8D0F683467C9830716DDC1B"/>
+      </process>
+      <business-objective name="Reduce administration, improve business processes"/>
+      <business-objective name="Reduce administration, improve business processes"/>
+      <business-objective name="Reduce transaction costs"/>
+      <business-objective name="Improve accounting processes"/>
+      <business-objective name="24x7 customer self-service"/>
+      <business-objective name="Better service levels"/>
+      <business-objective name="Provide a single face to the customer"/>
+      <business-objective name="Better management and control of public funds"/>
+      <business-objective name="Reduce cost of services"/>
+      <business-objective name="Reduce error rate by use of automated processes"/>
+      <business-objective name="Standardize processes for consistency, efficiency"/>
+      <business-objective name="Improve process efficiency"/>
+      <kpi name="Customer Satisfaction Index"/>
+      <kpi name="Cash Flow per FTE"/>
+      <kpi name="Revenue"/>
+    </scenario>
+    <scenario name="Collections Management" id="A0F18113A8044360AD14942BC67AD04F">
+      <description>
+				
+					</description>
+      <process name="Taxpayer Segmentation" bprrefid="" solManContentAvailable="" id="B199D487959A40A584FB9ADE7D2C88BC">
+        <description>Tax agencies can use this process to segment taxpayers by tax type
+or regional aspects, or based on their prior payment and collection
+history. A collection strategy will be assigned to the taxpayer or
+alternatively to a taxpayer's account or location.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Managing Collections" bprrefid="" solManContentAvailable="" id="827EC579987848A587F56D92560839BE">
+        <description>
+					This process is tuned to
+handle high-volumes of outstanding tax liabilites and tax filing
+obligations. Taxpayer accounts are evaluated based on the
+collection strategy assigned to the taxpayer or to one or several
+accounts of the taxpayer. Based on taxpayer attributes and
+information about the outstanding debts the collection run
+determines the most effective collection activity to be performed.
+Collection activities can be automatic tasks such as dunning
+letters, transfers to collection agencies and manual tasks of
+collection agents. The rules used for determining collection
+activities can be maintained in a flexible decision tree. All
+taxpayer attributes and contextual information about the
+taxpayer may be considered.Thus, collections
+management becomes more effective - relieving employees of
+unproductive routine activities and empowering them to take care of
+critical accounts personally. Uncollected debts and overdue tax
+filing obligations are reduced and voluntary compliance is
+increased. </description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Handling Delinquent Filers" bprrefid="" solManContentAvailable="true" id="09B1EE763B2C440E91C493D0C49841D6">
+        <description>
+					This process enables tax
+agencies to identify and correspond with non-filers and
+late-filers. Non-filers can be tracked by tax type or form
+level. Tax and Revenue Management supports comprehensive inbound
+correspondence handling, comprising reminder letters, calculation
+of penalties and further activities (i.e. telephone dunning list,
+work items).</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Managing Collection Worklists" bprrefid="" solManContentAvailable="" id="BF5A1130E531425BA19052260FDA3C5B">
+        <description>
+					
+        For certain taxpayer
+accounts automatic reminder letters are not sufficient. For those
+cases the collection run can create work items, which are part of
+collection worklists. Collection work items may be used for
+outbound collection calls or handling more intensive tasks such as
+garnishments or bank seizures.
+        </description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Processing Collection Work Items" bprrefid="" solManContentAvailable="" id="E18E619EFFC844AD84E3C138DCFE8EB5">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Managing Deferrals and Installment Plans in Interaction Center" bprrefid="" solManContentAvailable="" id="58D7717711F04D8E8559A29626FC4F05">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Managing Promise to Pay in Interaction Center" bprrefid="" solManContentAvailable="" id="6C6FAA4EEA9947C5AA12000CB437EE1D">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Interacting with External Collection Agencies" bprrefid="" solManContentAvailable="" id="1B23774A6A02416D9D27878B0BCCABFF">
+        <description>
+					You can use this process
+to submit receivables to external collection agencies. Submitting
+receivables to an external collection agency is an
+alternative course of action when all measures for enforced
+collection have failed within the tax agency so far. The decision
+may be based on capacity or taxpayer attributes.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Monitoring Promises to Pay" bprrefid="" solManContentAvailable="" id="5709EBAB43BE4C92ACD077F50E5F3C5D">
+        <description>This process allows you to monitor automatically the fulfillment of
+promise to pay arrangements. If a promise to pay is not fulfilled,
+the arrangement can be withdrawn automatically and the collection
+run will determine the next collection activity.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Monitoring Collection Success" bprrefid="" solManContentAvailable="" id="02D1EE98BC3C42009CBD6AA1C48469EE">
+        <description>
+					This process is used to automatically monitor the success of
+collection activities. The collection success is determined based
+on the time it takes till an outstanding debt is paid. The
+collection success is displayed in the collection history and may
+be used for the determination of additional collection
+activities.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <business-objective name="Improve collections, reduce receivables"/>
+      <business-objective name="Improve process efficiency"/>
+      <business-objective name="Offer multiple points of access."/>
+      <business-objective name="Streamline service operations"/>
+      <business-objective name="Support multi-channel interaction"/>
+    </scenario>
+    <scenario name="Case Management" id="E20EAF2792224C38B0CEBDBD084ABFDF">
+      <description>
+				Case Management in Tax
+and Revenue Management provides a central repository for managing
+information triggered by various events in the system and
+originating from multiple sources and channels.Case Management can be
+used for various case types, such as bankruptcy cases, audit cases
+and so on. The scenario supports the linking of objects from mySAP
+CRM and SAP Public Sector Collection &amp; Disbursement as well as
+objects from external applications. It offers greater visibility of
+case information resulting in improved processing efficiency.The data mining function
+of SAP Business Intelligence can be used for audit case
+discovery.</description>
+      <process name="Case Management Analysis" bprrefid="" solManContentAvailable="" id="BF525AED4613490C8B134A88C726FB83">
+        <description>
+					Through SAP Business Information Warehouse, compliance cases can be detected based on user-defined criteria. Compliance investigations are supported by SAP's unique, single view citizen account concept, which enables tax authorities to store data on a centralized taxpayer account across various tax types.</description>
+        <sap-product name="SAP NetWeaver" key="B47"/>
+      </process>
+      <process name="Case Processing in CRM" bprrefid="" solManContentAvailable="" id="1634A4C61B29415A89D9DBB64AE510B7">
+        <description>
+					Case processing involves
+those steps or actions necessary to evaluate and complete cases. It
+includes but is not limited to:Full-text retrieval
+search engines can be used. When possible, the search capability
+will use these existing interfaces.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <variant name="Case Processing in CRM" refid="C906C5A516E54CF6BCB8DA02B8DC"/>
+      </process>
+      <business-objective name="Complaint management and tracking"/>
+      <business-objective name="Improved quality and accuracy"/>
+      <business-objective name="Strengthen enforcement capabilities to prevent illegal activities"/>
+      <business-objective name="Increase data transparency"/>
+      <business-objective name="Provide decision support"/>
+      <business-objective name="Improve transparency and auditability of activities"/>
+      <kpi name="Contact Efficiency"/>
+      <kpi name="Revenue"/>
+    </scenario>
+    <scenario name="Revenue Accounting" id="206B0F0C18E9428C81E701E7D589D9D5">
+      <description>
+				As a fully integrated
+solution, SAP Tax and Revenue Management represents the link
+between the feeder system and the supporting applications. Analyses
+and reports are created in SAP ERP, such as SAP BW, SAP FI, SAP CO,
+SAP Funds Management, Fund Accounting, and Cash Management supplied
+with data from SAP Public Sector Collection &amp; Disbursement
+through a central interface, reflecting the necessary level of
+aggregation. This ensures reconciliation between accounting
+documents from SAP PSCD and G/L accounting documents in
+finances.</description>
+      <process name="Processing Daily Reconciliation" bprrefid="" solManContentAvailable="true" id="4680A9DD961E4FC18B2D0ACB268B508B">
+        <description>To ensure the accuracy of accounting, certain activities have to be performed (closing of cash desk, reconciliation of General Ledger...) on a daily basis.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <variant name="Processing Daily Reconciliation" refid="FA0D30CED9904E628CC6D6A65388"/>
+      </process>
+      <process name="Performing Closing Operations" bprrefid="" solManContentAvailable="true" id="17DDC291571444C1995E890BB53F7BEE">
+        <description>Certain tasks have to be processed to ensure that periodic closing operations can be performed.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <variant name="Performing Closing Operations" refid="A26938C1649A4BFFA58589235EE7"/>
+      </process>
+      <process name="Classic General Ledger" bprrefid="" solManContentAvailable="true" id="CBBC8DF74D0F422496ABF4D6AAB0A25F">
+        <description>
+					Generates financial
+closing statements (balance sheets and profit and loss statements)
+that are required by law. It summarizes accounting transactions
+from sub-ledgers. The revenue status is an important piece of that
+information.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Integration with Funds Management" bprrefid="" solManContentAvailable="true" id="63C933FF71424ADB8BA44AB8B742DA68">
+        <description>
+					Supports the planning and creation of budgets and the update of accrual and cash information on the corresponding Funds Management objects, such as commitment items, funds center, and so on.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+    </scenario>
+    <scenario name="Financial Customer Care for Public Sector" id="AEA067FA6CB54E93A116ADC530EAF439">
+      <description>Financial customer care and dispute management supports all
+financial-related communications with customers based on the latest
+interaction center technology. It enables companies to manage
+contacts via any communication channel and integrates seamlessly
+with the receivables and collections management capabilities of
+SAP. It arms the service agents with the facts and figures they
+need to provide immediate, accurate answers, and the functions they
+require to take on-the-spot action. With this scenario, you can
+ensure that disputes (relating to invoices or dunning letters, for
+instance) are dealt with effectively and rapidly.</description>
+      <process name="Managing Financial Inquiries in Interaction Center for Public Sector" bprrefid="" solManContentAvailable="" id="C3EB1CEE82E64C23A3F5019F4F02B592">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <variant name="Managing Financial Inquiries in Interaction Center for Public Sector" refid="483B3290791A11D912D100306E055DA7"/>
+      </process>
+      <process name="Displaying Invoices in Interaction Center" bprrefid="" solManContentAvailable="" id="50C031E88BCD40AAA50C6725A8959237">
+        <description>You can use this business process to display invoices in the
+Interaction Center.</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+      </process>
+      <process name="Capturing Payment Authorizations in Interaction Center" bprrefid="" solManContentAvailable="" id="D7AD48D52A4949C6BEAFCE3E16C64DF6">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <variant name="Entering Payment Authorizations in Interaction Center" refid="EF63CD40AD1A8125E10000000A114AB6"/>
+      </process>
+      <process name="Managing Credits" bprrefid="" solManContentAvailable="" id="107900E289D04E0388C059AB5AE48DCA">
+        <description>With this business process an Interaction Agent can process
+refunds.</description>
+      </process>
+      <process name="Managing Processing Locks in Interaction Center" bprrefid="" solManContentAvailable="" id="09A2633E749E4CB09C4CE8482BD01A84">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <variant name="Managing Processing Locks in Interaction Center" refid="1865CD40AD1A8125E10000000A114AB6"/>
+      </process>
+      <process name="Managing Inbound Correspondence" bprrefid="" solManContentAvailable="" id="3CDB3F8AA07440C5B883FF0CEA23B8AB">
+        <description>
+					
+						
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <variant name="Managing Inbound Correspondence" refid="94E4953BF6704FB5B4C3ED00D56EEA26"/>
+        <variant name="Managing Inbound Correspondence" refid="A6F345F0791711D912D100306E055DA7"/>
+      </process>
+      <process name="Managing Disputes" bprrefid="" solManContentAvailable="" id="D2778FA9851D484785AAF9B525DF7408">
+        <description>
+					
+						</description>
+        <sap-product name="SAP Tax and Revenue Management for Public Sector" key="SAP Tax and Revenue Management for Public Sector"/>
+        <variant name="Processing Disputes in Interaction Center" refid="10CDA5B9F5FF416BA24E8EF95FF81F00"/>
+      </process>
+      <business-objective name="Improved quality and accuracy"/>
+      <business-objective name="Complaint management and tracking"/>
+      <business-objective name="Provide a single face to the customer"/>
+      <business-objective name="Support multi-channel interaction"/>
+      <business-objective name="Personalized customer interaction"/>
+      <business-objective name="Better service levels"/>
+      <business-objective name="Maximize profitability by customer"/>
+      <business-objective name="Improve customer retention and loyalty"/>
+      <business-objective name="Lower communications expenses"/>
+      <business-objective name="Reduce administration, improve business processes"/>
+      <business-objective name="Improve collections, reduce receivables"/>
+      <business-objective name="Shorten order-to-cash cycle"/>
+      <business-objective name="Ensure effective customer service through qualified agents"/>
+      <business-objective name="Ensure customers are treated in accordance with pre-defined business rules"/>
+      <business-objective name="Improve service quality"/>
+      <kpi name="Customer Satisfaction Index"/>
+      <kpi name="Percentage of Customer Complaints"/>
+      <kpi name="Average Receivables"/>
+      <kpi name="Total IT Costs"/>
+      <kpi name="Days Sales Outstanding"/>
+      <kpi name="Direct Labor Costs"/>
+    </scenario>
+  </scenario-group>
+</industry>

@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<contents>
+<extractedContent>
+<modelReference>
+processTitle</modelReference>
+<singleContent>
+BAR_01_PDD01_Maintain **A test of rules** </singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+processSection/teamOwner</modelReference>
+<singleContent>
+BAR &#226;&#8364;&#8220; Budget, Analysis and Reporting </singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+owner</modelReference>
+<singleContent>
+Mary Lou Milbourn  </singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+OtherSection/title</modelReference>
+<singleContent>
+Mark Schneider </singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+OtherSection/title</modelReference>
+<singleContent>
+Ver # 1 </singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+processFlowModel/description</modelReference>
+<singleContent>
+Based on a Change Control Request form, this process will provide us with the ability to maintain the master records for the GL accounts in the FI module of SAP.  As a result of this action, we can create, change, or delete a GL account. In addition, a **A test of rules** that is created in the Chart of Accounts will not be able to post in a Company until it is created or extended to the Company Code. Also, this will include the maintenance of cost element master data in CO, which is used in management reporting.</singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+OtherSection/title</modelReference>
+<singleContent>
+Corporate Reorganizations, Acquisitions, Statutory and Management requirements are events, which may trigger the creation of new **A test of rules**s. These new **A test of rules**s may be extended to Companies in the FI Module and Cost Elements in the Controlling Module (CO) of SAP.</singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+OtherSection/title</modelReference>
+<singleContent>
+Company CodeChart of AccountsTrained Data Administrator / Certified Super UserMaster Data Administration Governance and Escalation Process</singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+processFlowModel/inputSubSection/input/name</modelReference>
+<singleContent>
+    Request to create, change, or display a **A test of rules**.</singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+OtherSection/title</modelReference>
+<singleContent>
+Accounts Payable Accounts ReceivableCorporate AccountingTaxTreasuryAuditCorporate FP-AHuman Capital Management SAP Production SupportSupply ManagementOrder to CashPlan to Stock</singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+processFlowModel/outputSubSection/output/name</modelReference>
+<singleContent>
+A created, changed, blocked or a flag for deletion of a **A test of rules** and Cost Element.Interface file with updated **A test of rules** status for external systems.</singleContent>
+</extractedContent>
+<extractedContent>
+<modelReference>
+OtherSection/title</modelReference>
+<repeatedContent>
+<aRow>
+<aCol>
+No </aCol>
+<aCol>
+Action </aCol>
+<aCol>
+By Whom </aCol>
+<aCol>
+Manual or System </aCol>
+</aRow>
+<aRow>
+<aCol>
+1 </aCol>
+<aCol>
+The Finance Control Group assesses the need and either approves or rejects the &#226;&#8364;&#339;**A test of rules** Request&#226;&#8364;&#65533;  (Transaction codes do not apply) </aCol>
+<aCol>
+Finance Control </aCol>
+<aCol>
+Manual </aCol>
+</aRow>
+<aRow>
+<aCol>
+2 </aCol>
+<aCol>
+GL Master Data receives the approved GL Acco unt Request.  </aCol>
+<aCol>
+GL Master Data Admin  </aCol>
+<aCol>
+Manual </aCol>
+</aRow>
+<aRow>
+<aCol>
+3 </aCol>
+<aCol>
+Should new account attributes be required the request will be routed to SAP Production Support. Example of an Account Attribute is Account Group.  (Transaction codes do not apply) </aCol>
+<aCol>
+SAP Production Support </aCol>
+<aCol>
+System </aCol>
+</aRow>
+<aRow>
+<aCol>
+4 </aCol>
+<aCol>
+GL Master Data Administrator will create or change the GL account as needed at the chart of accounts level.   (Transaction codes:  FSS0, FSP0, FS00) </aCol>
+<aCol>
+GL Master Data Admin </aCol>
+<aCol>
+System </aCol>
+</aRow>
+<aRow>
+<aCol>
+5 </aCol>
+<aCol>
+GL Master Data Administrator will extend  newly created  accounts to the comp any code and maintain the master data at the company code level GL account as needed at the chart of accounts level.   (Transaction codes:  FSS0) </aCol>
+<aCol>
+GL Master Data Admin </aCol>
+<aCol>
+System </aCol>
+</aRow>
+<aRow>
+<aCol>
+6 </aCol>
+<aCol>
+GL Master Data Administrator communicates to the **Client** user community that the G L Account is available for posting. GL Master Data Administrator will create or change the GL account as needed at the chart of accounts level.   (Transaction codes do not apply) </aCol>
+<aCol>
+GL Master Data Admin </aCol>
+<aCol>
+Manual </aCol>
+</aRow>
+</repeatedContent>
+</extractedContent>
+</contents>

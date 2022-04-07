@@ -1,0 +1,1314 @@
+<industry name="Automotive - OEM">
+  <scenario-group name="Time-to-Market">
+    <description>
+			The Time-to-Market business scenario group contains all the
+process from New Product Development and Introduction to Life-Cycle
+Management. Within Time-to-Market the ramp-up time to production is
+critical in order to better meet the customer demand and in order
+to avoid lost demand and costs for promotions if demand is not met.
+The Time-to-Market processes ensure
+      Achievement of more superior NPDI capabilities through
+cross-functional process visibility and process alignment, improved
+product portfolio decision-making, more effective deployment of
+critical resources
+      </description>
+    <scenario name="New Product Development and Introduction" id="FDC883BD32A547A4848B3B35E85A9D5D">
+      <description>The Scenario describes all relevant processes related to new
+product development, starting with the collection of first ideas
+and concepts. It includes product and process engineering as well
+as engineering change management. And it contains the final steps
+of prototype build and activities related to launching the product
+in the market.</description>
+      <process name="Idea and Concept Management" bprrefid="" solManContentAvailable="" id="DB34E5867DC34B3BA45C4EAA7E5CF2C1">
+        <description>SAP xPD addresses the hurdles and inefficiencies at the critical
+front-end of product development processes: idea management and
+concept development. This solution enables organizations to
+capitalize on every possible good idea for new products or
+services, study their market potential and technical constraints,
+evaluate if and how to efficiently produce them and then come up
+with a short list of promising product concepts that match a
+company’s strategy.</description>
+        <sap-product name="SAP xApp Product Definition" key="S69"/>
+        <variant name="Idea and Concept Management" refid="F607FEC7A9F14CFFBBB6006F48F0AC16"/>
+      </process>
+      <process name="Strategic Portfolio Management" bprrefid="" solManContentAvailable="" id="DA9B3408823F4BB99D9F84AC9B7619BF">
+        <description>The primary challenge of strategic portfolio management is to provide a comprehensive up-to-date view of a company’s entire project portfolio and answer several important questions. 
+Is the portfolio aligned with corporate goals? What is the future demand for resources and what is the capacity? Are the most skilled employees working on the most appropriate projects? Will the portfolio meet its business performance targets? What are the risks and impact of a delay? Timely answers to these questions are critical in determining which projects to pursue and which ones to fix or cancel.
+Project registration and enforcing an enterprise-wide decision making process for approving projects is an additional critical area in strategic portfolio management. 
+Strategic portfolio management combines and gives visibility into the financial, strategic and operative aspects across your entire project portfolio to enforce governance, to make fact-based decisions and to maximize return on existing assets.</description>
+        <sap-product name="SAP xApp Resource &amp; Portfolio Management" key="S70"/>
+        <variant name="Strategic Portfolio Management" refid="F458059D3A22408AB1BFDA08B9B7FF55"/>
+      </process>
+      <process name="Project Planning and Scoping" bprrefid="" solManContentAvailable="" id="8CD87CD12EB646EFB51D60CD75AB364A">
+        <description>Setting up a project plan including the complete project structure,
+schedule and assigned documents using cProjects or PS.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Project Planning with cProjects" refid="C7365D6E535343899BB84D1348DE4C87"/>
+        <variant name="Project Planning with PS" refid="E9C975B2246F4F00B26DC3FB47F87649"/>
+      </process>
+      <process name="Product Development (Discrete Industries)" bprrefid="" solManContentAvailable="" id="5F94B37CE8544F7E9C8BF92A8FED3A30">
+        <description>The business process "product development" allows you to optimize cross-department product development. This is reached among other things by a consistent central storage of all relevant data during the entire product development process.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Product Development (Discrete Industries)" refid="CA2B9E7E66F44B09B065F0908E81ECEA"/>
+      </process>
+      <process name="Process Engineering" bprrefid="" solManContentAvailable="" id="316337A93015414E927177CD3083BB2B">
+        <description>
+					During Process Engineering all information regarding the needed activities to build or assemble a product is generated. This follows a step by step approach starting with early data regarding the foreseen production locations and will then be detailed until the durations and needed resources are defined. Process Engineering is an iterative process and takes into account the ongoing changes both in the product documentation / BoM and in the routing definition.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Process Engineering" refid="82A62BA0D95711D812D100306E055DA7"/>
+      </process>
+      <process name="Project Execution" bprrefid="" solManContentAvailable="" id="8F6AA64CAA8B4F51B798031CA6803FD3">
+        <description>Executing a project based on the project plan including creation of
+documents, simulation of alternative project structures and
+analytics using PS</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Project Execution with PS" refid="F8C707D5035C42A9BB1326EF1C3DCAB5"/>
+      </process>
+      <process name="Prototyping and Ramp-Up (Discrete Industries)" bprrefid="" solManContentAvailable="" id="D60F0065735346E7A7CFDF137D19E99E">
+        <description>Prototyping and ramp-up refers to the processes involved in "experimenting" with different recipe versions to ensure an optimal product and process definition for release to manufacturing.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Prototyping and Ramp-Up (Process Industries)" refid="2B6F402B5B50472AB812413235CF57B3"/>
+      </process>
+      <business-objective name="Increase collaboration (internally &amp; externally"/>
+      <business-objective name="Speed innovative products / designs to market"/>
+      <business-objective name="Increase volume of engineering support with existing staff"/>
+      <business-objective name="Integrate - eliminate redundancies"/>
+      <business-objective name="Improve RFQ/RFP processes"/>
+      <business-objective name="Support for the strategic planning process"/>
+      <business-objective name="Improve product quality"/>
+      <kpi name="Number of ECOs"/>
+      <kpi name="Time to Market"/>
+      <kpi name="Research &amp; Development Costs"/>
+      <kpi name="Product &amp; Process Data Accuracy"/>
+      <kpi name="Number of Prototypes Built"/>
+      <kpi name="Engineer Change Order (ECO) Costs as a % of R&amp;D Costs"/>
+    </scenario>
+    <scenario name="Life-cycle Data Management" id="86D456EA891645DFAB37552E4B379521">
+      <description>
+				The Scenario contains
+all tools and functions relevant to support the process of managing
+master data such as part master records and BOM structures
+throughout the lifecycle of the product.   Life cycle Data
+Management helps to reduce the barriers between different
+functional departments like engineering and manufacturing in order
+to avoid delays and quality issues.</description>
+      <process name="Document Management" bprrefid="" solManContentAvailable="" id="12192A8DA87F4606BAF73BCBFB6C20E4">
+        <description>An innovative way of integrating all documents in your work processes and making them available at any time. Any file type (such as text, graphic, CAD, and office) can be managed and linked to many business objects (such as material, BOM, sales order, and equipment).</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Document Management" refid="2B626A06EA8D4909A2F29100A81E9C06"/>
+      </process>
+      <process name="Product Structure Management" bprrefid="" solManContentAvailable="" id="16FBF7289EA84D8B929720568A7F5779">
+        <description>Enables you to manage product-related master data and offers
+consistent structures for integrating this data in manufacturing
+processes (such as work scheduling) and the management of resources
+(for example, in shop floor control). Integrates Product, Process
+Structure and Factory Structure for highly variant products. Serves
+as basis for rapid planning matrix (RPM).</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Product Structure Management based on BOM" refid="0CA38A76331D4390B4E3F0F53392C78F"/>
+        <variant name="Product Structure Management based on iPPE" refid="D96C4B60E16111D812D100306E055DA7"/>
+      </process>
+      <process name="Quality Engineering" bprrefid="" solManContentAvailable="" id="4CA49765594841B39A94B7845B59F42B">
+        <description>Quality engineering means incorporating quality throughout the entire product development process. This starts with defining deliverables and quality gates within a project, includes inspection planning as well as efficient supplier management and maintenance of quality related documents. In some industries, stability studies are also part of this process.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Quality Engineering" refid="C4A9899A06DB4C15B4B02258106CEE0A"/>
+      </process>
+      <process name="Quality Assurance and Control" bprrefid="" solManContentAvailable="" id="CE0EA40B26574C56B676522A0D253DCD">
+        <description>Quality assurance and control involves inspections at all stages, continuous monitoring, and quick intervention to deal with unexpected events. Quality inspections can be triggered by various events such as order release or goods movements, but also by manual actions. To document product quality, certificates can be created.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Quality Assurance and Control" refid="73DDBF57F95D456087087B79DBBCA820"/>
+      </process>
+      <process name="Change and Configuration Management" bprrefid="" solManContentAvailable="" id="9E4283A8DC8642AA900DA3F0222D999E">
+        <description>Allows the efficient management of engineering change requests to ensure product quality in all phases of the product life cycle.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Change and Configuration Management" refid="37F031A2F4054A1BAE39889BEB682C4D"/>
+      </process>
+      <process name="Hazardous Substance Management" bprrefid="" solManContentAvailable="" id="6DA1FA8BAEB94A6FAC411CBDD793EFA9">
+        <description>Enables safe handling and tracking of hazardous substances that exist in designated areas of the enterprise.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Hazardous Substance Management" refid="3D10B83DF65D43919636C1828F5C977B"/>
+      </process>
+      <process name="Master Data Management" bprrefid="" solManContentAvailable="" id="56AC954EDACF411D95B7D990CBA5463B">
+        <description>SAP MDM enables the sharing of harmonized master data, formerly
+trapped in multiple systems, and ensures cross system data
+consistency – regardless of physical system location and vendor. It
+helps to align master data by providing services that recognize
+identical master data objects, and keep them consistent. In
+addition, it enables the federation of business processes, by
+providing consistent distribution mechanisms of master data objects
+into other systems, within the company, and across company
+boundaries.</description>
+        <sap-product name="SAP NetWeaver Master Data Management" key="B25"/>
+        <variant name="Master Data Management" refid="B10DAA60D95511D812D100306E055DA7"/>
+        <variant name="Loading Master Data" refid="7C79099EEC2741D38251F562F8F2A43F"/>
+        <variant name="Consolidating Master Data" refid="A5B048DDDAC546F0AD2A1FAB25587E53"/>
+        <variant name="Maintaining Master Data Centrally" refid="335CAEFE88384F178697F57B4E577E77"/>
+        <variant name="Distributing Master Data" refid="B36CA91CB78F4FC8B145E8917436F6B6"/>
+        <variant name="Enabling Cross-Group Analytics With Consolidated Data" refid="FC4DAE2A2D7843BCA41C862EA4301C87"/>
+      </process>
+      <business-objective name="Reduce cycle time to approve and implement engineering changes"/>
+      <business-objective name="Reduce lifecycle costs"/>
+      <business-objective name="Improved quality and accuracy"/>
+      <business-objective name="Improve document control, integrity and retention"/>
+      <business-objective name="Provide source of &quot;one truth&quot;"/>
+      <kpi name="Bill of Material Data Accuracy"/>
+      <kpi name="Engineer Change Order (ECO) costs"/>
+      <kpi name="Incoming Material Quality"/>
+      <kpi name="Product &amp; Process Data Accuracy"/>
+    </scenario>
+  </scenario-group>
+  <scenario-group name="Supplier Collaboration">
+    <description>
+			Supplier Collaboration comprises the business scenarios with
+supplier interaction from a strategic level to an operational
+level. It contains Strategic Sourcing and Operational Procurement
+and Inbound Logistics.Increased Supplier Collaboration helps to increase visibilty in
+order to react faster to changing conditions and increase the cost
+efficiency in the upstream supply chain. In addition it ensures
+reduced inventories and reduced transportation costs. As strategic
+sourcing today is a highly manual process the use of Strategic
+Sourcing Tools can significantly streamline the related business
+process and save cost and time.</description>
+    <scenario name="Strategic Sourcing" id="F40365EDA8B24F07B8F2E6CF909E9CCD">
+      <description>The scenario describes all processes required before a contract
+with a supplier for one or several parts is finalized and handed
+over to operational procurement. Strategic sourcing contains the
+management of the supply base as well as the handling of quotations
+including bidding processing and contract negotionations. A very
+important part of strategic sourcing for the automotive industry
+are the quality assurance and approval processes that are needed
+befor a new part can be used for series production. </description>
+      <process name="Source of Supply Management" bprrefid="" solManContentAvailable="" id="F470736B29174B55806313CD3B2EB192">
+        <description>
+					You can use this
+business process to process all your requirements and optimize your
+source of supply for each individual item. You can identify saving
+opportunities and evaluate suppliers in their ability to provide
+materials and services at low cost, high quality, and according to
+schedule.Once you have determined
+the best source of supply (e.g. via RFXs or auctions) for your
+requirements, you can collaborate in project teams both internally
+and with your suppliers, and establish on-going relationships
+based, for example, on contracts and global outline agreements.</description>
+        <sap-product name="SAP Extended Purchasing for Automotive" key="SAP Advanced Purchasing for Automotive"/>
+        <variant name="Negotiating Contracts" refid="5ADF0D4186867001E10000000A114AB6"/>
+        <variant name="Managing Bidding Events" refid="AC42933E2D2D8018E10000000A114AB6"/>
+      </process>
+      <process name="Analysing Global Spend" bprrefid="" solManContentAvailable="" id="BF5FBB21E6294B52A0DEF745B32D1C9B">
+        <description>
+					mySAP SRM offers a lean
+yet powerful tool within mySAP BI to consolidate and harmonize
+master data (vendors, products, product categories) for reporting
+purposes. This local master data alignment allows you to identify
+and group duplicate vendors or products coming from the various
+procurement systems. In the spend analysis reporting, such a group
+will appear only as one consolidated entry instead of multiple
+entries (that is, one for each original item). A huge variety of
+analyses are available, ranging from "Top Suppliers", "Number of
+suppliers per product category" to "Purchasing Volume per quarter"
+and many more.</description>
+        <sap-product name="SAP NetWeaver Business Intelligence" key="B12"/>
+        <sap-product name="SAP Extended Purchasing for Automotive" key="SAP Advanced Purchasing for Automotive"/>
+        <variant name="Analyzing Global Spend" refid="F1FE6740E7A12D45E10000000A114AB6"/>
+      </process>
+      <process name="Vendor Evaluation and Monitoring" bprrefid="" solManContentAvailable="" id="9218BC456ED24E219609FEB9D0F49966">
+        <description>You can use this business process to evaluate your vendors on the basis of Web-based surveys. In order to meet your specific reporting requirements, you can configure individual surveys and questionnaires, select the criteria that you want to evaluate, and stipulate when the evaluation is to take place. After the data has been transferred to SAP Business Information Warehouse, several analyses are available to help you to select suitable vendors and negotiate best conditions.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Extended Purchasing for Automotive" key="SAP Advanced Purchasing for Automotive"/>
+        <variant name="Vendor Evaluation and Monitoring" refid="6A2415CE101A4243A5DD548D897BA7EE"/>
+        <variant name="Evaluating Vendors and Monitoring in ERP" refid="9FE20D4186867001E10000000A114AB6"/>
+        <variant name="Evaluating Vendors and Monitoring in SRM" refid="5DE20D4186867001E10000000A114AB6"/>
+      </process>
+      <process name="Requirement Processing" bprrefid="" solManContentAvailable="" id="0EBBA1A681BD40B49C20710C36401B26">
+        <description>
+					A purchase requisition
+describes a demand that is released to the purchasing department.
+The demand can be created automatically, e.g. as result of a MRP
+run or by assigning components or services to a maintenance or
+production order. Alternatively, the purchase requisition can be
+entered manually or transferred from another system.  The
+accounting data can already be assigned and checked during
+processing of the purchase requisition. Sourcing (incl. initiating
+a RFQ process) can be executed based on a purchase requisition as
+well as assignment of documents.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Extended Purchasing for Automotive" key="SAP Advanced Purchasing for Automotive"/>
+        <variant name="Processing Purchase Requisitions in ERP" refid="CCDC0D4186867001E10000000A114AB6"/>
+        <variant name="Purchase Requisitions with Service Directories" refid="21DD0D4186867001E10000000A114AB6"/>
+        <variant name="Processing Shopping Carts" refid="BF771B3D14197A3FE10000000A114AB6"/>
+        <variant name="Requesting External Staff" refid="AD6D6740E7A12D45E10000000A114AB6"/>
+      </process>
+      <process name="Managing Bidding Events" bprrefid="" solManContentAvailable="" id="AA3C1CD03EAE4AF08BA31EBDF89FCA88">
+        <description>
+					You can use this business process to invite suppliers to submit bids in response to a bid invitation.Since negotiation is a critical step in the sourcing process, purchasing companies can use bid invitations to invite qualified suppliers to offer materials or services according to requirements. Typically, the supplier’s offer is final and binding and there is no opportunity for lowering bids. This makes bid invitations slightly less competitive than reverse auctions.This business process supports and streamlines bid invitation processes, enabling users to create bid invitations out of existing contracts and requisitions. It also provides the tools needed to quickly convert received bids into purchase orders or contracts. This accelerates the bid invitation process and vastly increases the productivity of purchasing professionals.</description>
+        <sap-product name="SAP Extended Purchasing for Automotive" key="SAP Advanced Purchasing for Automotive"/>
+        <variant name="Managing Bidding Events" refid="AC42933E2D2D8018E10000000A114AB6"/>
+      </process>
+      <process name="Negotiating Contracts" bprrefid="" solManContentAvailable="" id="87E997487CB14259AF920D950AAD1A8F">
+        <description>
+					You can use this process either to· Negotiate a new contract using a special transaction type in SAP Bidding Engine· Renew an existing contract that has been released already.In this case it is triggered in the contract application of SAP Enterprise Buyer and moved to SAP Bidding Engine. The supplier then submits new contract details or updates existing ones, such as target value or conditions.</description>
+        <sap-product name="SAP Extended Purchasing for Automotive" key="SAP Advanced Purchasing for Automotive"/>
+        <variant name="Negotiating Contracts" refid="5ADF0D4186867001E10000000A114AB6"/>
+      </process>
+      <process name="Production Part Approval Process" bprrefid="" solManContentAvailable="" id="92F4A8A4A01044A981D17161E0363502">
+        <description>
+					The Production Part Approval Process (PPAP) is a business process "owned" by company’s quality departments. It makes sure, that the introduction of new parts or engineering changes are executed in a standardized way. Within the sourcing process, there is a high need to have standardized approval procedures before new or changed parts from suppliers are used in procurement and production. The main result of the purchasing and sourcing process is the purchasing contract containing all relevant information of a part. To "release" those contracts to operational procurement is considered to be a major part of a company’s PPAP related to procured parts. Normally this is the last quality gate of parts procured by third party suppliers. Best business practices combine the PPAP with an appropriate status management of the purchasing contracts and/or contract items; i.e. a contract item may not be used in operational procurement if it was not officially approved in the related PPAP.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Production part approval Process" refid="054C1AA0D95911D812D100306E055DA7"/>
+      </process>
+      <business-objective name="Improve RFQ/RFP processes"/>
+      <business-objective name="Increase collaboration (internally &amp; externally"/>
+      <business-objective name="Lower cost procured goods and services"/>
+      <kpi name="Number of Supply Sources"/>
+      <kpi name="Supplier on time Delivery Performance"/>
+    </scenario>
+  </scenario-group>
+  <scenario-group name="Build-to-Order">
+    <description>
+			Effective Management of the Build-to-Order process is a key
+successes factor for Automotive OEMs. It ensuresThis group of scenarios describe the Build-to-Order business
+scenarios and processes of an OEM. It comprises Supply to Line,
+Manufacturing and Asset Management.</description>
+    <scenario name="Supply-to-line" id="23BF8BF828E4412E86B4FCD352240202">
+      <description>The scenario describes the processes to replenish the production
+line-side inventory. It includes various replenishment strategies
+like consumption-based, event-driven and demand-driven/automatic
+replenishment.</description>
+      <process name="Inbound Processing and Receipt Confirmation" bprrefid="" solManContentAvailable="" id="28BA8C9592FA47CD8E9B39EF1A7DE8F7">
+        <description>Inbound processing  covers the physical inbound delivery processing that succeeds the procurement process. It includes ASN processing, physical Goods Receipt and putaway of materials in Warehouse Management up to sending the proof of delivery to the business partners</description>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Warehousing &amp; Logistics for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Inbound Processing and Receipt Confirmation with Warehouse Management" refid="0D524E6A3D7C4A53B6121D291A6BFA52"/>
+      </process>
+      <process name="Sequenced to Line" bprrefid="" solManContentAvailable="" id="0F5B404DC9CE4E74BE071AA31101BBF1">
+        <description>
+					Sequence to Line comprises the just-in-sequence deliveries of
+components from system suppliers directly to the assembly line.
+Sequenced to Line deliveries occurs in the shortterm horizont
+and do have a reference to an individual final product
+(like an individual vehicle). The objective is to synchronize the
+supply chain of the manufacture and the supplier.The functionality allows to receive and forward just-in-sequence
+messages from external systems. This process supports creation of
+just-in-sequence calls. The system is able to send this call to the
+supplier. The content of this message needs to come from the
+external system of the customer. The process does not imply
+generation of just-in-sequence calls within SAP's systems.</description>
+        <sap-product name="SAP Lean Manufacturing for Automotive" key="SAP Lean Manufacturing for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Sequenced to Line" refid="99111130D96011D812D100306E055DA7"/>
+      </process>
+      <process name="Kanban" bprrefid="" solManContentAvailable="" id="0899026B36AF4D049A93F8A096399B1F">
+        <description>
+					The KANBAN process for controlling production and material flow
+is based on the actual stock quantity in production. Material that
+is required on a regular basis is continually provided to
+production. Replenishment or the preproduction of a material is
+only triggered when the production actually requires the material.
+With KANBAN, the production process controls itself and manual
+posting is reduced as far as possible (scanning of a bar code). The
+effect of this is a reduction in lead time and in stock.</description>
+        <sap-product name="SAP Lean Manufacturing for Automotive" key="SAP Lean Manufacturing for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Kanban" refid="7EB08DD0D95F11D812D100306E055DA7"/>
+        <variant name="Web-based Kanban Processing" refid="DBCA46A0923C11D912D100306E055DA7"/>
+        <variant name="Web-based Kanban Processing with MRP" refid="5630AA20955C11D912D100306E055DA7"/>
+        <variant name="Web-based Kanban Processing with cFolders" refid="8517D8D0955D11D912D100306E055DA7"/>
+      </process>
+      <process name="Demand driven Line Replenishment" bprrefid="" solManContentAvailable="" id="5B2A853483614BDDACDFA5F21AF232ED">
+        <description>Demand Driven Line Replenishment is characterized by replenishing production line side stock based on actual demand coming from the production schedule and the actual available line side stock.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Sequenced Manufacturing for Automotive" key="SAP Sequenced Manufacturing for Automotive"/>
+        <variant name="Demand driven Line Replenishment" refid="15EB0040D96011D812D100306E055DA7"/>
+        <variant name="Demand driven Line Replenishment" refid="5B2A853483614BDDACDFA5F21AF232ED"/>
+      </process>
+      <process name="Physical Inventory" bprrefid="" solManContentAvailable="" id="386154E707994F59AB611B51125BBFF0">
+        <description>Physical Inventory is a process that all companies with their own stocks or special stocks in their warehouse eventually face. In this case, a rough statement is given on the storage location level, without further detailed information. </description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Physical Inventory on Storage Location Level" refid="46C7C11494F14C92A63D09E5BE8D5DA3"/>
+      </process>
+      <business-objective name="Reduce out-of-stock situation"/>
+      <business-objective name="Reduce late orders"/>
+      <business-objective name="Lower work-in-process inventory"/>
+      <business-objective name="Improve inventory visibility"/>
+      <business-objective name="Reduce of error rate by use of automated processes"/>
+      <kpi name="Total WIP Inventory Days of Supply"/>
+      <kpi name="Inventory Turnover"/>
+      <kpi name="Percent of parts delivered to point of use"/>
+      <kpi name="Raw Material Inventory Turnover (Quantity)"/>
+    </scenario>
+    <scenario name="Enterprise Asset Management" id="594F40B8CD3144DCBD51DD22E74E7525">
+      <description>
+				Enterprise asset management is a complete scenario for achieving
+optimal asset conditions with the least amount of costs and the
+best possible asset performance. It helps companies better manage
+capital expenditure, reduce operating costs, improve asset
+utilization, and collaborate with engineering and maintenance
+contractors.</description>
+      <process name="Investment Planning for Capital Assets" bprrefid="" solManContentAvailable="" id="DE267BC733F74538B54E313ECD6F8AB5">
+        <description>
+					This process provides business planning and simulation for asset
+investments, as well as investment planning and cost estimation for
+asset projects.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+      </process>
+      <process name="Document Management" bprrefid="" solManContentAvailable="" id="50377B9F5F7042A18EA9E53BF93F2851">
+        <description>
+					An innovative way of integrating all documents in your work
+processes and making them available at any time, document
+management allows all file types (such as text, graphic, CAD, and
+office) to be managed and linked to many business objects (such as
+materials, bill of materials, sales orders, and equipment).</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Document Management" refid="2B626A06EA8D4909A2F29100A81E9C06"/>
+      </process>
+      <process name="Investment Project Planning and Scoping" bprrefid="" solManContentAvailable="" id="6254344B40CA47DEB1954938D8B5563B">
+        <description>
+					Investment project planning and scoping processes involve
+setting up a complete project plan including structure, schedule,
+and assigned documents.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Project Planning with PS" refid="E9C975B2246F4F00B26DC3FB47F87649"/>
+        <variant name="Project Planning with cProjects" refid="C7365D6E535343899BB84D1348DE4C87"/>
+      </process>
+      <process name="Investment Project Execution" bprrefid="" solManContentAvailable="" id="BA251E0383CB40D581C404500152C6DE">
+        <description>
+					The investment project execution process consists of executing a
+project based on a project plan that includes the creation of
+documents, simulation of alternative project structures, and
+analytics.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Project Execution with PS" refid="F8C707D5035C42A9BB1326EF1C3DCAB5"/>
+        <variant name="Project Execution with cProjects" refid="ED18C6502BFC4E629F7F2D787F8D33BD"/>
+      </process>
+      <process name="Contractor Management" bprrefid="" solManContentAvailable="" id="55FEBB1EFA444EA5B04705C3EFF5A1EA">
+        <description>
+					The contractor management process includes management of the
+bidding and contract negotiation process, the awarding of the
+contract, and contract maintenance.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Source of Supply Management" refid="50960CEBFA6349298F469554B9B3111C"/>
+        <variant name="Conducting Live Auctions" refid="715DB03F5A10183BE10000000A114AB6"/>
+        <variant name="Managing Bidding Events" refid="AC42933E2D2D8018E10000000A114AB6"/>
+        <variant name="Negotiating Contracts" refid="5ADF0D4186867001E10000000A114AB6"/>
+        <variant name="Processing Contracts and Sourcing Rules in ERP" refid="72DE0D4186867001E10000000A114AB6"/>
+        <variant name="Processing Global Outline Agreements" refid="69CA893FB7B0183BE10000000A114AB6"/>
+        <variant name="Processing Contracts and Vendor Lists in SRM" refid="CACE7B3FE15C193BE10000000A114AB6"/>
+        <variant name="Searching for Sources of Supply" refid="2D46464143B17301E10000000A114AB6"/>
+      </process>
+      <process name="Services and Service Parts Requirement Processing" bprrefid="" solManContentAvailable="" id="9E7EE8A4BB26488AA4F67DDD35F1FD93">
+        <description>
+					In the services and service parts requirement process, railway
+organizations requisition equipment, materials, and services for
+maintenance, repair, and operations.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Requirement Processing" refid="70E50F59446646E6A27077293B2B0483"/>
+        <variant name="Requesting External Staff" refid="AD6D6740E7A12D45E10000000A114AB6"/>
+        <variant name="Processing Shopping Carts" refid="BF771B3D14197A3FE10000000A114AB6"/>
+        <variant name="Purchase Requisitions with Service Directories" refid="21DD0D4186867001E10000000A114AB6"/>
+        <variant name="Processing Purchase Requisitions in ERP" refid="CCDC0D4186867001E10000000A114AB6"/>
+      </process>
+      <process name="Purchase Order Processing" bprrefid="" solManContentAvailable="" id="EBDA0948FEFD4B05B654BF0EA943A0F7">
+        <description>
+					Purchase order processing covers the management of purchase
+orders for equipment, parts, and services for maintenance, repair,
+and operations.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Processing Purchase Orders in ERP" refid="1B88653C6C995B6FE10000000A114AB6"/>
+        <variant name="Processing Purchase Orders in SRM" refid="065A1B3D15197B3FE10000000A114AB6"/>
+      </process>
+      <process name="Supplier Collaboration" bprrefid="" solManContentAvailable="" id="9317C02769BD4F4CA4956E12F4BF2E1A">
+        <description>
+					During the supplier collaboration process, railway companies
+collaborate and communicate with external service providers and
+parts suppliers for purchase orders, confirmations, and invoice
+documents.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Processing Sales Orders" refid="523C6C40D8332D45E10000000A114AB6"/>
+      </process>
+      <process name="Service Entry" bprrefid="" solManContentAvailable="" id="79CF5F887F104561B9AA09A0D220CD6C">
+        <description>
+					The service entry process confirms executed work.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Entering Services in ERP" refid="59B2084145FD7101E10000000A114AB6"/>
+        <variant name="Entering Services in SRM" refid="97E86B403DBB2C45E10000000A114AB6"/>
+      </process>
+      <process name="Parts Inbound Processing and Receipt Confirmation" bprrefid="" solManContentAvailable="" id="362C85077477461CBD50258BC6228992">
+        <description>
+					The inbound processing process confirms receipt of goods and
+covers the physical inbound delivery processing that succeeds the
+procurement process. It includes advance shipping notice
+processing, physical goods receipt, and the sending
+proof-of-delivery to business partners.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Inbound Processing and Receipt Confirmation with Warehouse Management" refid="0D524E6A3D7C4A53B6121D291A6BFA52"/>
+        <variant name="Inbound Processing and Receipt Confirmation without Warehouse Management" refid="6EBA6746CC604FBAA46BDF57BB59AFB4"/>
+        <variant name="Confirming Receipts of Inbound goods in SRM" refid="D0561B3D15197B3FE10000000A114AB6"/>
+      </process>
+      <process name="Invoicing Verification" bprrefid="" solManContentAvailable="" id="BAA37ACBE79D4A70A651C8400E179A1A">
+        <description>
+					Incoming invoices are verified in terms of their content,
+prices, and arithmetic in this process.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Verifying Logistics Invoices in Background" refid="649349419F709979E10000000A114AB6"/>
+        <variant name="Processing Evaluated Receipt Settlement (ERS) for Services" refid="3746B8000BE811D912D100306E055DA7"/>
+        <variant name="Processing Evaluated Receipt Settlement (ERS) in SRM" refid="5199933E792C7F18E10000000A114AB6"/>
+        <variant name="Processing Evaluated Receipt Settlements (ERS) in ERP" refid="F6E00D4186867001E10000000A114AB6"/>
+        <variant name="Processing Invoices in SRM" refid="54B12B3D3FE7793FE10000000A114AB6"/>
+        <variant name="Processing Invoice Plan Settlements in ERP" refid="A28F4741D8E97101E10000000A114AB6"/>
+        <variant name="Verifying Logistics Invoices Online" refid="3A99623C19545D6FE10000000A114AB6"/>
+      </process>
+      <process name="Phase-In Equipment" bprrefid="" solManContentAvailable="" id="C300DD663FB2429FADE76C6FFEFBDFB6">
+        <description>
+					You use this business process to maintain the master data
+required to perform effective maintenance on a piece of equipment.
+This includes the equipment master record, maintenance plan,
+measuring point, task list, bill of materials, and more.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Phase-In Equipment" refid="BADEEFEF775741C383F91577695D4636"/>
+      </process>
+      <process name="Preventive Maintenance" bprrefid="" solManContentAvailable="" id="0DB053710E064CA3988C95F5360776FA">
+        <description>Plan preventive maintenance activities, based on time, counter, condition, or risk.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Condition-Based Maintenance" refid="E1BCBD4DCE364F15BEC17137E236209D"/>
+        <variant name="Time-Based Preventive Maintenance" refid="6786653C6C995B6FE10000000A114AB6"/>
+        <variant name="Counter-Based Preventive Maintenance" refid="5ACE72A27B854888991A0CCE7C3E09F5"/>
+        <variant name="Work Clearance Management" refid="3EB3D3DF96F54E3EB6F592AEF23508E0"/>
+      </process>
+      <process name="Corrective Maintenance" bprrefid="" solManContentAvailable="" id="316871BD3A58444EA6C373DCCD990AB1">
+        <description>Manage unplanned maintenance activities, including emegency,
+breakdown and corrective maintenance.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Emergency Maintenance" refid="68D4BEBF5A86415191F73A167C065DBB"/>
+        <variant name="Breakdown Maintenance" refid="0DA3623C19545D6FE10000000A114AB6"/>
+        <variant name="Corrective Maintenance" refid="3DA5623C19545D6FE10000000A114AB6"/>
+      </process>
+      <process name="Refurbishment Processing" bprrefid="" solManContentAvailable="" id="1875041615C54E8DBCA652A68D9F678B">
+        <description>You use this business process to perform the refurbishment of equipment. The process is seamlessly integrated with the maintenance cycle. Technical assets (serialized equipment) are linked to the material master and can be managed in condition-based stocks. Any refurbishment activity performed influences the overall stock value of the material (equipment).</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Refurbishment Processing" refid="4384653C6C995B6FE10000000A114AB6"/>
+      </process>
+      <process name="Work Clearance Management" bprrefid="" solManContentAvailable="" id="3EB3D3DF96F54E3EB6F592AEF23508E0">
+        <description>You use this business process to enforce all safety measures that must be carried out before inspections, repairs or preventive maintenance work are performed.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Work Clearance Management" refid="CBBB4FECB3F340D7AE136FE975DB39F8"/>
+      </process>
+      <process name="Reliability-Centred Maintenance" bprrefid="" solManContentAvailable="" id="657193531F88482AB3E224A65BDB001E">
+        <description>
+					Reliability-centered maintenance (RCM) is a widely used
+methodology to determine maintenance requirements and define
+equipment strategies for maintainability and operational
+reliability</description>
+        <sap-product name="RCMO - Reliability Centered Maintenance and Optimization for SAP Service and Asset Management by Meridium" key=""/>
+        <variant name="Reliability Centered Maintenance (RCM)" refid="7D182604B031493A80DB288E59F66756"/>
+      </process>
+      <process name="Dispatching and Scheduling (People/Tools)" bprrefid="" solManContentAvailable="" id="4575563AE82A4C1AA160D773664FC32F">
+        <description>
+					You use this business process to schedule work orders and
+operations that have been planned but still need to be scheduled.
+Maintenance scheduling matches the availability of maintenance
+labor and material resources to work-order-based requests.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Dispatching / Scheduling" refid="3E0D70E3DCB111D812D100306E055DA7"/>
+      </process>
+      <process name="Engineering Change and Configuration Management" bprrefid="" solManContentAvailable="" id="F62432DCD2D94DA79A412D8CDB3F931D">
+        <description>
+					Engineering change and configuration management allows the
+efficient management of engineering change requests to ensure
+product quality in all phases of the product life cycle.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Change and Configuration Management" refid="37F031A2F4054A1BAE39889BEB682C4D"/>
+      </process>
+      <process name="Maintenance Cost Budgeting" bprrefid="" solManContentAvailable="" id="4D58AE70D61C4399A13C41141865F362">
+        <description>
+					You use this business process to build a budget for maintenance
+activities related to technical assets such as functional locations
+or equipment.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Maintenance Cost Budgeting" refid="38577480DCB011D812D100306E055DA7"/>
+      </process>
+      <process name="Shutdown Management" bprrefid="" solManContentAvailable="" id="E558EB1A0BC346B6A2A9B938286E3B97">
+        <description>
+					You use this business process to manage a shutdown (or outage)
+of a plant or a facility, schedule the work to be performed, and
+complete the required work on time and within budget.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Shutdown Management" refid="3E0D70E0DCB111D812D100306E055DA7"/>
+      </process>
+      <process name="Equipment and Parts Physical Inventory" bprrefid="" solManContentAvailable="" id="1D3229C80295431EAAC465D1C3C2A633">
+        <description>
+					Equipment and parts physical inventory is a process that all
+companies with stock or special stock in warehouses eventually
+face. There are several different kinds of physical inventory that
+can be managed, including periodic inventory, continuous inventory,
+cycle counting, and inventory sampling.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Physical Inventory on Storage Bin Level" refid="E86D8DD28416434EA01410403DD77832"/>
+        <variant name="Physical Inventory on Storage Location Level" refid="46C7C11494F14C92A63D09E5BE8D5DA3"/>
+      </process>
+      <process name="Inspection and Calibration Processing" bprrefid="" solManContentAvailable="" id="6A1DB46FB53E467F83806C588D325F7F">
+        <description>
+					One or more characteristics of a part or a service is measured,
+examined, tested, and gauged in this process, and is then compared
+to specified requirements to determine whether each characteristic
+meets those requirements.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Inspection" refid="A2ED2B6595D645F9AD9D1A4788C8BBA0"/>
+      </process>
+      <process name="Waste Management" bprrefid="" solManContentAvailable="" id="DD703B03683D4D8997A8C35BB621DD6D">
+        <description>
+					This process centralizes waste management and integrates
+business processes while improving visibility, logistics, service
+management, reporting, and compliance.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Waste Management" refid="2ADA6BA06E914CC498F61FC670BA0473"/>
+      </process>
+      <process name="Phase-Out Equipment" bprrefid="" solManContentAvailable="" id="69600384ACE84485B5FD0C4BD96A924F">
+        <description>
+					The phase-out process transfers assets to be reused by another
+department or company or handles their disposal.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Phase-Out Equipment" refid="0ACBECE50A1C47918D22C8CBE28C453E"/>
+      </process>
+      <process name="Asset Scrapping" bprrefid="" solManContentAvailable="" id="677C64DA6D7145B58CBB66DA8FF70D11">
+        <description>
+					Once equipment has been phased out of service, it can be
+scrapped. This includes removing it from the financial asset
+register, complying with environmental regulations, salvaging any
+reusable parts, and removing it from the site.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Asset Scrapping" refid="C9D04DAC2E54496AA3A740F0E90C29E9"/>
+      </process>
+      <process name="Failure Mode and Effects Analysis (FMEA)" bprrefid="" solManContentAvailable="" id="77FBA526F72C49F5841C3F82049E0E5D">
+        <description>
+					Failure mode effects analysis tabulates the effects of a failure
+for a given possible failure mode (or cause) and determines the
+mitigating action or task necessary to prevent the problem from
+occurring.</description>
+        <sap-product name="RCMO - Reliability Centered Maintenance and Optimization for SAP Service and Asset Management by Meridium" key=""/>
+        <variant name="Failure Mode and Effects Analysis (FMEA)" refid="08E777F53AF14A44B48DF969E5EEFEEE"/>
+      </process>
+      <business-objective name="Improve asset and maintenance management"/>
+      <business-objective name="Optimize capital equipment and asset utilization"/>
+      <business-objective name="Minimize investment in operating facilities"/>
+      <business-objective name="Improvement of regulatory compliance"/>
+      <business-objective name="Provide decision support"/>
+      <kpi name="Total Assets Turnover Ratio"/>
+      <kpi name="Percentage of Planned Maintenance Work"/>
+      <kpi name="Fixed Asset Turnover"/>
+      <kpi name="Rate Of Return On Capital"/>
+      <kpi name="ROI"/>
+      <kpi name="Capacity Utilization"/>
+    </scenario>
+  </scenario-group>
+  <scenario-group name="Sales &amp; Marketing">
+    <description>
+			In the highly competitive automotive industry, companies must fight hard to attract prospects, win new customers, and create a trusted relationship which leads to life-time customer retention. When customers buy a vehicle today they look for individual mobility, as well as for a brand image which meets their lifestyle. Therefore Brand Equity Management is one of the core processes for OEMs and importers playing in the automotive market. Besides managing customer relationships it is also important to manage relationships to the vehicle itself, and, as vehicles are sold through an indirect channel, down to the dealership network. A tight collaboration with the dealerships is key for achieving an excellence in sales &amp; service processes and thus winning market shares.</description>
+    <scenario name="Brand and Customer Management" id="5331711773474F41AEDCC3489BA56315">
+      <description>
+				This scenario
+facilitates the continuing trend of automotive companies attempting
+to optimize existing customer relationships and attract new
+customers through creating unique brand images. Efforts
+within brand management include a structured but highly individual
+customer treatment across all communication channels, such as
+websites, call centers, or via the dealer network. The organization
+can track all the information about customers, business
+transactions, partner and vehicle relationships and use it in its
+customer contacts as well as in its collaborative marketing
+activities, such as</description>
+      <process name="Marketing Planning and Budgeting" bprrefid="" solManContentAvailable="" id="9F094E8250CF42FEB08A76BBA98E557F">
+        <description>
+					In this process, you plan how you wish to distribute the budget for your marketing plan.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Marketing Planning and Budgeting" refid="A26E2A943D044ADCB3A0AC6B60FF"/>
+      </process>
+      <process name="Campaign Planning" bprrefid="" solManContentAvailable="" id="0B5491D5D6DC4290AE301A99AC15C535">
+        <description>Coordinates and monitors all initiatives, to ensure shortened
+planning and development cycles, and streamlined process with an
+adherence to the Business Process.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Campaign Planning in CRM" refid="93515E3EBDA64068E10000000A114AB6"/>
+        <variant name="Campaign Planning and Execution in CRM" refid="0D918DEE29284E159911416C0168"/>
+      </process>
+      <process name="Campaign Execution" bprrefid="" solManContentAvailable="" id="4988C097D40A4D1284DB0D1B76AC532C">
+        <description>Coordinates and monitors all initiatives, to ensure shortened
+planning and development cycles, and streamlined process with an
+adherence to the Business Process.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Campaign Execution in CRM" refid="624E5E3EBDA64068E10000000A114AB6"/>
+        <variant name="Campaign Planning and Execution in CRM" refid="0D918DEE29284E159911416C0168"/>
+      </process>
+      <process name="Segmentation" bprrefid="" solManContentAvailable="" id="0C1347C6E43F46E5A19FFB912C24DD94">
+        <description>Segmentation preparation is a process that is generally performed by the database manager. This forms the foundation for business partner segmentation in the Segment Builder (that is all required attributes are created with the corresponding attribute values and data sources).</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Segmentation" refid="FB6B37A581894EE6999FDCE74ABD"/>
+      </process>
+      <process name="Segmentation with Channel Partners" bprrefid="" solManContentAvailable="" id="160DB867E1524E13BA511436F3C3F207">
+        <description>The brand owner can use this business process to divide target groups into partner-specific target groups and then provide these to the channel partners for further processing in the Portal. The partners fine-tune their target group and the brand owner then recombines the adjusted target groups into a single target group in the Segment Builder, which he can then use for his marketing activities.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Segmentation with Channel Partners" refid="9F2287184D1C464B9B697DC52B43D9E1"/>
+      </process>
+      <process name="Campaign Analysis" bprrefid="" solManContentAvailable="" id="011B72BA3E214760A2A32F8BD825DD99">
+        <description>Validates, measures, and allows refinement of campaigns to maximize effectiveness through monitoring analysis, available during and after execution.</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Campaign Analysis" refid="E78C6EEC7F184760B46A09A30F6C"/>
+      </process>
+      <process name="Lead Processing" bprrefid="" solManContentAvailable="" id="02F4A378AF6B400D9158B7786E83001B">
+        <description>
+					This process enables manual and automatic qualification of leads to set the lead qualification level. Lead processing also includes the creation of a business transaction, such as an opportunity, from a lead.</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Lead Processing in CRM" refid="E1305BBD552D458F8D86196D731C"/>
+        <variant name="Lead Processing with Interaction Center" refid="F1D908D887FD4224B974D2D0F06B9418"/>
+      </process>
+      <process name="Lead Analysis" bprrefid="" solManContentAvailable="" id="3D2F4130838B40B79F617506C44E2E55">
+        <description>Analyzes closed-loop lead management including channel analysis, efficiency reporting, historical analysis, lost leads, and pipeline and funnel analysis</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Lead Analysis" refid="C7675E3EBDA64068E10000000A114AB6"/>
+      </process>
+      <process name="Sales Planning and Forecasting" bprrefid="" solManContentAvailable="" id="642CE6BCDA214EFD8C3755E8F9D325CC">
+        <description>In Sales Target Planning, a sales manager set sales or contribution targets for the sales employees in the field. Since the sales manager and the sales employees use a common planning platform, the planning tasks performed by the sales manager are closely reconciled with the business planning and operational planning tasks performed by the sales employees. You can specify as many dimensions for entering planning figures (such as sales region, product group) as you need for your planning requirements. The different planners can access the same data but plan at different levels.</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Sales Planning and Forecasting" refid="7EF14C55F18D45C2B2DE43ECA3038CA3"/>
+      </process>
+      <process name="Account Processing" bprrefid="" solManContentAvailable="" id="940E53D5297B4C6D8900F94427AB477A">
+        <description>
+					
+						</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Account Processing in CRM" refid="D93E883E742E9D13E10000000A114AB6"/>
+        <variant name="Account Processing in ERP" refid="EF7ECAA3E09A4DEDB11EFF025B12"/>
+      </process>
+      <process name="Activity Analysis" bprrefid="" solManContentAvailable="" id="568CD36FC5DB49B6814473EA0F61073A">
+        <description/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Activity Analysis" refid="3E9C4F3E80844168E10000000A114AB6"/>
+      </process>
+      <process name="Activity Processing" bprrefid="" solManContentAvailable="" id="A1E5BD52308344968B15F6C5E2F24801">
+        <description>In this process, you create a business activity, and the data you enter in the business activity is automatically transferred to your groupware administration system, in this case, Microsoft Outlook or Lotus Notes. Next, you document the business activity, for example, using an activity journal or questionnaire.</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Activity Processing in CRM" refid="C905279811864735BD5F0FC92EDEAA62"/>
+      </process>
+      <process name="Cross-Selling Analysis" bprrefid="" solManContentAvailable="" id="3618B730772540FF822D2041F4AF480D">
+        <description/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Cross-Selling Analysis" refid="0D6EE351887D486E837B28006CDE1A2C"/>
+        <variant name="Cross-Selling Analysis" refid="80F4653E81623F68E10000000A114AB6"/>
+      </process>
+      <process name="Customer Lifetime Value Analysis" bprrefid="" solManContentAvailable="" id="E81C819678F440E2B5A393F40B328CFD">
+        <description>
+					Determines, for a given customer segment, how the customer base and profitability have developed over time. Allows users to draw conclusions, predict the future development of this customer segment, and base investment decisions on such predictions.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Customer Lifetime Value Analysis" refid="5CA4653E81623F68E10000000A114AB6"/>
+      </process>
+      <process name="Customer Profitability Analysis" bprrefid="" solManContentAvailable="" id="8093AF9D94454BE2B35C563857DB9AB0">
+        <description>
+					You can use this business process to calculate customer profitability, which is one of the most frequently used methods for customer valuation. Customer profitability is most easily calculated as the difference between revenue and costs. It is more useful, however, to perform detailed customer contribution margin analysis including different revenue types, product costs, marketing costs, and sales costs, to produce a differentiated picture of customer profitability.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Customer Profitability Analysis" refid="F6615E3EBDA64068E10000000A114AB6"/>
+        <variant name="Profitability Analysis in ERP" refid="1C19AFB3A573459FB17FF9075EB5"/>
+      </process>
+      <process name="Survey Analytics" bprrefid="" solManContentAvailable="" id="C1E8A2770B6A4C98822543673BAEC0CB">
+        <description>
+					Uses a customer survey to determine how satisfied customers are with the products and services offered by the company, and how loyal they are to the company.</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Survey Analytics" refid="E89E653E81623F68E10000000A114AB6"/>
+      </process>
+      <process name="Opportunity Analysis" bprrefid="" solManContentAvailable="" id="AB3E9B595BF4470BA3735C3D099597E7">
+        <description>Offers a specific set of analyses that look at opportunities in detail. Monitors expected revenues, the opportunity pipeline, progress towards opportunity completion, and opportunity success. Feeds the information back into the sales cycle by using the results to discover which customers to target in subsequent marketing campaigns, for example</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Opportunity Analysis in CRM" refid="807B5E3EBDA64068E10000000A114AB6"/>
+      </process>
+      <process name="Opportunity Processing" bprrefid="" solManContentAvailable="" id="88042C620E6F44FF8A02DF275502102A">
+        <description>
+					An opportunity is a
+recognized possibility for business, for example, the sale of
+products or services. The opportunity makes up the framework for
+displaying sales projects from the beginning, and monitoring their
+success.</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Opportunity Processing" refid="AD1F1815FBD049CFA28782A8CED4C30D"/>
+        <variant name="Opportunity Processing in CRM" refid="B7895C7DB36F431D8AB0BD50F60F7D7D"/>
+      </process>
+      <process name="Product Proposals" bprrefid="" solManContentAvailable="" id="B5C8799CE73045159CB315AA6C1149B5">
+        <description>You can use this business process to define product proposals for particular target groups or marketing profiles, meaning that the relevant product proposals are only used if the business partners selecting the product(s) belong to the given target group or match the relevant marketing profile defined in the rule.</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Product Proposals" refid="2D86653E81623F68E10000000A114AB6"/>
+      </process>
+      <process name="Quotation Processing" bprrefid="" solManContentAvailable="" id="B7F862A452234D12BCA4600013F96695">
+        <description>With this business process you can assure your business partners that you will deliver a certain product configuration and quantity of products at a specific time and price. During sales order processing, the sales employee can make use of a variety of sales functions and special quotation functions:</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Quotation Processing in ERP" refid="638B13D3E4D047F28672B2BCDFF6"/>
+        <variant name="Quotation Processing in CRM" refid="19CF6C3E5F939E13E10000000A114AB6"/>
+      </process>
+      <process name="Service Contract and Quotation Analysis" bprrefid="" solManContentAvailable="" id="75E6BE72F9E046699EB321F59669E3DB">
+        <description>
+					You can use this business process to analyze your service contracts and quotations from various perspectives, in order to determine whether changes are necessary to optimize your contract range. For example, you can analyze customer satisfaction with contracts and services performed under contract, and monitor the financial aspects and volumes of existing contracts.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Service Contract and Quotation Analysis in CRM" refid="C2FE653E81623F68E10000000A114AB6"/>
+      </process>
+      <process name="Service Contract Processing" bprrefid="" solManContentAvailable="" id="462C2DA46BDC45AF8996CED19A996797">
+        <description>
+					You use this process to create a service contract that can be used later on as a basis for service processes.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Service Contract Processing in CRM" refid="7EB9B25F6E7D4E43BBAFA367EF7FEE9B"/>
+        <variant name="Service Contract Processing in ERP" refid="970588814A4E43D4BA651474985F6CA5"/>
+      </process>
+      <business-objective name="Develop new markets"/>
+      <business-objective name="Efficient campaign planning and management"/>
+      <business-objective name="Extend market share"/>
+      <business-objective name="Improve customer retention and loyalty"/>
+      <business-objective name="Collaborate with business partners"/>
+      <business-objective name="Provide a single face to the customer"/>
+      <business-objective name="Support multi-channel interaction"/>
+      <business-objective name="Lower communications expenses"/>
+      <business-objective name="Automation and standardization of business processes"/>
+      <kpi name="Campaign/Event Cost Revenue Ratio"/>
+      <kpi name="Customer Satisfaction Index"/>
+    </scenario>
+    <scenario name="Vehicle Lifecycle Management" id="2AEC234042734963B7B82F152DCBA770">
+      <description>
+				The automotive industry
+is currently moving from a mainly volume- and logistics-driven
+business model towards a customer-focused business model
+emphasizing an all-embracing sales and service offering. This
+requires to not only know the customers and their driving
+behaviour, it also requires to know exactly about the vehicles they
+are driving. The vehicle history is an integral part of marketing,
+sales, and service activities. For example, when a customer is
+entering a dealership with a service request it is important to
+know in detail which services have been performed before. That way
+a brand and its service network can deliver excellence in service
+processing and differentiate from the competition.This scenario enables
+the management of a vehicles information along its entire
+life-cycle. The organization knows all the history from planning
+over sales &amp; distribution and the entire after sales phase. The
+vehicle information can be maintained by the brand owner and all
+other partners down the channel and includes all business
+transactions, relationships to customers and partner, attributes
+and configuration, documents, and much more.</description>
+      <process name="Installed Base Analysis" bprrefid="" solManContentAvailable="" id="988E72F8B57F41DB810C9B01B2F6A961">
+        <description/>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Installed Base Analysis" refid="05207B4010772D45E10000000A114AB6"/>
+      </process>
+      <process name="Installed Base Processing" bprrefid="" solManContentAvailable="" id="E9AC13B56CE845789AEBF000FAFB8665">
+        <description>
+					Customers use installed bases to manage service-relevant information for products or services that they have acquired. For example, components in an installed base could represent a credit card in the financial industry or a car in the automotive industry.</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Installed Base Processing in CRM E-Commerce" refid="4CA86C3E5F939E13E10000000A114AB6"/>
+      </process>
+      <process name="Vehicle Information Processing" bprrefid="" solManContentAvailable="" id="ADFD52CB786F432494F69AE4E6C65929">
+        <description>
+					As the automotive industry moves from a volume- and logistics-driven business toward one that focuses on customers by emphasizing comprehensive sales and service, companies need to track information. mySAP CRM helps organizations manage all information about customers, business transactions, relationships, and individual vehicle configurations. mySAP CRM classifies individual objects, customers, business partners, and product masters as unique entities, or objects, in business processes and establishes them as central references for almost all transactions between a company and its business partners. And because every organization wants to track different components and attributes, individual vehicle object capabilities are integrated into all mySAP CRM processes so organizations can establish criteria to model unique entities.</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Individual Object Processing" refid="C6A47020FFF711D812D100306E055DA7"/>
+      </process>
+      <process name="Vehicle Information Processing with Channel Partners" bprrefid="" solManContentAvailable="" id="B9FA22625ADD4AFF9974295E937FF82A">
+        <description>
+					Dealers can interact directly with OEMs or importers by providing access to shared data residing in the central vehicle database and supporting customer information management. Dealers can access and maintain information via the web or directly via the integrated Dealer Management System.</description>
+        <sap-product name="SAP Vehicle Management for Automotive" key="SAP Vehicle Management for Automotive"/>
+        <variant name="Individual Object Processing with Channel Partners" refid="0A5737D0FFF811D812D100306E055DA7"/>
+      </process>
+      <business-objective name="Improve service quality"/>
+      <business-objective name="Personalized customer interaction"/>
+      <business-objective name="Provide a single face to the customer"/>
+      <business-objective name="Collaborate with business partners"/>
+      <business-objective name="Gain market share with new products and brand extensions"/>
+      <business-objective name="Improve customer retention and loyalty"/>
+      <business-objective name="Reduce time-to-market &amp; volume"/>
+      <business-objective name="Improve product quality"/>
+      <kpi name="Customer Satisfaction Index"/>
+      <kpi name="Percentage of Service Requests"/>
+      <kpi name="Average Length of Service"/>
+    </scenario>
+    <scenario name="Vehicle Planning &amp; Forecasting" id="D3D15255B33843CE9034D50EDC887795">
+      <description>
+				This scenario enables the alignment of sales and manufacturing/procurement from a planning perspective in a mid-term or long-term view. It includes the collaborative planning and forcasting of sales activities as well as the vehicle manufacturing or procurement. Manufacturing oriented planning is typically done for fully configured vehicles or on option level.</description>
+      <process name="Business Planning &amp; Simulation" bprrefid="" solManContentAvailable="" id="1DD3D16D8F6245DDAB043C7668109B78">
+        <description>Toolbox with flexible interactive planning possibilities, to create a demand plan on any level of detail. Promotion Planning capabilities are included. Different forecasting algorithms and flexible macros, to carry out any kind of calculation or check, are offered as well as collaboration possibilities.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP NetWeaver Business Intelligence" key="B12"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP NetWeaver Business Intelligence" key="B12"/>
+        <variant name="Demand Planning and Forecasting" refid="46A8BFF366E04740B08F6CA2F5D92667"/>
+      </process>
+      <process name="Sales Planning and Forecasting" bprrefid="" solManContentAvailable="" id="8056939C0E6D494CAB31EC69BBFB76FB">
+        <description/>
+        <sap-product name="SAP Sequenced Manufacturing for Automotive" key="SAP Sequenced Manufacturing for Automotive"/>
+        <sap-product name="SAP NetWeaver Business Intelligence" key="B12"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP NetWeaver Business Intelligence" key="B12"/>
+        <sap-product name="SAP Sequenced Manufacturing for Automotive" key="SAP Sequenced Manufacturing for Automotive"/>
+        <variant name="Sales Planning and Forecasting" refid="85FA052B39E04974888B7F64806BD290"/>
+      </process>
+      <process name="Collaborative Planning" bprrefid="" solManContentAvailable="" id="0D800493504B4AF389140B759B9C575F">
+        <description>Integrates web-based collaborative planning with portal technology. Allows several parties to take part in the planning process.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Sequenced Manufacturing for Automotive" key="SAP Sequenced Manufacturing for Automotive"/>
+        <sap-product name="SAP NetWeaver Business Intelligence" key="B12"/>
+        <sap-product name="SAP Sequenced Manufacturing for Automotive" key="SAP Sequenced Manufacturing for Automotive"/>
+        <sap-product name="SAP NetWeaver Business Intelligence" key="B12"/>
+        <variant name="Collaborative Planning" refid="E93207405CDD4BF295C5703557F7AED7"/>
+      </process>
+      <process name="Incentive Plan Maintenance" bprrefid="" solManContentAvailable="" id="5A0BCC71A9F14B50B6A1FA594D76C560">
+        <description>ou use this business process to create and maintain all master data (i.e. organizational structures, business partners and incentive plans).</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Incentive Plan Maintenance" refid="AF996C3ED392A113E10000000A114AB6"/>
+      </process>
+      <process name="Planning based on Options" bprrefid="" solManContentAvailable="" id="508FDDD6A7BA40048C7E80B94FD63606">
+        <description>
+					Planning based on options  (Characteristics-Based Planning and
+Forecasting) enables to forecast demand on both the product and the
+characteristics level. This process enables to produce demand plans
+for combinations of characteristic values or for individual
+values.</description>
+        <sap-product name="SAP Sequenced Manufacturing for Automotive" key="SAP Sequenced Manufacturing for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Sequenced Manufacturing for Automotive" key="SAP Sequenced Manufacturing for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+      </process>
+      <process name="Planning based on fully configured Orders" bprrefid="" solManContentAvailable="" id="5E07FC4033AF4BCDAE7D78E5A9F05681">
+        <description>Planning based on fully configured orders is a mid-term planning
+process which is typically used for highly configurable products
+with a high number of product characteristics and dependencies. It
+is used to establish a feasible mid-term plan based on orders
+which are buildable. In addition it enables to verify and
+adjust the resource and constraint situation. </description>
+        <sap-product name="SAP Sequenced Manufacturing for Automotive" key="SAP Sequenced Manufacturing for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Sequenced Manufacturing for Automotive" key="SAP Sequenced Manufacturing for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+      </process>
+      <business-objective name="Improve forecast accuracy"/>
+      <business-objective name="Improve capacity utilization"/>
+      <business-objective name="Reduce inventory levels"/>
+      <kpi name="Forecast Accuracy"/>
+      <kpi name="Capacity Utilization"/>
+      <kpi name="Demand, Supply Planning Costs"/>
+    </scenario>
+  </scenario-group>
+  <scenario-group name="Customer Service">
+    <description>More than two-thirds of automotive customers say that the quality
+and convenience of services is a key decision criteria for a brand
+or a dealership. Customer service is therefore a discipline which
+has most relevance for customer loyalty and retention. Consistent
+communication and reliable service offerings need to be delivered
+across multiple channels whether the customer contacts the brand
+owner directly via an interaction center or whether the customer's
+vehicle needs a service in the dealership. </description>
+    <scenario name="Warranty Management" id="A1DB1856494D4AB4849A7C9D5A558B29">
+      <description>
+				This scenario describes
+management of service contracts and warranty claim management in
+the automotive industry. Claims from customers and partners such as
+dealers are entered, checked and evaluated against contractual data
+and all kinds of business rules which can be freely defined. The
+process can be automated to a large extend to minimise the manual
+effort. Accepted claims trigger subsequent processes, i.e. payment
+or service operations.</description>
+      <process name="Service Contract and Quotation Analysis" bprrefid="" solManContentAvailable="" id="3B44626FF0AC4A0FAA872A7EAAE740B9">
+        <description>
+					You can use this business process to analyze your service contracts and quotations from various perspectives, in order to determine whether changes are necessary to optimize your contract range. For example, you can analyze customer satisfaction with contracts and services performed under contract, and monitor the financial aspects and volumes of existing contracts.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Service Contract and Quotation Analysis in CRM" refid="C2FE653E81623F68E10000000A114AB6"/>
+      </process>
+      <process name="Warranty Claim Processing" bprrefid="" solManContentAvailable="" id="F239CDC8BB6442F4A27318392CC14D05">
+        <description>
+					Warranty Claim Processing fulfills the needs both of manufacturers, importers or vendors of complex products and their suppliers. In this business environment, the prerequisites for a right to warranty are becoming more extensive and more complex. Warranty restrictions due to the length of service or age of the product, authorization processes and comprehensivecheck mechanisms in the warranty claim make warranty claim processing in many companies a timely and costly procedure. Furthermore, due to a European legal initiative, the warranty or guarantee period for products of specific industry sectors has been extended to at least two years. The number of incoming warranty claims has, understandably, increased in the wake of this decision. Warranty Claim Processing offers you a software solution that can deal with a large number of warranty claims comfortably and, as far as possible, automatically. Only those claims that produce negative results in the automatic checks are included in manual processing. You also have a maximum amount of flexibility as regards the warranty conditions that you can define.</description>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Warranty Claim Processing in ERP" refid="7C7243EFB0E340D281B4815E937B0F42"/>
+      </process>
+      <process name="Billing" bprrefid="" solManContentAvailable="" id="5882BA7DE4C84915A5CD7F9C6D01715C">
+        <description>You use this business process in order to create customer invoices in SAP CRM. Here, one or more than one billing due list item is copied into a billing document. You can either create the billing document with reference to the delivery, or to the sales order. It is also possible to create billing documents with reference to contracts. You make the necessary setting in Customizing. The following describes delivery-related billing.</description>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Billing in CRM" refid="D09E4F3E80844168E10000000A114AB6"/>
+        <variant name="Billing in ERP" refid="7222026AA69A47AD88417DB742A9"/>
+      </process>
+      <process name="Warranty Analysis" bprrefid="" solManContentAvailable="" id="BE8C65399F804EB6B3940CE8B06B66D6">
+        <description>
+					Provides information about the amount of products with or without warranty, and monitors expired warranties per Installed Base (IBase) and individual object.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Warranty Analysis in CRM" refid="1F00653E81623F68E10000000A114AB6"/>
+      </process>
+      <process name="Service Contract Processing" bprrefid="" solManContentAvailable="" id="F39033B6DD4C4450A827F1CDD10EA32A">
+        <description>
+					You use this process to create a service contract that can be used later on as a basis for service processes.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Service Contract Processing in CRM" refid="7EB9B25F6E7D4E43BBAFA367EF7FEE9B"/>
+        <variant name="Service Contract Processing in ERP" refid="970588814A4E43D4BA651474985F6CA5"/>
+      </process>
+      <process name="Product Service Letter Processing" bprrefid="" solManContentAvailable="" id="ED958E10A3BD47EA9F74CF5C770CD2F6">
+        <description>
+					Enables you to process product service letters in your enterprise. Product service letters are documents that contain previously identified or potential defects occurring or likely to occur in a product and the instructions for the execution of services that are necessary to eliminate these defects. Product service letters are either issued by the manufacturer and distributed to the dealers, or created by the dealers themselves.</description>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Product Service Letter Processing" refid="AEBA9ED2A86E4D93A251D43EE5A2270F"/>
+      </process>
+      <process name="Credit Memo Processing" bprrefid="" solManContentAvailable="" id="549A099B9BD14890AE06417228A69794">
+        <description>
+					You can create a credit memo request if customers are charged too much, or a defective product is returned, or a complaint is made about a service performed.After a detailed check, you can either release or reject the credit memo request. If the credit memo is released, the customer receives a credit memo for the full amount to be credited.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Credit Memo Processing in CRM" refid="A46B323FFC81B222E10000000A114AB6"/>
+        <variant name="Credit Memo Processing in ERP" refid="730F2FE0B5DC454E8323163F3A60"/>
+      </process>
+      <process name="Product and Warranty Registration" bprrefid="" solManContentAvailable="" id="AAAA500D39F148739974507082868E26">
+        <description>
+					You use this process to create warranties in the system and to assign installed base components or individual objects to these warranties. The assignment can be performed manually, or automatically with reference to a product with warranty assignment. After registering an individual object, Internet customers in E-Service for example, receive the information about the automatically assigned customer warranty on their screen.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Product and Warranty Registration in ERP" refid="968E97F38E1949BB8727245A1B9E75DA"/>
+        <variant name="Product and Warranty Registration in CRM" refid="FD2A773E30F19E13E10000000A114AB6"/>
+      </process>
+      <process name="Warranty Claim Entry" bprrefid="" solManContentAvailable="" id="AD7E372DE74B422B91EBE855033F8C68">
+        <description>
+					This business process enables the entry of warranty claims, application of recalls, or the return parts management.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Dealer Warranty Claim Entry" refid="A2A1A350D72A11D812D100306E055DA7"/>
+      </process>
+      <business-objective name="Automation and standardization of business processes"/>
+      <business-objective name="Collaborate with business partners"/>
+      <business-objective name="Develop service offerings"/>
+      <business-objective name="Improve transparency and auditability of activities"/>
+      <business-objective name="Increase data transparency"/>
+      <kpi name="Evaluation Time for Warranty Request"/>
+      <kpi name="Warranty costs"/>
+      <kpi name="Customer Satisfaction Index"/>
+    </scenario>
+    <scenario name="Interaction Center" id="1C6CE0B3AF9A4D03BE91969747F0D500">
+      <description>
+				This scenario supports
+all direct customer and dealer communication via multiple channels,
+such as email, telephone, SMS within an interaction center. The
+scenario is automotive-specific and provides holisitc customer and
+vehicle information as well as the relationships in between. Using
+these capabilities companies can effectively manage marketing
+campaigns, satisfaction surveys, complaints, appraisals, service
+requests, roadside assistance, call backs, and accessory sales.
+Users can search and display all customer and vehicle information
+and manage business transactions, such as responses to complaints.
+Consistent, reliable, and perosnalized communication proivdes a
+unique customer experience call by call.</description>
+      <process name="Help Desk" bprrefid="" solManContentAvailable="" id="A3FD6B551C7049058E026AE32258114D">
+        <description>Enables agents to assist customers with their queries concerning products or services and to resolve service issues using the solutions database, case management, and service requests.</description>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="IT Help Desk" refid="82A3C59294FE48BD9309D9E3EDEE"/>
+        <variant name="Information Help Desk" refid="AB7AAB5A5E8C435F9A117444E6EA"/>
+      </process>
+      <process name="Customer Service and Support with Interaction Center" bprrefid="" solManContentAvailable="" id="609B6462DAC647B489A003C2EBCC94D6">
+        <description>
+					Allows customer service agents to handle complaints, address customer concerns, answer technical questions, assist with returned materials, and make exchanges. Customers can be identified using the relevant partner information or data about their installed base. Agents use the solution database to search for a suitable solution for their customer’s problem, create service orders, determine existing contracts, and select products from proposals if needed.</description>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Customer Service and Support with Interaction Center" refid="4B73C448DB7F482BA8F690D96F42"/>
+      </process>
+      <process name="Complaints Processing" bprrefid="" solManContentAvailable="" id="5248395DA96A48A4B4F1359FF6B0D282">
+        <description>
+					Tracks established procedures for passing complaint information into the enterprise for resolution so that dissatisfied customers become satisfied customers and companies can plan and manage return material costs.</description>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Complaints Processing with Interaction Center" refid="26A4C76C6E34443C9978D6E69DE5"/>
+      </process>
+      <process name="E-Mail Response Management with Interaction Center" bprrefid="" solManContentAvailable="" id="F4533DC053D749E695B0727B1CE61AB2">
+        <description>
+					You can use this process to optimize, automate, and manage incoming e-mail handling in the Interaction Center (IC), thus reducing the overall time and cost associated with e-mail processing. Agents are provided with tools to ensure quick and consistent handling of e-mails, while managers are provided with tools to configure, administer, and evaluate the system.</description>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="E-Mail Response Management with Interaction Center" refid="17F3C040D02B8125E10000000A114AB6"/>
+      </process>
+      <process name="Managing and Analyzing Interaction Center Operations" bprrefid="" solManContentAvailable="" id="B8B005C1EC894F9D897691B2AED8CB4D">
+        <description>
+					You can use this business process to ensure smooth operations of your interaction center (IC). By monitoring and analyzing your IC, you can optimize operations, reduce costs, and ensure customer satisfaction.</description>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Managing and Analyzing Interaction Center Operations" refid="0559CBFF766641E0BBFB6A6CA195"/>
+      </process>
+      <process name="Surveying Customers with Interaction Center" bprrefid="" solManContentAvailable="" id="57030A2E66A54C9DAB06297279CAC94E">
+        <description>
+					You use this business process to contact your existing customer base and use this contact for purposes like validating account information or surveying customers about a specific topic (e.g. customer satisfaction). As a result, you improve the quality of your customer data, gather valuable insight about customer attitudes and perceptions and can also use the interaction to generate additional business or generate additional leads for your sales force or partners to follow up on. This leads to increased revenues and higher customer satisfaction.</description>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Customer Information and Feedback with Interaction Center" refid="B398C84AFEE14E9CA39843F90ADD1FA8"/>
+      </process>
+      <process name="Lead Processing" bprrefid="" solManContentAvailable="" id="004956F9EB5E48E08843225B30B76B51">
+        <description>
+					This process enables manual and automatic qualification of leads to set the lead qualification level. Lead processing also includes the creation of orders-on-behalf or own orders from a lead.</description>
+        <sap-product name="SAP Aftersales Support for Automotive" key="SAP After Sales Support for Automotive"/>
+        <variant name="Lead Processing with Interaction Center" refid="F1D908D887FD4224B974D2D0F06B9418"/>
+      </process>
+      <business-objective name="Better service levels"/>
+      <business-objective name="Add 24x7 customer service"/>
+      <business-objective name="Faster access to relevant information"/>
+      <business-objective name="Personalized customer interaction"/>
+      <business-objective name="Provide a single face to the customer"/>
+      <business-objective name="Reduce administration, improve business processes"/>
+      <business-objective name="24x7 customer self-service"/>
+      <business-objective name="Complaint management and tracking"/>
+      <business-objective name="Improve customer retention and loyalty"/>
+      <kpi name="Churn"/>
+      <kpi name="Customer Satisfaction Index"/>
+      <kpi name="Contact Efficiency"/>
+      <kpi name="Percentage of Customer Complaints"/>
+    </scenario>
+    <scenario name="Service Parts Planning" id="226B398CFDFB4002BBA704C67888B2D6">
+      <description>
+				Service parts planning enables the service parts network to
+forecast parts demand, derive optimal stocking levels for each
+location, plan parts replenishment, and rebalance the inventory
+within the network. The service parts planning process addresses
+specific needs such as slow- and fast-moving parts demand
+forecasting, parts life cycle planning, interchangeability /
+supersession of parts, and inventory planning for multiple
+hierarchies. Furthermore, collaborative processes with relevant business
+partners are supported to ensure that parts are available at the
+right time, at the right place, and in the right quantity. In
+addition, the service parts planning process also enables close
+monitoring of the network and proactive analysis for exception
+management</description>
+      <process name="Strategic SC Design" bprrefid="" solManContentAvailable="" id="C3B06EC1744040DA92D2F03237614147">
+        <description>Strategic supply chain design includes the definition of all elements of the supply chain and the corresponding monitoring. This is supported by flexible alert monitoring.</description>
+        <sap-product name="SAP Service Parts Planning for Automotive" key="SAP Service Parts Planning for Automotive"/>
+        <variant name="Strategic SC Design" refid="BDDF77BB4CB841F1BABAE66148E32D1C"/>
+      </process>
+      <process name="Parts Demand Planning" bprrefid="" solManContentAvailable="" id="A9FAFB8CC3E04C5EAE416FB8F4094113">
+        <description>
+					Parts demand forecasting processes use flexible interactive
+planning possibilities to allow organizations to create demand
+plans with any level of detail. Different forecasting algorithms
+and flexible macros carry out any kind of calculation or check, and
+promotion planning and collaboration capabilities aid strategy
+development.</description>
+        <sap-product name="SAP Service Parts Planning for Automotive" key="SAP Service Parts Planning for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Parts Forecasting" refid="979F16D0865811D912D100306E055DA7"/>
+      </process>
+      <process name="Parts Inventory Planning" bprrefid="" solManContentAvailable="" id="ADE76836A938431D936ED96F4B2A2B01">
+        <description>
+					Safety stock is the quantity of additional stock procured and/or
+held to satisfy unexpectedly high fluctuation in demand. Safety
+stock planning allows organizations to meet a target service level
+while creating a minimum necessary amount of safety stock
+throughout the entire supply chain for all intermediate and
+finished products at their respective locations.</description>
+        <sap-product name="MCA xApp Service Inventory Optimization" key="MCA xApp Service Inventory Optimization for SAP Service and Asset Management"/>
+        <sap-product name="SAP Service Parts Planning for Automotive" key="SAP Service Parts Planning for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Safety Stock Calculation" refid="52F22200810511D912D100306E055DA7"/>
+      </process>
+      <process name="Parts Supply Planning" bprrefid="" solManContentAvailable="" id="AE7C25F4924D4E9B826FF7237105DC33">
+        <description>
+					Parts supply planning integrates purchasing, production,
+distribution (of demands), and transportation so that comprehensive
+mid-term to long-term tactical planning and sourcing decisions can
+be simulated and performed on the basis of a single, global,
+consistent model.</description>
+        <sap-product name="SAP Service Parts Planning for Automotive" key="SAP Service Parts Planning for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Distribution Requirements Processing" refid="824E20A0810811D912D100306E055DA7"/>
+      </process>
+      <process name="Parts Distribution Planning" bprrefid="" solManContentAvailable="" id="BA0122E989454D00B1C2FD654987C1FE">
+        <description>
+					The parts distribution planning process is used to determine
+which demands can be fulfilled by existing supply elements.</description>
+        <sap-product name="SAP Service Parts Planning for Automotive" key="SAP Service Parts Planning for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Inventory Balancing" refid="637DA110819811D912D100306E055DA7"/>
+        <variant name="Pull Deployment" refid="C27E1D30819711D912D100306E055DA7"/>
+      </process>
+      <process name="Supplier Collaboration" bprrefid="" solManContentAvailable="" id="96A42DBF21E449D29EA887FA1E4F0308">
+        <description>Supplier Managed Inventory Processing is a replenishment process were the Supplier assumes responsibility of the replenishment planning and execution, instead of the Customer (or Customer's ERP/MRP system). The Supplier recieves updates on gross demand (dependent requirements) and stock in SAP ICH, and uses min/max stock level logic to calculate a suitable replenishment plan, and consequently creates PO's and ASNs to indicate plan commitment and shipments, which updates the Customer's ERP system accordingly.</description>
+        <sap-product name="SAP Service Parts Planning for Automotive" key="SAP Service Parts Planning for Automotive"/>
+        <variant name="Supplier Managed Inventory Processing" refid="9D52284054BDEC04E10000000A114AB6"/>
+      </process>
+      <process name="Supply Chain Monitoring and Control" bprrefid="" solManContentAvailable="" id="1451354DE9A44D5A906CDBD79F1E4DD0">
+        <description>Supply Chain Performance Management (SCPM) enables you to define, select, and monitor key performance indicators (KPIs), giving you an integrated, comprehensive view of performance across the supply chain. SCPM with mySAP SCM includes a large number of predefined KPIs based on the Supply Chain Operations Reference model (SCOR) covering all supply chain activities including source, plan, make, deliver, and return.</description>
+        <sap-product name="SAP Service Parts Planning for Automotive" key="SAP Service Parts Planning for Automotive"/>
+        <variant name="Supply Chain Monitoring and Control" refid="A6744FEB84BC45B0BBDF5D75BA240463"/>
+        <variant name="Supply Chain Monitoring and Control" refid="1451354DE9A44D5A906CDBD79F1E4DD0"/>
+      </process>
+      <process name="Parts Monitoring" bprrefid="" solManContentAvailable="" id="8684D3BA0876487AAC1F8787B82FEF53">
+        <description>Parts Monitoring provides visibility of all planning related
+processes and includes follow-up activities.</description>
+        <sap-product name="SAP Service Parts Planning for Automotive" key="SAP Service Parts Planning for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Parts Monitoring" refid="2941D560819911D912D100306E055DA7"/>
+        <variant name="Parts Monitoring" refid="8684D3BA0876487AAC1F8787B82FEF53"/>
+      </process>
+      <business-objective name="Reduce material and component obsolescence"/>
+      <business-objective name="Reduced service parts inventory levels across the service parts network"/>
+      <business-objective name="Improve forecast accuracy"/>
+      <business-objective name="Better service levels"/>
+      <business-objective name="Increase inventory turns"/>
+      <kpi name="Forecast Accuracy"/>
+      <kpi name="Average Working Capital"/>
+      <kpi name="Inventory aging"/>
+      <kpi name="Fill Rates"/>
+    </scenario>
+    <scenario name="Service Parts Execution" id="A7C7C448427C42E2AD0EB39EACD9B167">
+      <description>
+				Service parts execution enables delivery date commitments and a
+logical flow of parts through the service network. It also supports
+checks to fulfill parts orders, delivery of parts throughout the
+service parts network, and customer billing. Service parts
+execution includes parts procurement, goods movement of new and
+returned parts, quality management, and warehouse and storage
+management for service parts. In addition, service parts execution
+processes support collaborative processes with all relevant
+business partners, such as customers, suppliers, and service
+providers, as well as monitoring and analysis of the entire service
+network.</description>
+      <process name="Parts Purchase Order Processing" bprrefid="" solManContentAvailable="" id="68E4C2F8ED8F4C7489A46BDC79167CF0">
+        <description>
+					This process includes processes for releasing requirements,
+assigning sources of supply, and the creation and maintenance of
+purchase orders.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <variant name="Processing Purchase Orders in ERP" refid="1B88653C6C995B6FE10000000A114AB6"/>
+      </process>
+      <process name="Parts Inbound Processing and Receipt Confirmation" bprrefid="" solManContentAvailable="" id="94795B062D4444968B5C2CAC849AC760">
+        <description>Inbound processing covers the physical inbound delivery processing
+that succeeds the procurement process. It includes ASN processing,
+physical Goods Receipt and putaway of materials in Warehouse
+Management up to sending the proof of delivery to the business
+partners</description>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Inbound Processing and Receipt Confirmation with Warehouse Management" refid="0D524E6A3D7C4A53B6121D291A6BFA52"/>
+      </process>
+      <process name="Warehousing and Storage" bprrefid="" solManContentAvailable="" id="2B9DF94B40284212A2A5717F93142799">
+        <description>Warehousing and storage includes multiple processes throughout the
+warehouse from the time materials enter the warehouse via goods
+receipt until they exit the warehouse with a post goods issue. This
+process covers the management of inventory, including putaway
+strategies and replenishment. Possible variants include task and
+resource management and radio frequency support. Optional steps
+include support for production supply, value-added services, and
+yard management.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Warehousing and Storage in SCM" refid="6B59115081A011D912D100306E055DA7"/>
+      </process>
+      <process name="Physical Inventory" bprrefid="" solManContentAvailable="" id="16D10BEEDF9C44A49A9CBBB1966D3813">
+        <description>Physical Inventory is a process that all companies with their own
+stocks or special stocks in their warehouse eventually face. There
+are several different kinds of physical inventory that can be
+managed, for example: periodic inventory, continuous inventory,
+cycle counting or inventory sampling.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <variant name="Physical Inventory on Storage Bin Level in SCM" refid="D63DD46081AA11D912D100306E055DA7"/>
+      </process>
+      <process name="Parts Cross Docking" bprrefid="" solManContentAvailable="" id="AE735EBD9D074E77BC42299CF9349D9D">
+        <description>
+					Cross-docking is a way to move materials directly from the goods
+receipt area to the shipping area without first being stored.
+Cross-docking can be planned or opportunistic, and can be executed
+in one step (directly from GR to GI) or two steps (going first to a
+specified cross-docking storage location for repacking or labeling,
+for example).</description>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <variant name="Cross Docking" refid="9470651AD7884749830E599ACF454D9E"/>
+      </process>
+      <process name="Returned Parts Quality Control" bprrefid="" solManContentAvailable="" id="B7437A000F7E4C2687E8944CC5AF695C">
+        <description>Quality control involves inspections at all stages, continuous monitoring, and quick intervention. Quality inspections can be triggered by various events such as order release or goods movements, but also by manual actions. To document product quality, certificates can be created.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <variant name="Quality Assurance and Control" refid="73DDBF57F95D456087087B79DBBCA820"/>
+      </process>
+      <process name="Sales Order Processing" bprrefid="" solManContentAvailable="" id="36DECBED8DC34D98BF1601E139F3F293">
+        <description>
+					This process supports service parts order entry to determine
+pricing, create proposals, check product availability, and track
+and manage orders along the supply chain.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Price and Margin Management by Vendavo" key="S202"/>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <variant name="Sales Order Processing for Service Parts" refid="C9861AF075E511D912D100306E055DA7"/>
+        <variant name="Sales Order Processing for Service Parts (Third Party Order Processing)" refid="700F54E0760411D912D100306E055DA7"/>
+      </process>
+      <process name="Parts Outbound Processing" bprrefid="" solManContentAvailable="" id="2EFEBA9B07BC4F9C933FD3FB54623446">
+        <description>Outbound processing comprises the preparation of goods to be
+delivered from a warehouse to a receiving location. Outbound
+processing within the scope of warehouse management typically
+comprises activities like the notification of goods to be supplied
+from a warehouse to a customer for which the outbound delivery
+serves as the reference document, picking, packing, physical goods
+issue in warehouse, loading, goods issue and goods issue posting to
+IM, advising advanced shipping notifications to business partners
+and, obtaining a proof-of-delivery from the receiving business
+partner.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <variant name="Outbound Processing with WM" refid="F716CEAEB95D4DAF90F1D2F442BBDE8F"/>
+      </process>
+      <process name="Parts Transportation Execution" bprrefid="" solManContentAvailable="" id="0C5CECADD8024789BF2B731DF7302CA7">
+        <description>
+					The transportation execution business process involves the
+creation, execution, and monitoring of shipments. Transportation
+execution provides shipping, collaborative shipment tendering, an
+express shipping interface, and distance determination
+functionality.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <variant name="Transportation Execution" refid="5524596D603844F89AD39B90F099C782"/>
+      </process>
+      <process name="Billing" bprrefid="" solManContentAvailable="" id="23C6D38F35134762B3BCD2AA7895D2FB">
+        <description>This process includes all activities relevant for parts billing to
+the customer.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Price and Margin Management by Vendavo" key="S202"/>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <variant name="Billing in CRM for Service Parts" refid="A7660F608BB711D912D100306E055DA7"/>
+      </process>
+      <process name="Complaints Processing" bprrefid="" solManContentAvailable="" id="116B2C631A554CA6B0488AC2F2AB05D7">
+        <description>Tracks established procedures for passing complaint information
+into the enterprise for resolution so that dissatisfied customers
+become satisfied customers and companies can plan and manage return
+material costs.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <variant name="Complaints Processing in CRM" refid="FDCE6C3EE1929F13E10000000A114AB6"/>
+      </process>
+      <process name="Product Service Letter Processing" bprrefid="" solManContentAvailable="" id="16772A0AEFDB432BABD8B469D2F38A27">
+        <description>Creates and edits product service letters (PSL). Product service
+letters are documents that contain previously identified or
+potential defects occurring or likely to occur in a product and the
+instructions for the execution of services that are necessary to
+eliminate these defects. Product service letters are created by the
+manufacturer and forwarded to the retailer, or are created by the
+retailer themselves.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <variant name="Product Service Letter Processing" refid="3625773E30F19E13E10000000A114AB6"/>
+      </process>
+      <process name="Supply Chain Monitoring and Control" bprrefid="" solManContentAvailable="" id="B122FC23CDBA410980A47FD14173D2DC">
+        <description>Supply Chain Performance Management (SCPM) enables you to define, select, and monitor key performance indicators (KPIs), giving you an integrated, comprehensive view of performance across the supply chain. SCPM with mySAP SCM includes a large number of predefined KPIs based on the Supply Chain Operations Reference model (SCOR) covering all supply chain activities including source, plan, make, deliver, and return.</description>
+        <sap-product name="mySAP ERP" key="S12"/>
+        <sap-product name="SAP Extended Warehousing and Logistics for Automotive" key="SAP Extended Warehousing and Logistics for Automotive"/>
+        <variant name="Supply Chain Monitoring and Control" refid="A6744FEB84BC45B0BBDF5D75BA240463"/>
+        <variant name="Supply Chain Monitoring and Control" refid="B122FC23CDBA410980A47FD14173D2DC"/>
+      </process>
+      <business-objective name="Reduce inventory levels"/>
+      <business-objective name="Reduce order processing costs"/>
+      <business-objective name="Better service levels"/>
+      <business-objective name="Reduce late orders"/>
+      <business-objective name="Lower logistics costs"/>
+      <kpi name="Fill Rates"/>
+      <kpi name="Transportation Costs"/>
+      <kpi name="Order Fulfillment Costs"/>
+      <kpi name="Inventory Carrying Costs"/>
+      <kpi name="Delivery Performance to Customer Request Date"/>
+    </scenario>
+  </scenario-group>
+</industry>

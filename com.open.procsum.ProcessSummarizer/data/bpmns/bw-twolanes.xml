@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><bpmn:definitions xmlns:bpmn="http://www.omg.org/bpmn20" xmlns:bpmzero="http://www.omg.org/bpmZero" bpmzero:diagramType="Splice" targetNamespace="http://www.omg.org/bpmZero" id="thg_two_lanes">
+  <bpmn:process id="Pool720" name="Pool">
+    <bpmn:task id="Task93" bpmzero:replyType="undefined" bpmzero:reply_input_value="Thanks for submitting your form" bpmzero:catalog_Form="current_time - current_time" bpmzero:catalog.Key="current_time - current_time" bpmzero:Lane="Lane721" name="ReceiveReplyForm" bpmzero:catalog.form.type="freedomForm" bpmzero:url="process" bpmzero:type="catalogFormreceive-reply" bpmzero:catalog.Url="Form Local Catalog" bpmzero:input_value="F_day=;F_Time=;" bpmzero:input_value_type="F_day=string;F_Time=time;"/>
+    <bpmn:task id="Task94" bpmzero:replyType="undefined" bpmzero:reply_input_value="Thanks for submitting your form" bpmzero:catalog_Form="current_time - current_time" bpmzero:catalog.Key="current_time - current_time" bpmzero:Lane="Lane721" name="ReceiveReplyForm 1" bpmzero:catalog.form.type="freedomForm" bpmzero:url="process" bpmzero:type="catalogFormreceive-reply" bpmzero:catalog.Url="Form Local Catalog" bpmzero:input_value="F_day=;F_Time=;" bpmzero:input_value_type="F_day=string;F_Time=time;"/>
+    <bpmn:task id="Task96" bpmzero:replyType="undefined" bpmzero:reply_input_value="Thanks for submitting your form" bpmzero:catalog_Form="current_time - current_time" bpmzero:catalog.Key="current_time - current_time" bpmzero:Lane="Lane721" name="ReceiveReplyForm 2" bpmzero:catalog.form.type="freedomForm" bpmzero:url="process" bpmzero:type="catalogFormreceive-reply" bpmzero:catalog.Url="Form Local Catalog" bpmzero:input_value="F_day=;F_Time=;" bpmzero:input_value_type="F_day=string;F_Time=time;"/>
+    <bpmn:task id="Task97" bpmzero:replyType="undefined" bpmzero:reply_input_value="Thanks for submitting your form" bpmzero:catalog_Form="current_time - current_time" bpmzero:catalog.Key="current_time - current_time" bpmzero:Lane="Lane721" name="ReceiveReplyForm 3" bpmzero:catalog.form.type="freedomForm" bpmzero:url="process" bpmzero:type="catalogFormreceive-reply" bpmzero:catalog.Url="Form Local Catalog" bpmzero:input_value="F_day=;F_Time=;" bpmzero:input_value_type="F_day=string;F_Time=time;"/>
+    <bpmn:exclusiveGateway id="Gateway141" bpmzero:Lane="Lane721" name=""/>
+    <bpmn:exclusiveGateway id="Gateway142" bpmzero:Lane="Lane721" name=""/>
+    <bpmn:startEvent id="Start90" bpmzero:Lane="Lane721" name=""/>
+    <bpmn:endEvent id="End715" bpmzero:Lane="Lane721" name=""/>
+    <bpmn:task id="Task98" bpmzero:replyType="undefined" bpmzero:reply_input_value="Thanks for submitting your form" bpmzero:catalog_Form="current_time - current_time" bpmzero:catalog.Key="current_time - current_time" bpmzero:Lane="Lane722" name="ReceiveReplyForm 4" bpmzero:catalog.form.type="freedomForm" bpmzero:url="process" bpmzero:type="catalogFormreceive-reply" bpmzero:catalog.Url="Form Local Catalog" bpmzero:input_value="F_day=;F_Time=;" bpmzero:input_value_type="F_day=string;F_Time=time;"/>
+    <bpmn:task id="Task99" bpmzero:replyType="undefined" bpmzero:reply_input_value="Thanks for submitting your form" bpmzero:catalog_Form="current_time - current_time" bpmzero:catalog.Key="current_time - current_time" bpmzero:Lane="Lane722" name="ReceiveReplyForm 5" bpmzero:catalog.form.type="freedomForm" bpmzero:url="process" bpmzero:type="catalogFormreceive-reply" bpmzero:catalog.Url="Form Local Catalog" bpmzero:input_value="F_day=;F_Time=;" bpmzero:input_value_type="F_day=string;F_Time=time;"/>
+    <bpmn:task id="Task100" bpmzero:replyType="undefined" bpmzero:reply_input_value="Thanks for submitting your form" bpmzero:catalog_Form="current_time - current_time" bpmzero:catalog.Key="current_time - current_time" bpmzero:Lane="Lane722" name="ReceiveReplyForm 6" bpmzero:catalog.form.type="freedomForm" bpmzero:url="process" bpmzero:type="catalogFormreceive-reply" bpmzero:catalog.Url="Form Local Catalog" bpmzero:input_value="F_day=;F_Time=;" bpmzero:input_value_type="F_day=string;F_Time=time;"/>
+    <bpmn:parallelGateway id="Gateway149" bpmzero:Lane="Lane722" name=""/>
+    <bpmn:parallelGateway id="Gateway150" bpmzero:Lane="Lane722" name=""/>
+    <bpmn:startEvent id="Start716" bpmzero:Lane="Lane722" name=""/>
+    <bpmn:endEvent id="End91" bpmzero:Lane="Lane722" name=""/>
+    <bpmn:sequenceFlow id="transition107" sourceRef="Start90" targetRef="Task93"/>
+    <bpmn:sequenceFlow id="transition111" sourceRef="Task100" targetRef="End91"/>
+    <bpmn:sequenceFlow id="transition143" sourceRef="Task93" targetRef="Gateway141"/>
+    <bpmn:sequenceFlow id="transition144" sourceRef="Gateway141" targetRef="Task94"/>
+    <bpmn:sequenceFlow id="transition145" sourceRef="Gateway141" targetRef="Task96"/>
+    <bpmn:sequenceFlow id="transition146" sourceRef="Gateway142" targetRef="Task97"/>
+    <bpmn:sequenceFlow id="transition147" sourceRef="Task94" targetRef="Gateway142"/>
+    <bpmn:sequenceFlow id="transition148" sourceRef="Task96" targetRef="Gateway142"/>
+    <bpmn:sequenceFlow id="transition152" sourceRef="Gateway149" targetRef="Task98"/>
+    <bpmn:sequenceFlow id="transition153" sourceRef="Gateway149" targetRef="Task99"/>
+    <bpmn:sequenceFlow id="transition154" sourceRef="Gateway150" targetRef="Task100"/>
+    <bpmn:sequenceFlow id="transition155" sourceRef="Task98" targetRef="Gateway150"/>
+    <bpmn:sequenceFlow id="transition156" sourceRef="Task99" targetRef="Gateway150"/>
+    <bpmn:sequenceFlow id="transition718" sourceRef="Task97" targetRef="End715"/>
+    <bpmn:sequenceFlow id="transition719" sourceRef="Start716" targetRef="Gateway149"/>
+  </bpmn:process>
+  <bpmn:process id="DefaultProcess" name="DefaultPool"/>
+  <bpmn:collaboration id="thg_two_lanes_collaboration">
+    <bpmn:pool id="pool_Pool720" name="Pool" process="Pool720">
+      <bpmn:participant id="participant_Pool720"/>
+      <bpmzero:Lane id="Lane721" name="Lane"/>
+      <bpmzero:Lane id="Lane722" name="Lane 1"/>
+    </bpmn:pool>
+  </bpmn:collaboration>
+</bpmn:definitions>

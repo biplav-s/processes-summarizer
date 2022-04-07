@@ -1,0 +1,65 @@
+<ns0:definitions expressionLanguage="http://www.w3.org/1999/XPath" id="oryx_f3f88ae0-3faf-490a-b384-951d6897d12a" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.w3.org/2001/XMLSchema" xmlns:ns0="http://schema.omg.org/spec/BPMN/2.0">
+    <ns0:process id="oryx_fc115f7d_process">
+        <ns0:laneSet id="oryx_80753c22-5bbd-4787-9bc3-325bf2b1bc5a" process="oryx_fc115f7d_process">
+            <ns0:lane id="oryx_b87a9140-bfd8-4179-9967-72947dc4786e" laneSet="oryx_80753c22-5bbd-4787-9bc3-325bf2b1bc5a" name="DefaultLane">
+                <ns0:flowElementRef>oryx_FB42010B-36AE-417B-8FBB-71DAE111B366</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_5624D8B4-B053-45C0-89DC-75024D1D0808</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_22B84732-5E7B-4F44-89D4-58C6E8241268</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_083A3C91-884E-44EE-9FA1-CCB5B91424F6</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_A853E11B-B0DD-4C84-8E7B-B1B494CB8DBC</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_9294802D-2AEF-4713-9CFB-A12B156724AF</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_E37D49DA-7942-438F-9A58-01A061B25DEF</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_275B264E-C347-4DA6-8A11-41C2A32B3105</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_63F93B2C-50B9-4F78-B936-252D315B3F2D</ns0:flowElementRef>
+            </ns0:lane>
+        </ns0:laneSet>
+        <ns0:startEvent id="oryx_FB42010B_startEvent" name="" process="oryx_fc115f7d_process" />
+        <ns0:task id="oryx_5624D8B4_task_Record_Car_Claim" name="Record Car Claim" process="oryx_fc115f7d_process" />
+        <ns0:task id="oryx_22B84732_task_Check_Car_Claim" name="Check Car Claim" process="oryx_fc115f7d_process" />
+        <ns0:exclusiveGateway gatewayDirection="diverging" id="oryx_083A3C91_exclusiveGateway" name="" process="oryx_fc115f7d_process" />
+        <ns0:task id="oryx_A853E11B_task_Reject_Claim" name="Reject Claim" process="oryx_fc115f7d_process" />
+        <ns0:exclusiveGateway gatewayDirection="converging" id="oryx_9294802D_exclusiveGateway" name="" process="oryx_fc115f7d_process" />
+        <ns0:task id="oryx_E37D49DA_task_Settle_Claim" name="Settle Claim" process="oryx_fc115f7d_process" />
+        <ns0:task id="oryx_275B264E_task_Close_Car_Claim" name="Close Car Claim" process="oryx_fc115f7d_process" />
+        <ns0:endEvent id="oryx_63F93B2C_endEvent" name="" process="oryx_fc115f7d_process" />
+        <ns0:sequenceFlow id="oryx_5938A90D_sequenceFlow" name="" process="oryx_fc115f7d_process" sourceRef="oryx_FB42010B_startEvent" targetRef="oryx_5624D8B4_task_Record_Car_Claim" />
+        <ns0:sequenceFlow id="oryx_DAD05D79_sequenceFlow" name="" process="oryx_fc115f7d_process" sourceRef="oryx_5624D8B4_task_Record_Car_Claim" targetRef="oryx_22B84732_task_Check_Car_Claim" />
+        <ns0:sequenceFlow id="oryx_F4E4EF92_sequenceFlow" name="" process="oryx_fc115f7d_process" sourceRef="oryx_22B84732_task_Check_Car_Claim" targetRef="oryx_083A3C91_exclusiveGateway" />
+        <ns0:sequenceFlow id="oryx_78AAE2DE_sequenceFlow" name="" process="oryx_fc115f7d_process" sourceRef="oryx_083A3C91_exclusiveGateway" targetRef="oryx_A853E11B_task_Reject_Claim" />
+        <ns0:sequenceFlow id="oryx_1F997374_sequenceFlow" name="" process="oryx_fc115f7d_process" sourceRef="oryx_083A3C91_exclusiveGateway" targetRef="oryx_E37D49DA_task_Settle_Claim" />
+        <ns0:sequenceFlow id="oryx_A32B5844_sequenceFlow" name="" process="oryx_fc115f7d_process" sourceRef="oryx_A853E11B_task_Reject_Claim" targetRef="oryx_9294802D_exclusiveGateway" />
+        <ns0:sequenceFlow id="oryx_DD0AC343_sequenceFlow" name="" process="oryx_fc115f7d_process" sourceRef="oryx_9294802D_exclusiveGateway" targetRef="oryx_275B264E_task_Close_Car_Claim" />
+        <ns0:sequenceFlow id="oryx_0B03EF57_sequenceFlow" name="" process="oryx_fc115f7d_process" sourceRef="oryx_275B264E_task_Close_Car_Claim" targetRef="oryx_63F93B2C_endEvent" />
+        <ns0:sequenceFlow id="oryx_8439EC2B_sequenceFlow" name="" process="oryx_fc115f7d_process" sourceRef="oryx_E37D49DA_task_Settle_Claim" targetRef="oryx_9294802D_exclusiveGateway" />
+    </ns0:process>
+    <ns1:processDiagram id="oryx_fc115f7d-b8a0-4a0c-a890-a5cbc4c566d0_gui" processRef="oryx_fc115f7d_process" xmlns:ns1="http://bpmndi.org">
+        <ns1:laneCompartment height="0.0" id="oryx_b87a9140-bfd8-4179-9967-72947dc4786e_gui" isVisible="false" name="DefaultLane" width="0.0" x="0.0" y="0.0">
+            <ns1:eventShape eventRef="oryx_FB42010B_startEvent" height="30.0" id="oryx_FB42010B-36AE-417B-8FBB-71DAE111B366_gui" name="" width="30.0" x="32.0" y="305.0" />
+            <ns1:activityShape activityRef="oryx_5624D8B4_task_Record_Car_Claim" height="80.0" id="oryx_5624D8B4-B053-45C0-89DC-75024D1D0808_gui" name="Record Car Claim" width="100.0" x="107.0" y="280.0" />
+            <ns1:activityShape activityRef="oryx_22B84732_task_Check_Car_Claim" height="80.0" id="oryx_22B84732-5E7B-4F44-89D4-58C6E8241268_gui" name="Check Car Claim" width="100.0" x="255.0" y="280.0" />
+            <ns1:gatewayShape gatewayRef="oryx_083A3C91_exclusiveGateway" height="40.0" id="oryx_083A3C91-884E-44EE-9FA1-CCB5B91424F6_gui" name="" width="40.0" x="417.0" y="300.0" />
+            <ns1:activityShape activityRef="oryx_A853E11B_task_Reject_Claim" height="80.0" id="oryx_A853E11B-B0DD-4C84-8E7B-B1B494CB8DBC_gui" name="Reject Claim" width="100.0" x="502.0" y="360.0" />
+            <ns1:gatewayShape gatewayRef="oryx_9294802D_exclusiveGateway" height="40.0" id="oryx_9294802D-2AEF-4713-9CFB-A12B156724AF_gui" name="" width="40.0" x="685.0" y="290.0" />
+            <ns1:activityShape activityRef="oryx_E37D49DA_task_Settle_Claim" height="80.0" id="oryx_E37D49DA-7942-438F-9A58-01A061B25DEF_gui" name="Settle Claim" width="100.0" x="502.0" y="195.0" />
+            <ns1:activityShape activityRef="oryx_275B264E_task_Close_Car_Claim" height="80.0" id="oryx_275B264E-C347-4DA6-8A11-41C2A32B3105_gui" name="Close Car Claim" width="100.0" x="820.0" y="270.0" />
+            <ns1:eventShape eventRef="oryx_63F93B2C_endEvent" height="28.0" id="oryx_63F93B2C-50B9-4F78-B936-252D315B3F2D_gui" name="" width="28.0" x="965.0" y="296.0" />
+        </ns1:laneCompartment>
+        <ns1:sequenceFlowConnector id="oryx_5938A90D-6875-4A1F-B1AB-912B3631FEC0_gui" label="" sequenceFlowRef="oryx_5938A90D_sequenceFlow" sourceRef="oryx_FB42010B-36AE-417B-8FBB-71DAE111B366_gui" targetRef="oryx_5624D8B4-B053-45C0-89DC-75024D1D0808_gui" />
+        <ns1:sequenceFlowConnector id="oryx_DAD05D79-763F-419A-834E-1F2CA0F424FD_gui" label="" sequenceFlowRef="oryx_DAD05D79_sequenceFlow" sourceRef="oryx_5624D8B4-B053-45C0-89DC-75024D1D0808_gui" targetRef="oryx_22B84732-5E7B-4F44-89D4-58C6E8241268_gui" />
+        <ns1:sequenceFlowConnector id="oryx_F4E4EF92-35D5-4CD0-B913-346192A52BC7_gui" label="" sequenceFlowRef="oryx_F4E4EF92_sequenceFlow" sourceRef="oryx_22B84732-5E7B-4F44-89D4-58C6E8241268_gui" targetRef="oryx_083A3C91-884E-44EE-9FA1-CCB5B91424F6_gui" />
+        <ns1:sequenceFlowConnector id="oryx_78AAE2DE-46C0-4A8A-9C6E-61E5AD0A696E_gui" label="" sequenceFlowRef="oryx_78AAE2DE_sequenceFlow" sourceRef="oryx_083A3C91-884E-44EE-9FA1-CCB5B91424F6_gui" targetRef="oryx_A853E11B-B0DD-4C84-8E7B-B1B494CB8DBC_gui">
+            <ns1:bendpoint x="437.5" y="400.0" />
+        </ns1:sequenceFlowConnector>
+        <ns1:sequenceFlowConnector id="oryx_1F997374-99DC-438F-91C7-712B73DEE8BD_gui" label="" sequenceFlowRef="oryx_1F997374_sequenceFlow" sourceRef="oryx_083A3C91-884E-44EE-9FA1-CCB5B91424F6_gui" targetRef="oryx_E37D49DA-7942-438F-9A58-01A061B25DEF_gui">
+            <ns1:bendpoint x="437.5" y="235.0" />
+        </ns1:sequenceFlowConnector>
+        <ns1:sequenceFlowConnector id="oryx_A32B5844-9660-4C11-BEFC-508BC5681775_gui" label="" sequenceFlowRef="oryx_A32B5844_sequenceFlow" sourceRef="oryx_A853E11B-B0DD-4C84-8E7B-B1B494CB8DBC_gui" targetRef="oryx_9294802D-2AEF-4713-9CFB-A12B156724AF_gui">
+            <ns1:bendpoint x="705.5" y="400.0" />
+        </ns1:sequenceFlowConnector>
+        <ns1:sequenceFlowConnector id="oryx_DD0AC343-E7D1-4874-AD36-32EE3B13CD22_gui" label="" sequenceFlowRef="oryx_DD0AC343_sequenceFlow" sourceRef="oryx_9294802D-2AEF-4713-9CFB-A12B156724AF_gui" targetRef="oryx_275B264E-C347-4DA6-8A11-41C2A32B3105_gui" />
+        <ns1:sequenceFlowConnector id="oryx_0B03EF57-06F2-4EAD-A05F-55840A640C2B_gui" label="" sequenceFlowRef="oryx_0B03EF57_sequenceFlow" sourceRef="oryx_275B264E-C347-4DA6-8A11-41C2A32B3105_gui" targetRef="oryx_63F93B2C-50B9-4F78-B936-252D315B3F2D_gui" />
+        <ns1:sequenceFlowConnector id="oryx_8439EC2B-2C5E-4968-B750-656061E40DA0_gui" label="" sequenceFlowRef="oryx_8439EC2B_sequenceFlow" sourceRef="oryx_E37D49DA-7942-438F-9A58-01A061B25DEF_gui" targetRef="oryx_9294802D-2AEF-4713-9CFB-A12B156724AF_gui">
+            <ns1:bendpoint x="705.0" y="235.0" />
+        </ns1:sequenceFlowConnector>
+    </ns1:processDiagram>
+</ns0:definitions>

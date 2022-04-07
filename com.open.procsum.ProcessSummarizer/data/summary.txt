@@ -1,0 +1,46 @@
+Summary generated at: Thu Apr 29 17:41:15 IST 2010
+Top 5 phrases (non-steps) in repository = 
+	converging, 
+	diverging, 
+	thg_simple_subprocess, 
+	thg_parallel_alternative, 
+	oryx_cc6ff2d7-c29f-4632-afbe-e08138ff69f9
+
+---------- PROCESSES STATISTICS ------------
+Number of processes in repository = 23
+Avg steps = 1.3478261, Range = [0, 6]
+Top 5 step names in repository = 
+	Reject Claim, 
+	Settle Claim, 
+	Task, 
+	Task:2, 
+	Task:3
+
+---------------------------------------------
+
+---------- PROCESS VARIANT ANALYSIS ------------
+Threshold used = 0.5
+Finding and reporting clusters by comparator = ProcessesStepsJaccardComparator
+Number of clusters = 4
+Avg cluster size = 5.5, Range = [2, 15]
+
+Cluster 0 (Size=15): [ID0]thg_parallel_alternative
+	 -- [ID1]thg_parallel_alternative,[ID2]thg_parallel_alternative,[ID3]thg_lane_iloop_parallel,[ID4]thg_loop_parallel,[ID5]VacationRequest,[ID6]thg_simple_subprocess,[ID7]thg_simple_subprocess,[ID8]thg_simple_subprocess,[ID9]thg_simple_subprocess,[ID10]thg_two_lanes,[ID19]oryx_3136ca6e-fc15-4090-be47-2a2868b49b29,[ID20]oryx_ed5e1d41-2183-4e92-addb-33400176749c,[ID21]oryx_25a452be-e085-4be8-9e41-431abff8cdd0,[ID22]oryx_ed5e1d41-2183-4e92-addb-33400176749c
+Cluster 1 (Size=2): [ID11]oryx_cc6ff2d7-c29f-4632-afbe-e08138ff69f9
+	 -- [ID13]oryx_cc6ff2d7-c29f-4632-afbe-e08138ff69f9
+Cluster 2 (Size=2): [ID12]oryx_f3f88ae0-3faf-490a-b384-951d6897d12a
+	 -- [ID14]oryx_234f6c0e-4cf7-4240-a742-b6dc1624b827
+Cluster 3 (Size=3): [ID15]oryx_28a7ffe2-cdaf-4475-95ca-713f5b4cafd1
+	 -- [ID16]oryx_99545eb1-b505-4392-8955-d9a799173418,[ID17]oryx_412f0915-589e-481e-9bcf-63b2a11ac775
+---------------------------------------------------
+Finding and reporting clusters by comparator = ProcessesGoalsJaccardComparator
+Number of clusters = 3
+Avg cluster size = 7.6666665, Range = [3, 13]
+
+Cluster 0 (Size=13): [ID0]thg_parallel_alternative
+	 -- [ID1]thg_parallel_alternative,[ID2]thg_parallel_alternative,[ID4]thg_loop_parallel,[ID6]thg_simple_subprocess,[ID7]thg_simple_subprocess,[ID8]thg_simple_subprocess,[ID9]thg_simple_subprocess,[ID18]oryx_f6e6ec4a-614d-4f41-bf27-26c30f9c0306,[ID19]oryx_3136ca6e-fc15-4090-be47-2a2868b49b29,[ID20]oryx_ed5e1d41-2183-4e92-addb-33400176749c,[ID21]oryx_25a452be-e085-4be8-9e41-431abff8cdd0,[ID22]oryx_ed5e1d41-2183-4e92-addb-33400176749c
+Cluster 1 (Size=3): [ID3]thg_lane_iloop_parallel
+	 -- [ID5]VacationRequest,[ID10]thg_two_lanes
+Cluster 2 (Size=7): [ID11]oryx_cc6ff2d7-c29f-4632-afbe-e08138ff69f9
+	 -- [ID12]oryx_f3f88ae0-3faf-490a-b384-951d6897d12a,[ID13]oryx_cc6ff2d7-c29f-4632-afbe-e08138ff69f9,[ID14]oryx_234f6c0e-4cf7-4240-a742-b6dc1624b827,[ID15]oryx_28a7ffe2-cdaf-4475-95ca-713f5b4cafd1,[ID16]oryx_99545eb1-b505-4392-8955-d9a799173418,[ID17]oryx_412f0915-589e-481e-9bcf-63b2a11ac775
+---------------------------------------------------

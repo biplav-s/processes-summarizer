@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<definitions id="oryx_a8b249ed-d3e2-49ba-9eff-da6b63113720" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.omg.org/bpmn20" xmlns="http://schema.omg.org/spec/BPMN/2.0" xmlns:bpmndi="http://bpmndi.org">
+    <process id="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f">
+        <laneSet process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_34a3854a-f27d-423a-abc7-d46335a3e094">
+            <lane laneSet="oryx_34a3854a-f27d-423a-abc7-d46335a3e094" name="DefaultLane" id="oryx_a8444ee0-0bcd-4acd-9a0a-c82a39a3623e">
+                <flowElementRef>oryx_B2536681-CDE2-4D67-9097-705DEAA4BCB4</flowElementRef>
+                <flowElementRef>oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7</flowElementRef>
+                <flowElementRef>oryx_49FAAA50-604B-4230-AC7C-8529429A54A0</flowElementRef>
+                <flowElementRef>oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE</flowElementRef>
+                <flowElementRef>oryx_0D937C85-898F-452A-A71F-4F65D36DA314</flowElementRef>
+                <flowElementRef>oryx_6780C1E5-7A45-4BDD-A09B-73E61189F4E3</flowElementRef>
+                <flowElementRef>oryx_4EC242EC-F5DC-478C-8DA7-E83169C1633A</flowElementRef>
+                <flowElementRef>oryx_5373F857-19FA-4EC6-A518-CE0A8B0F358C</flowElementRef>
+            </lane>
+        </laneSet>
+        <task name="Obtain Reservation Information" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_B2536681-CDE2-4D67-9097-705DEAA4BCB4"/>
+        <exclusiveGateway gatewayDirection="converging" name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7"/>
+        <task name="Notify Customer About Upgrade" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_49FAAA50-604B-4230-AC7C-8529429A54A0"/>
+        <exclusiveGateway gatewayDirection="diverging" name="Check Availability" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE"/>
+        <task name="Inform Customer to Change Dates" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_0D937C85-898F-452A-A71F-4F65D36DA314"/>
+        <task name="Add Reservation Record into Database" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_6780C1E5-7A45-4BDD-A09B-73E61189F4E3"/>
+        <endEvent name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_4EC242EC-F5DC-478C-8DA7-E83169C1633A"/>
+        <startEvent name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_5373F857-19FA-4EC6-A518-CE0A8B0F358C"/>
+        <sequenceFlow targetRef="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7" sourceRef="oryx_5373F857-19FA-4EC6-A518-CE0A8B0F358C" name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_12968D14-41E7-4276-B1E4-E28B3E35CA24"/>
+        <sequenceFlow targetRef="oryx_B2536681-CDE2-4D67-9097-705DEAA4BCB4" sourceRef="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7" name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_3A06132C-7C99-4E61-850F-71A19E11E9A8"/>
+        <sequenceFlow targetRef="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE" sourceRef="oryx_B2536681-CDE2-4D67-9097-705DEAA4BCB4" name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_A6022D18-277C-4570-85E7-29582647BA92"/>
+        <sequenceFlow targetRef="oryx_49FAAA50-604B-4230-AC7C-8529429A54A0" sourceRef="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE" name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_580FA075-FC3D-42AD-8B06-1701EBF5090C"/>
+        <sequenceFlow targetRef="oryx_0D937C85-898F-452A-A71F-4F65D36DA314" sourceRef="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE" name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_6346A0D9-0B78-42A2-936D-DB8C5CC23957"/>
+        <sequenceFlow targetRef="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7" sourceRef="oryx_0D937C85-898F-452A-A71F-4F65D36DA314" name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_29C42647-91F5-4EEF-AB94-0AC6A3572250"/>
+        <sequenceFlow targetRef="oryx_6780C1E5-7A45-4BDD-A09B-73E61189F4E3" sourceRef="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE" name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_FF42A8F3-56A2-4924-9B23-5BB49F6CF25E"/>
+        <sequenceFlow targetRef="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7" sourceRef="oryx_49FAAA50-604B-4230-AC7C-8529429A54A0" name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_0DB3EAA7-CF90-4176-A04D-E563A0CA7BC4"/>
+        <sequenceFlow targetRef="oryx_4EC242EC-F5DC-478C-8DA7-E83169C1633A" sourceRef="oryx_6780C1E5-7A45-4BDD-A09B-73E61189F4E3" name="" process="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_F365A982-C1AA-46D0-8A0E-44A813A8218B"/>
+    </process>
+    <bpmndi:processDiagram processRef="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f" id="oryx_15267f05-d24a-4465-8d62-7f8af6c0c12f_gui">
+        <bpmndi:laneCompartment isVisible="false" height="0.0" width="0.0" y="0.0" x="0.0" name="DefaultLane" id="oryx_a8444ee0-0bcd-4acd-9a0a-c82a39a3623e_gui">
+            <bpmndi:activityShape activityRef="oryx_B2536681-CDE2-4D67-9097-705DEAA4BCB4" height="75.0" width="101.0" y="92.5" x="269.0" name="Obtain Reservation Information" id="oryx_B2536681-CDE2-4D67-9097-705DEAA4BCB4_gui"/>
+            <bpmndi:gatewayShape gatewayRef="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7" height="40.0" width="40.0" y="110.0" x="165.0" name="" id="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7_gui"/>
+            <bpmndi:activityShape activityRef="oryx_49FAAA50-604B-4230-AC7C-8529429A54A0" height="80.0" width="100.0" y="200.0" x="539.0" name="Notify Customer About Upgrade" id="oryx_49FAAA50-604B-4230-AC7C-8529429A54A0_gui"/>
+            <bpmndi:gatewayShape gatewayRef="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE" height="40.0" width="40.0" y="110.0" x="419.0" name="Check Availability" id="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE_gui"/>
+            <bpmndi:activityShape activityRef="oryx_0D937C85-898F-452A-A71F-4F65D36DA314" height="80.0" width="100.0" y="320.0" x="539.0" name="Inform Customer to Change Dates" id="oryx_0D937C85-898F-452A-A71F-4F65D36DA314_gui"/>
+            <bpmndi:activityShape activityRef="oryx_6780C1E5-7A45-4BDD-A09B-73E61189F4E3" height="80.0" width="100.0" y="90.0" x="539.0" name="Add Reservation Record into Database" id="oryx_6780C1E5-7A45-4BDD-A09B-73E61189F4E3_gui"/>
+            <bpmndi:eventShape eventRef="oryx_4EC242EC-F5DC-478C-8DA7-E83169C1633A" height="28.0" width="28.0" y="116.0" x="711.0" name="" id="oryx_4EC242EC-F5DC-478C-8DA7-E83169C1633A_gui"/>
+            <bpmndi:eventShape eventRef="oryx_5373F857-19FA-4EC6-A518-CE0A8B0F358C" height="30.0" width="30.0" y="115.0" x="75.0" name="" id="oryx_5373F857-19FA-4EC6-A518-CE0A8B0F358C_gui"/>
+        </bpmndi:laneCompartment>
+        <bpmndi:sequenceFlowConnector sequenceFlowRef="oryx_12968D14-41E7-4276-B1E4-E28B3E35CA24" label="" targetRef="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7_gui" sourceRef="oryx_5373F857-19FA-4EC6-A518-CE0A8B0F358C_gui" id="oryx_12968D14-41E7-4276-B1E4-E28B3E35CA24_gui"/>
+        <bpmndi:sequenceFlowConnector sequenceFlowRef="oryx_3A06132C-7C99-4E61-850F-71A19E11E9A8" label="" targetRef="oryx_B2536681-CDE2-4D67-9097-705DEAA4BCB4_gui" sourceRef="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7_gui" id="oryx_3A06132C-7C99-4E61-850F-71A19E11E9A8_gui"/>
+        <bpmndi:sequenceFlowConnector sequenceFlowRef="oryx_A6022D18-277C-4570-85E7-29582647BA92" label="" targetRef="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE_gui" sourceRef="oryx_B2536681-CDE2-4D67-9097-705DEAA4BCB4_gui" id="oryx_A6022D18-277C-4570-85E7-29582647BA92_gui"/>
+        <bpmndi:sequenceFlowConnector sequenceFlowRef="oryx_580FA075-FC3D-42AD-8B06-1701EBF5090C" label="" targetRef="oryx_49FAAA50-604B-4230-AC7C-8529429A54A0_gui" sourceRef="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE_gui" id="oryx_580FA075-FC3D-42AD-8B06-1701EBF5090C_gui">
+            <bpmndi:bendpoint y="240.0" x="439.5"/>
+        </bpmndi:sequenceFlowConnector>
+        <bpmndi:sequenceFlowConnector sequenceFlowRef="oryx_6346A0D9-0B78-42A2-936D-DB8C5CC23957" label="" targetRef="oryx_0D937C85-898F-452A-A71F-4F65D36DA314_gui" sourceRef="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE_gui" id="oryx_6346A0D9-0B78-42A2-936D-DB8C5CC23957_gui">
+            <bpmndi:bendpoint y="360.0" x="439.5"/>
+        </bpmndi:sequenceFlowConnector>
+        <bpmndi:sequenceFlowConnector sequenceFlowRef="oryx_29C42647-91F5-4EEF-AB94-0AC6A3572250" label="" targetRef="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7_gui" sourceRef="oryx_0D937C85-898F-452A-A71F-4F65D36DA314_gui" id="oryx_29C42647-91F5-4EEF-AB94-0AC6A3572250_gui">
+            <bpmndi:bendpoint y="423.0" x="589.0"/>
+            <bpmndi:bendpoint y="423.0" x="185.0"/>
+        </bpmndi:sequenceFlowConnector>
+        <bpmndi:sequenceFlowConnector sequenceFlowRef="oryx_FF42A8F3-56A2-4924-9B23-5BB49F6CF25E" label="" targetRef="oryx_6780C1E5-7A45-4BDD-A09B-73E61189F4E3_gui" sourceRef="oryx_32677006-8BC7-4C21-9687-F92FCCB8C7FE_gui" id="oryx_FF42A8F3-56A2-4924-9B23-5BB49F6CF25E_gui"/>
+        <bpmndi:sequenceFlowConnector sequenceFlowRef="oryx_0DB3EAA7-CF90-4176-A04D-E563A0CA7BC4" label="" targetRef="oryx_DC6D4D87-EA3A-4065-9F7B-A8542E10CFB7_gui" sourceRef="oryx_49FAAA50-604B-4230-AC7C-8529429A54A0_gui" id="oryx_0DB3EAA7-CF90-4176-A04D-E563A0CA7BC4_gui">
+            <bpmndi:bendpoint y="240.0" x="676.0"/>
+            <bpmndi:bendpoint y="434.0" x="676.0"/>
+            <bpmndi:bendpoint y="434.0" x="185.5"/>
+        </bpmndi:sequenceFlowConnector>
+        <bpmndi:sequenceFlowConnector sequenceFlowRef="oryx_F365A982-C1AA-46D0-8A0E-44A813A8218B" label="" targetRef="oryx_4EC242EC-F5DC-478C-8DA7-E83169C1633A_gui" sourceRef="oryx_6780C1E5-7A45-4BDD-A09B-73E61189F4E3_gui" id="oryx_F365A982-C1AA-46D0-8A0E-44A813A8218B_gui"/>
+    </bpmndi:processDiagram>
+</definitions>

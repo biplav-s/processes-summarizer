@@ -1,0 +1,97 @@
+<ns0:definitions expressionLanguage="http://www.w3.org/1999/XPath" id="oryx_25a452be-e085-4be8-9e41-431abff8cdd0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.w3.org/2001/XMLSchema" xmlns:ns0="http://schema.omg.org/spec/BPMN/2.0">
+    <ns0:process id="oryx_7f0dd50b_process">
+        <ns0:laneSet id="oryx_12b8a320-8a55-47b3-b33f-7a07f1830c24" process="oryx_7f0dd50b_process">
+            <ns0:lane id="oryx_e42ea3b5-3044-4373-b420-6028b6836276" laneSet="oryx_12b8a320-8a55-47b3-b33f-7a07f1830c24" name="DefaultLane">
+                <ns0:flowElementRef>oryx_40A9B43A-7E51-46D0-BF1A-7E6B4FAE3000</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_72ED3278-F4ED-4D59-B6E0-660717263D3C</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_51D650B7-07DB-4D14-9E11-FDE21501FAAC</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_9A496366-3754-4619-A431-ACB1DEA2E7F0</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_394EC52F-7762-4AA6-AC98-7CC7EEB36101</ns0:flowElementRef>
+                <ns0:flowElementRef>oryx_299D2D29-1C32-48FB-8322-293A8F22C565</ns0:flowElementRef>
+            </ns0:lane>
+        </ns0:laneSet>
+        <ns0:startEvent id="oryx_40A9B43A_startEvent" name="" process="oryx_7f0dd50b_process" />
+        <ns0:intermediateThrowEvent id="oryx_72ED3278_intermediateThrowEvent" name="" process="oryx_7f0dd50b_process">
+            <ns0:messageEventDefinition />
+        </ns0:intermediateThrowEvent>
+        <ns0:intermediateCatchEvent id="oryx_51D650B7_intermediateCatchEvent" name="" process="oryx_7f0dd50b_process">
+            <ns0:messageEventDefinition />
+        </ns0:intermediateCatchEvent>
+        <ns0:intermediateCatchEvent id="oryx_9A496366_intermediateCatchEvent" name="" process="oryx_7f0dd50b_process">
+            <ns0:conditionalEventDefinition />
+        </ns0:intermediateCatchEvent>
+        <ns0:subProcess completionQuantity="1" id="oryx_394EC52F_subProcess" isForCompensation="false" name="" process="oryx_7f0dd50b_process" startQuantity="1" triggeredByEvent="false">
+            <ns0:startEvent id="oryx_C24F6C6D_startEvent" name="" />
+            <ns0:endEvent id="oryx_C2AD59AE_endEvent" name="" />
+            <ns0:intermediateCatchEvent id="oryx_1F2E1ED6_intermediateCatchEvent" name="">
+                <ns0:timerEventDefinition />
+            </ns0:intermediateCatchEvent>
+            <ns0:task id="oryx_93E87189_task_Task" name="Task" />
+            <ns0:task id="oryx_6D562D48_task_Map" name="Map" />
+            <ns0:sequenceFlow id="oryx_8A280436_sequenceFlow" name="" sourceRef="oryx_6D562D48_task_Map" targetRef="oryx_93E87189_task_Task" />
+            <ns0:sequenceFlow id="oryx_854C5135_sequenceFlow" name="" sourceRef="oryx_93E87189_task_Task" targetRef="oryx_C2AD59AE_endEvent" />
+            <ns0:sequenceFlow id="oryx_2261B912_sequenceFlow" name="" sourceRef="oryx_C24F6C6D_startEvent" targetRef="oryx_1F2E1ED6_intermediateCatchEvent" />
+            <ns0:sequenceFlow id="oryx_0061123D_sequenceFlow" name="" sourceRef="oryx_1F2E1ED6_intermediateCatchEvent" targetRef="oryx_6D562D48_task_Map" />
+        </ns0:subProcess>
+        <ns0:endEvent id="oryx_299D2D29_endEvent" name="" process="oryx_7f0dd50b_process" />
+        <ns0:sequenceFlow id="oryx_0273CCCC_sequenceFlow" name="" process="oryx_7f0dd50b_process" sourceRef="oryx_40A9B43A_startEvent" targetRef="oryx_72ED3278_intermediateThrowEvent" />
+        <ns0:sequenceFlow id="oryx_9B4BC80E_sequenceFlow" name="" process="oryx_7f0dd50b_process" sourceRef="oryx_72ED3278_intermediateThrowEvent" targetRef="oryx_51D650B7_intermediateCatchEvent" />
+        <ns0:sequenceFlow id="oryx_676C154F_sequenceFlow" name="" process="oryx_7f0dd50b_process" sourceRef="oryx_51D650B7_intermediateCatchEvent" targetRef="oryx_9A496366_intermediateCatchEvent" />
+        <ns0:sequenceFlow id="oryx_722C3206_sequenceFlow" name="" process="oryx_7f0dd50b_process" sourceRef="oryx_9A496366_intermediateCatchEvent" targetRef="oryx_394EC52F_subProcess" />
+        <ns0:sequenceFlow id="oryx_504C9632_sequenceFlow" name="" process="oryx_7f0dd50b_process" sourceRef="oryx_394EC52F_subProcess" targetRef="oryx_299D2D29_endEvent" />
+    </ns0:process>
+    <ns1:processDiagram id="oryx_394EC52F-7762-4AA6-AC98-7CC7EEB36101_gui" name="" processRef="oryx_94b8a0c6-ec07-44c8-b933-518dba365372" xmlns:ns1="http://bpmndi.org">
+        <ns1:laneCompartment height="0.0" id="oryx_877b8dd1-6805-44c1-819d-85b9e67e6179_gui" isVisible="false" width="0.0" x="0.0" y="0.0">
+            <ns1:eventShape eventRef="oryx_C24F6C6D_startEvent" height="30.0" id="oryx_C24F6C6D-4000-460E-A60F-C74082C15C52_gui" name="" width="30.0" x="5.0" y="6.0" />
+            <ns1:eventShape eventRef="oryx_C2AD59AE_endEvent" height="28.0" id="oryx_C2AD59AE-5A5F-4BEA-987D-2EA2E2B93DEC_gui" name="" width="28.0" x="626.0" y="126.0" />
+            <ns1:eventShape eventRef="oryx_1F2E1ED6_intermediateCatchEvent" height="30.0" id="oryx_1F2E1ED6-985F-40A9-843F-565A049B0B08_gui" name="" width="30.0" x="165.0" y="0.0" />
+            <ns1:activityShape activityRef="oryx_93E87189_task_Task" height="80.0" id="oryx_93E87189-AC66-4FF0-A680-8D01B6D09DAC_gui" name="Task" width="100.0" x="472.0" y="90.0" />
+            <ns1:activityShape activityRef="oryx_6D562D48_task_Map" height="80.0" id="oryx_6D562D48-6255-4E41-80D6-1CAD2B2A33B8_gui" name="Map" width="100.0" x="322.0" y="6.0" />
+        </ns1:laneCompartment>
+        <ns1:sequenceFlowConnector id="oryx_8A280436-55F3-4E93-82A7-5210C8AA3F04_gui" label="" sequenceFlowRef="oryx_8A280436_sequenceFlow" sourceRef="oryx_6D562D48-6255-4E41-80D6-1CAD2B2A33B8_gui" targetRef="oryx_93E87189-AC66-4FF0-A680-8D01B6D09DAC_gui">
+            <ns1:bendpoint x="758.0" y="-1095.4999999999995" />
+            <ns1:bendpoint x="758.0" y="-1011.4999999999995" />
+        </ns1:sequenceFlowConnector>
+        <ns1:sequenceFlowConnector id="oryx_854C5135-67C5-46D1-A357-8ADFE3D03F8C_gui" label="" sequenceFlowRef="oryx_854C5135_sequenceFlow" sourceRef="oryx_93E87189-AC66-4FF0-A680-8D01B6D09DAC_gui" targetRef="oryx_C2AD59AE-5A5F-4BEA-987D-2EA2E2B93DEC_gui">
+            <ns1:bendpoint x="910.0" y="-1011.4999999999995" />
+            <ns1:bendpoint x="910.0" y="-1001.4999999999995" />
+        </ns1:sequenceFlowConnector>
+        <ns1:sequenceFlowConnector id="oryx_2261B912-CB14-4DCC-9802-7B2B6E0A6E36_gui" label="" sequenceFlowRef="oryx_2261B912_sequenceFlow" sourceRef="oryx_C24F6C6D-4000-460E-A60F-C74082C15C52_gui" targetRef="oryx_1F2E1ED6-985F-40A9-843F-565A049B0B08_gui">
+            <ns1:bendpoint x="371.5" y="-1195.4999999999995" />
+            <ns1:bendpoint x="371.5" y="-1150.4999999999995" />
+        </ns1:sequenceFlowConnector>
+        <ns1:sequenceFlowConnector id="oryx_0061123D-9CE0-424C-9054-320B7813E816_gui" label="" sequenceFlowRef="oryx_0061123D_sequenceFlow" sourceRef="oryx_1F2E1ED6-985F-40A9-843F-565A049B0B08_gui" targetRef="oryx_6D562D48-6255-4E41-80D6-1CAD2B2A33B8_gui">
+            <ns1:bendpoint x="530.0" y="-1150.4999999999995" />
+            <ns1:bendpoint x="530.0" y="-1095.4999999999995" />
+        </ns1:sequenceFlowConnector>
+    </ns1:processDiagram>
+    <ns1:processDiagram id="oryx_7f0dd50b-5284-4f79-8242-6f9c33be9743_gui" processRef="oryx_7f0dd50b_process" xmlns:ns1="http://bpmndi.org">
+        <ns1:laneCompartment height="0.0" id="oryx_e42ea3b5-3044-4373-b420-6028b6836276_gui" isVisible="false" name="DefaultLane" width="0.0" x="0.0" y="0.0">
+            <ns1:eventShape eventRef="oryx_40A9B43A_startEvent" height="30.0" id="oryx_40A9B43A-7E51-46D0-BF1A-7E6B4FAE3000_gui" name="" width="30.0" x="75.0" y="180.0" />
+            <ns1:eventShape eventRef="oryx_72ED3278_intermediateThrowEvent" height="30.0" id="oryx_72ED3278-F4ED-4D59-B6E0-660717263D3C_gui" name="" width="30.0" x="221.0" y="182.0" />
+            <ns1:eventShape eventRef="oryx_51D650B7_intermediateCatchEvent" height="30.0" id="oryx_51D650B7-07DB-4D14-9E11-FDE21501FAAC_gui" name="" width="30.0" x="392.0" y="172.0" />
+            <ns1:eventShape eventRef="oryx_9A496366_intermediateCatchEvent" height="30.0" id="oryx_9A496366-3754-4619-A431-ACB1DEA2E7F0_gui" name="" width="30.0" x="497.0" y="187.0" />
+            <ns1:embeddedSubprocessShape diagramLink="" height="1878.4999999999995" id="oryx_394EC52F-7762-4AA6-AC98-7CC7EEB36101_gui" isExpanded="true" name="" width="744.0" x="315.0" y="-1177.4999999999995" />
+            <ns1:eventShape eventRef="oryx_299D2D29_endEvent" height="28.0" id="oryx_299D2D29-1C32-48FB-8322-293A8F22C565_gui" name="" width="28.0" x="1290.0" y="435.0" />
+        </ns1:laneCompartment>
+        <ns1:sequenceFlowConnector id="oryx_0273CCCC-A657-4CFF-BE89-474EFA9FF1D4_gui" label="" sequenceFlowRef="oryx_0273CCCC_sequenceFlow" sourceRef="oryx_40A9B43A-7E51-46D0-BF1A-7E6B4FAE3000_gui" targetRef="oryx_72ED3278-F4ED-4D59-B6E0-660717263D3C_gui">
+            <ns1:bendpoint x="163.0" y="195.0" />
+            <ns1:bendpoint x="163.0" y="197.0" />
+        </ns1:sequenceFlowConnector>
+        <ns1:sequenceFlowConnector id="oryx_9B4BC80E-B1BF-44D5-9CAD-1BE5C8692F93_gui" label="" sequenceFlowRef="oryx_9B4BC80E_sequenceFlow" sourceRef="oryx_72ED3278-F4ED-4D59-B6E0-660717263D3C_gui" targetRef="oryx_51D650B7-07DB-4D14-9E11-FDE21501FAAC_gui">
+            <ns1:bendpoint x="321.5" y="197.0" />
+            <ns1:bendpoint x="321.5" y="187.0" />
+        </ns1:sequenceFlowConnector>
+        <ns1:sequenceFlowConnector id="oryx_676C154F-32D9-460E-BD55-61376A81B91E_gui" label="" sequenceFlowRef="oryx_676C154F_sequenceFlow" sourceRef="oryx_51D650B7-07DB-4D14-9E11-FDE21501FAAC_gui" targetRef="oryx_9A496366-3754-4619-A431-ACB1DEA2E7F0_gui">
+            <ns1:bendpoint x="459.5" y="187.0" />
+            <ns1:bendpoint x="459.5" y="202.0" />
+        </ns1:sequenceFlowConnector>
+        <ns1:sequenceFlowConnector id="oryx_722C3206-6210-446A-858F-83052C73F762_gui" label="" sequenceFlowRef="oryx_722C3206_sequenceFlow" sourceRef="oryx_9A496366-3754-4619-A431-ACB1DEA2E7F0_gui" targetRef="oryx_394EC52F-7762-4AA6-AC98-7CC7EEB36101_gui">
+            <ns1:bendpoint x="687.0" y="202.0" />
+        </ns1:sequenceFlowConnector>
+        <ns1:sequenceFlowConnector id="oryx_504C9632-2500-4A04-AF94-B7AC6522900C_gui" label="" sequenceFlowRef="oryx_504C9632_sequenceFlow" sourceRef="oryx_394EC52F-7762-4AA6-AC98-7CC7EEB36101_gui" targetRef="oryx_299D2D29-1C32-48FB-8322-293A8F22C565_gui">
+            <ns1:bendpoint x="1174.5" y="515.5" />
+            <ns1:bendpoint x="1174.5" y="449.0" />
+        </ns1:sequenceFlowConnector>
+    </ns1:processDiagram>
+</ns0:definitions>
