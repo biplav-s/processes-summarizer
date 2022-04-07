@@ -1,0 +1,36 @@
+Summary generated at: Wed Apr 06 20:37:06 EDT 2022
+Top 5 phrases (non-steps) in repository = 
+	MakeSpan, 
+	MetricValue, 
+	NrActions, 
+	ParsingTime, 
+	PlanningTechnique
+
+---------- PROCESSES STATISTICS ------------
+Number of processes in repository = 10
+Avg steps = 21.7, Range = [11, 29]
+Top 5 step names in repository = 
+	POP-UNITARYPIPE, 
+	PUSH-UNITARYPIPE, 
+	make-product, 
+	setup-machine, 
+	ship-order
+
+---------------------------------------------
+
+---------- PROCESS VARIANT ANALYSIS ------------
+Threshold used = 0.5
+Finding and reporting clusters by comparator = ProcessesStepsCountComparator
+Number of clusters = 1
+Avg cluster size = 10.0, Range = [10, 10]
+
+Cluster 0 (Size=10): [ID0]data/pddls/p01
+	 -- [ID3]data/pddls/p10,[ID4]data/pddls/p09,[ID5]data/pddls/p05,[ID6]data/pddls/p04,[ID7]data/pddls/p08,[ID8]data/pddls/p03,[ID9]data/pddls/p02,[ID1]data/pddls/p07,[ID2]data/pddls/p06
+---------------------------------------------------
+Finding and reporting clusters by comparator = ProcessesGoalsJaccardComparator
+Number of clusters = 1
+Avg cluster size = 10.0, Range = [10, 10]
+
+Cluster 0 (Size=10): [ID0]data/pddls/p01
+	 -- [ID1]data/pddls/p07,[ID2]data/pddls/p06,[ID3]data/pddls/p10,[ID4]data/pddls/p09,[ID5]data/pddls/p05,[ID6]data/pddls/p04,[ID7]data/pddls/p08,[ID8]data/pddls/p03,[ID9]data/pddls/p02
+---------------------------------------------------

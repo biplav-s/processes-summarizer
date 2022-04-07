@@ -1,0 +1,36 @@
+Summary generated at: Wed Apr 06 22:07:17 EDT 2022
+Top 5 phrases (non-steps) in repository = 
+	"3", 
+	"4", 
+	"2009-11-25 05:58:01", 
+	"2009-11-25 05:58:56", 
+	"2009-11-25 06:01:59"
+
+---------- PROCESSES STATISTICS ------------
+Number of processes in repository = 25
+Avg steps = 26.32, Range = [2, 76]
+Top 5 step names in repository = 
+	* pause 4 seconds\, 
+	* pause 5 seconds\, 
+	* click the \"Log In\" button\, 
+	* click the \"Process Definition\" item\, 
+	* click the \"Functional Specification\" textbox in window #null\
+
+---------------------------------------------
+
+---------- PROCESS VARIANT ANALYSIS ------------
+Threshold used = 0.5
+Finding and reporting clusters by comparator = ProcessesStepsJaccardComparator
+Number of clusters = 2
+Avg cluster size = 2.0, Range = [2, 2]
+
+Cluster 0 (Size=2): ["11"]"SAP_Verification #3_ Saving Artifact Data using Editor Save Button"
+	 -- ["15"]"SAP_Verification #4_Inserting Image in Rich Text Section"
+Cluster 1 (Size=2): ["16"]"SAP_Verification #8_Preview PDD document."
+	 -- ["17"]"SAP_Verification #2_Table view representing List of BPH nodes  should not contain add/delete action"
+---------------------------------------------------
+Finding and reporting clusters by comparator = ProcessesGoalsJaccardComparator
+Number of clusters = 0
+Avg cluster size = NaN, Range = [100000, 0]
+
+---------------------------------------------------
